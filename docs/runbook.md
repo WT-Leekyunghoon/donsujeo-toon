@@ -6,7 +6,9 @@
 - 크롬 도구 로드: `ToolSearch select:mcp__claude-in-chrome__tabs_context_mcp,navigate,javascript_tool,get_page_text,find,file_upload,computer`
 - `tabs_context_mcp {createIfEmpty:true}` → 새 탭 사용.
 - 상수: REPO = `WT-Leekyunghoon/donsujeo-toon`, RAW = `https://raw.githubusercontent.com/WT-Leekyunghoon/donsujeo-toon/main/`
-- 토큰·유저ID는 예약 작업 프롬프트에 있음. 대화·로그·GitHub 어디에도 토큰을 적지 말 것.
+- 토큰·유저ID는 대표님 PC 파일 `C:\Users\wealt\wt-claude\threads-bot\toon\threads_auth.txt` 에 있다.
+  `mcp__remote-devices__device_stage_files` 로 그 파일을 가져와 읽는다(THREADS_ACCESS_TOKEN=, THREADS_USER_ID= 줄). 폴더 접근이 없으면 `device_request_folder_access` 로 `C:\Users\wealt\wt-claude` 를 요청한다.
+  대화·로그·GitHub 어디에도 토큰을 적지 말 것 (javascript_tool 코드 안에만 넣는다).
 
 ## 1. 상태·가이드 읽기 (크롬으로 raw 파일 열어서 get_page_text)
 - `RAW + state/history.json` → 그대로 파싱 (직전 10편 제목/주제, replied 목록, next_episode).
@@ -45,7 +47,7 @@
 - `/mnt/user-data/outputs/state/history.json` 로 저장 후 navigate `https://github.com/WT-Leekyunghoon/donsujeo-toon/upload/main/state` → file_upload → Commit changes (같은 이름이라 덮어써짐).
 
 ## 7. 토큰 갱신 (history.account.token_expires_at 까지 10일 이하일 때만)
-- `await TA.refreshToken()` → get_page_text 로 access_token, expires_in 확보 → `mcp__claude-code-remote__list_triggers` 로 이 작업(이름 "돈수저툰 …") 찾아 `update_trigger` 로 프롬프트 안의 THREADS_ACCESS_TOKEN 값을 새 토큰으로 교체, history.account.token_expires_at 도 갱신.
+- `await TA.refreshToken()` → get_page_text 로 access_token, expires_in 확보 → threads_auth.txt 의 THREADS_ACCESS_TOKEN / TOKEN_EXPIRES_AT 줄을 새 값으로 바꿔 SendUserFile + `device_commit_files` 로 같은 경로에 덮어쓴다. history.account.token_expires_at 도 갱신. 갱신 실패 시 보고 메시지에 "토큰 재발급 필요(만료일 …)"를 남긴다.
 
 ## 8. 보고
 - 마지막에 SendUserMessage 로 3줄: EP.N 제목 + permalink / 답글 n개·숨김 m개 / 문제 있으면 사유. 실패 시에도 반드시 보고.
