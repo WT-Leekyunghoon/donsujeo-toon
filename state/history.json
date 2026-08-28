@@ -1,0 +1,30 @@
+{
+ "account": {
+  "username": "etfspoon",
+  "user_id": "28417624194530447",
+  "token_expires_at": "2026-10-27"
+ },
+ "schedule_kst": [
+  "09:00",
+  "11:30",
+  "14:00",
+  "17:00",
+  "20:00"
+ ],
+ "next_episode": 2,
+ "episodes": [
+  {
+   "ep": 1,
+   "date": "2026-08-28",
+   "slot": "test",
+   "title": "국내 ETF, 이름만 보고 사면 큰일나!",
+   "topic": "ETF 구성종목·총보수·거래량 확인",
+   "post_id": "17945973213057546",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dck6_WMGRjD",
+   "images": "images/2026-08-28/ep01"
+  }
+ ],
+ "replied": [],
+ "hidden": [],
+ "runs": []
+}
