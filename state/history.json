@@ -46,6 +46,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 11
+  },
+  {
+   "time": "2026-08-31T10:04+09:00",
+   "slot": "10:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "2026-08-31 10:00 이미 게시됨 → 중복 방지 생략",
+   "evergreen_left": 11
   }
  ]
 }
