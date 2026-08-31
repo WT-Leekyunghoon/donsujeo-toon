@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 2,
+ "next_episode": 3,
  "episodes": [
   {
    "ep": 1,
@@ -22,10 +22,30 @@
    "post_id": "17945973213057546",
    "permalink": "https://www.threads.com/@etfspoon/post/Dck6_WMGRjD",
    "images": "images/2026-08-28/ep01"
+  },
+  {
+   "ep": 2,
+   "date": "2026-08-31",
+   "slot": "10:00",
+   "title": "ETF가 뭐냐고? 주식 도시락이야",
+   "topic": "ETF기초 주식 도시락 비유",
+   "post_id": "18105201152230992",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dcr2OZkkmFm",
+   "images": "images/2026-08-31/ep02"
   }
  ],
  "posts": [],
  "replied": [],
  "hidden": [],
- "runs": []
+ "runs": [
+  {
+   "time": "2026-08-31T09:55+09:00",
+   "slot": "10:00",
+   "result": "EP.2 툰 게시 https://www.threads.com/@etfspoon/post/Dcr2OZkkmFm",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 11
+  }
+ ]
 }
