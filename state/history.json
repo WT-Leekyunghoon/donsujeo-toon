@@ -5,11 +5,11 @@
   "token_expires_at": "2026-10-27"
  },
  "schedule_kst": [
-  "09:00",
+  "10:00",
   "12:00",
   "14:00",
   "17:00",
-  "20:00"
+  "19:00"
  ],
  "next_episode": 2,
  "episodes": [
@@ -24,6 +24,7 @@
    "images": "images/2026-08-28/ep01"
   }
  ],
+ "posts": [],
  "replied": [],
  "hidden": [],
  "runs": []
