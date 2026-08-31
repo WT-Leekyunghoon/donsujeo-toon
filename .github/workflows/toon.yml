@@ -1,0 +1,61 @@
+name: donsujeo-toon
+
+# 돈수저툰 자동 게시 — 큐 방식 (컴퓨터 꺼져 있어도 GitHub Actions가 실행)
+# KST 09:00 / 12:00 / 14:00 / 17:00 / 20:00 = UTC 00 / 03 / 05 / 08 / 11시
+on:
+  schedule:
+    - cron: '3 0,3,5,8,11 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: toon
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check secrets
+        env:
+          T: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          U: ${{ secrets.THREADS_USER_ID }}
+        run: |
+          if [ -z "$T" ] || [ -z "$U" ]; then
+            echo "THREADS_ACCESS_TOKEN / THREADS_USER_ID Secret 미설정 — 이번 회차 건너뜀"
+            echo "SKIP=1" >> "$GITHUB_ENV"
+          fi
+
+      - if: env.SKIP != '1'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps (Playwright + 한글 폰트)
+        if: env.SKIP != '1'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk
+          pip -q install playwright requests
+          python -m playwright install --with-deps chromium
+
+      - name: Git identity
+        if: env.SKIP != '1'
+        run: |
+          git config user.name "donsujeo-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run episode
+        if: env.SKIP != '1'
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python tools/run_episode.py
