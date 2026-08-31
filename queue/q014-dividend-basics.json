@@ -1,0 +1,43 @@
+{
+ "topic": "주식기초 배당과 배당락일",
+ "title": "배당, 주식이 주는 용돈이야",
+ "series": "돈수저툰",
+ "footer": "저장해두고 배당 시즌에 다시 보기 ✔",
+ "body": "배당이 뭐냐고? 주식이 주는 용돈이야 💰\n\n배당락일에 사면 왜 못 받는지까지 4컷으로 정리했어\n\n배당 받아본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "주식 들고만 있는데 *돈이 들어와*?",
+   "bubble": "돈수저 형! 계좌에 웬 돈이 들어왔는데?!",
+   "face": "happy",
+   "prop": "wallet",
+   "bg": "lemon",
+   "friend": "coin",
+   "friend_face": "excited",
+   "friend_side": "left"
+  },
+  {
+   "heading": "그게 *배당*이야",
+   "bubble": "회사가 번 이익 일부를 주주한테 나눠주는 거야. 통장 이자 비슷한 느낌!",
+   "face": "wink",
+   "prop": "moneybag",
+   "bg": "cream"
+  },
+  {
+   "heading": "단, *배당락일* 조심",
+   "bubble": "받을 사람 명단이 정해지는 날이 있어서, 그 날 이후에 사면 이번 배당은 못 받아",
+   "face": "surprised",
+   "prop": "calendar",
+   "bg": "sky",
+   "flip": true
+  },
+  {
+   "heading": "배당은 *보너스*, 본질은 회사",
+   "bubble": "배당만 보고 사지 말고 회사가 꾸준히 버는지도 같이 보자~",
+   "face": "cool",
+   "prop": "chart_up",
+   "bg": "mint",
+   "friend": "piggy_pet",
+   "friend_side": "right"
+  }
+ ]
+}

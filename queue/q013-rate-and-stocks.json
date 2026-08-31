@@ -1,0 +1,44 @@
+{
+ "topic": "경제상식 기준금리와 주가 관계",
+ "title": "금리 오르면 주식이 우는 이유",
+ "series": "돈수저툰",
+ "footer": "저장해두고 금리 뉴스 볼 때 다시 보기 ✔",
+ "body": "금리 오르면 주식이 우는 이유 🥲\n\n예금 이자랑 주식이 줄다리기하는 얘기, 4컷으로 정리했어\n\n금리 뉴스 나오면 챙겨보는 편이야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "뉴스마다 *금리* 얘기, 왜?",
+   "bubble": "형, 금리 올린다는데 그게 내 주식이랑 무슨 상관이야?",
+   "face": "happy",
+   "prop": "newspaper",
+   "bg": "sky",
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "돈은 *이자 주는 곳*으로 움직여",
+   "bubble": "예금 이자가 높아지면 굳이 위험한 주식에 돈 둘 이유가 줄거든",
+   "face": "think",
+   "prop": "scale",
+   "bg": "lemon"
+  },
+  {
+   "heading": "회사도 *이자 부담*이 커져",
+   "bubble": "빌린 돈 이자가 늘면 회사 이익이 줄어들 수 있어. 그래서 주가에 반영되는 거야",
+   "face": "surprised",
+   "prop": "doc",
+   "bg": "pink",
+   "flip": true
+  },
+  {
+   "heading": "금리 뉴스 = *방향 감각*",
+   "bubble": "맞히려 하지 말고, 왜 움직이는지 이해만 해도 흔들림이 줄어~",
+   "face": "wink",
+   "prop": "lightbulb",
+   "bg": "mint",
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
