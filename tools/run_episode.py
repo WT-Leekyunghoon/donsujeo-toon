@@ -1,14 +1,19 @@
-"""run_episode.py — 돈수저툰 GitHub Actions 러너 (큐 방식, LLM 불필요)
+"""run_episode.py — 돈수저툰 GitHub Actions 러너 v2 (큐 방식, LLM 불필요)
 
-매 회차:
-  queue/ 에서 spec 하나 꺼냄 → 4컷 렌더 → 이미지 커밋 → Threads 캐러셀 게시
-  → 댓글 규칙 처리(정형 답글 + 스팸 숨김) → history.json 갱신 → 커밋.
+하루 5회 (KST):
+  10:00  그림툰 ① (4컷 캐러셀)
+  12:00  툰① 보충 설명·팁 (글 + 툰 패널 1장 첨부)
+  14:00  그날의 경제 뉴스 해설 (글)
+  17:00  그림툰 ② (4컷 캐러셀)
+  19:00  툰② 보충 설명·팁 (글 + 툰 패널 1장 첨부)
 
-시작 시 Threads 실제 게시물과 history 를 대조(reconcile)해서
-이전 회차가 "게시는 됐는데 상태 저장 실패"한 경우를 자동 복구한다.
+콘텐츠 소스:
+  queue/daily/YYYY-MM-DD/HHMM.json  ← 날짜 지정 콘텐츠 (예약 작업이 매일 생성)
+  queue/q*.json                     ← 상시(에버그린) 툰 큐 — 툰 슬롯의 폴백
 
-문제가 생기면 repo 에 이슈를 만들어 알린다 (GitHub 알림 메일).
-토큰은 환경변수(Secrets)로만 받고 어디에도 출력하지 않는다.
+날짜 파일이 없으면: 툰 슬롯은 에버그린 큐에서 꺼내고, 팁·뉴스 슬롯은 건너뛴다.
+시작 시 Threads 실제 게시물과 history 를 대조(reconcile)해 누락 회차를 복구한다.
+문제가 생기면 repo 이슈로 알린다. 토큰은 Secrets 로만 받고 어디에도 출력하지 않는다.
 """
 from __future__ import annotations
 import asyncio, json, os, re, shutil, subprocess, sys, time
@@ -28,6 +33,10 @@ UID = os.environ["THREADS_USER_ID"].strip()
 REPO = os.environ.get("GITHUB_REPOSITORY", "WT-Leekyunghoon/donsujeo-toon")
 RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
 KST = ZoneInfo("Asia/Seoul")
+
+SLOT_TYPE = {"10:00": "toon", "12:00": "tip", "14:00": "news",
+             "17:00": "toon", "19:00": "tip"}
+TIP_SOURCE = {"12:00": "10:00", "19:00": "17:00"}  # 팁 슬롯 → 원본 툰 슬롯
 
 SPAM = ["대출", "리딩", "코인", "텔레그램", "오픈채팅", "오픈챗", "디엠", "dm",
         "수익인증", "수익 인증", "투자방", "종목방", "http://", "https://",
@@ -56,8 +65,7 @@ def api(method: str, path: str, **params):
     except Exception:
         data = {"raw": r.text[:300]}
     if r.status_code >= 400:
-        safe = {k: v for k, v in data.items()}
-        log(f"[api] {method} {path} -> {r.status_code} {safe}")
+        log(f"[api] {method} {path} -> {r.status_code} {data}")
     return r.status_code, data
 
 
@@ -94,14 +102,14 @@ def notify(title: str, body: str = ""):
 
 
 def save_history(hist: dict):
-    p = ROOT / "state" / "history.json"
-    p.write_text(json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
+    (ROOT / "state" / "history.json").write_text(
+        json.dumps(hist, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 # ---------- 상태 대조 ----------
 
 def reconcile(hist: dict):
-    """Threads 실제 게시물에서 '#돈수저툰 EP.N' 을 찾아 history 누락분을 복구."""
+    """Threads 게시물의 '#돈수저툰 EP.N' 을 찾아 history 누락 회차를 복구."""
     _, d = api("GET", f"{UID}/threads", fields="id,text,permalink,timestamp", limit="25")
     if "data" not in d:
         return
@@ -128,7 +136,7 @@ def reconcile(hist: dict):
     hist["next_episode"] = max(hist.get("next_episode", 1), max(known, default=0) + 1)
 
 
-# ---------- 에피소드 ----------
+# ---------- 슬롯·큐 ----------
 
 def pick_slot(hist: dict) -> str:
     now = datetime.now(KST)
@@ -138,26 +146,30 @@ def pick_slot(hist: dict) -> str:
         h, m = map(int, s.split(":"))
         return abs(cur - (h * 60 + m))
 
-    return min(hist.get("schedule_kst", ["09:00"]), key=dist)
+    return min(hist.get("schedule_kst", list(SLOT_TYPE)), key=dist)
+
+
+def daily_file(date: str, slot: str) -> Path:
+    return ROOT / "queue" / "daily" / date / (slot.replace(":", "") + ".json")
 
 
 def recent_topics(hist: dict) -> list[str]:
     return [(e.get("topic", "") + " " + e.get("title", "")) for e in hist["episodes"][-10:]]
 
 
-def pick_queue_spec(hist: dict):
-    files = sorted((ROOT / "queue").glob("q*.json"))
+def pick_evergreen(hist: dict):
     recents = recent_topics(hist)
-    for f in files:
+    for f in sorted((ROOT / "queue").glob("q*.json")):
         spec = json.loads(f.read_text(encoding="utf-8"))
-        topic = spec.get("topic", "")
-        key = topic.split()[0] if topic else ""
+        key = (spec.get("topic", "").split() or [""])[0]
         if key and any(key in r for r in recents):
             log(f"[queue] {f.name} 은 최근 10편과 소재 겹침 → 보류")
             continue
         return f, spec
     return None, None
 
+
+# ---------- 렌더·게시 ----------
 
 def render_episode(spec: dict, n: int, out_dir: Path) -> bool:
     spec = dict(spec)
@@ -190,20 +202,7 @@ def wait_raw(urls: list[str], timeout=150) -> bool:
     return not pending
 
 
-def publish_carousel(image_urls: list[str], text: str):
-    children = []
-    for u in image_urls:
-        _, d = api("POST", f"{UID}/threads", media_type="IMAGE",
-                   image_url=u, is_carousel_item="true")
-        if "id" not in d:
-            return None, f"이미지 컨테이너 실패: {d.get('error')}"
-        children.append(d["id"])
-        time.sleep(2)
-    _, d = api("POST", f"{UID}/threads", media_type="CAROUSEL",
-               children=",".join(children), text=text)
-    if "id" not in d:
-        return None, f"캐러셀 컨테이너 실패: {d.get('error')}"
-    creation = d["id"]
+def _publish_container(creation: str):
     for _ in range(10):
         time.sleep(10)
         _, s = api("GET", creation, fields="status,error_message")
@@ -218,6 +217,130 @@ def publish_carousel(image_urls: list[str], text: str):
     return d["id"], None
 
 
+def publish_carousel(image_urls: list[str], text: str):
+    children = []
+    for u in image_urls:
+        _, d = api("POST", f"{UID}/threads", media_type="IMAGE",
+                   image_url=u, is_carousel_item="true")
+        if "id" not in d:
+            return None, f"이미지 컨테이너 실패: {d.get('error')}"
+        children.append(d["id"])
+        time.sleep(2)
+    _, d = api("POST", f"{UID}/threads", media_type="CAROUSEL",
+               children=",".join(children), text=text)
+    if "id" not in d:
+        return None, f"캐러셀 컨테이너 실패: {d.get('error')}"
+    return _publish_container(d["id"])
+
+
+def publish_post(text: str, image_url: str | None = None):
+    """글 게시 (선택적으로 이미지 1장 첨부)."""
+    if image_url:
+        _, d = api("POST", f"{UID}/threads", media_type="IMAGE",
+                   image_url=image_url, text=text)
+    else:
+        _, d = api("POST", f"{UID}/threads", media_type="TEXT", text=text)
+    if "id" not in d:
+        return None, f"컨테이너 실패: {d.get('error')}"
+    return _publish_container(d["id"])
+
+
+# ---------- 슬롯별 처리 ----------
+
+def already_posted(hist: dict, date: str, slot: str) -> bool:
+    rows = hist["episodes"] + hist.get("posts", [])
+    return any(r.get("date") == date and r.get("slot") == slot for r in rows)
+
+
+def do_toon(hist: dict, date: str, slot: str, note: list[str]) -> str:
+    df = daily_file(date, slot)
+    qfile = None
+    if df.exists():
+        spec = json.loads(df.read_text(encoding="utf-8"))
+    else:
+        qfile, spec = pick_evergreen(hist)
+        if spec is None:
+            notify("돈수저툰: 큐가 비었습니다",
+                   f"{date} {slot} 툰 슬롯에 쓸 콘텐츠가 없습니다 (daily 파일 X, 에버그린 큐 X).")
+            note.append("툰 큐 없음 → 게시 생략")
+            return "게시 없음"
+    n = hist["next_episode"]
+    img_rel = f"images/{date}/ep{n:02d}"
+    if not render_episode(spec, n, ROOT / img_rel):
+        notify(f"돈수저툰: EP.{n} 렌더 실패", f"{date} {slot} 렌더 실패로 건너뜁니다.")
+        note.append("렌더 실패")
+        return "게시 없음"
+    git_push(f"EP.{n} images")
+    urls = [f"{RAW}{img_rel}/{i:02d}.png" for i in range(1, 5)]
+    if not wait_raw(urls):
+        notify(f"돈수저툰: EP.{n} raw 이미지 확인 실패", "푸시한 이미지가 raw URL 에서 안 보입니다.")
+        note.append("raw 확인 실패")
+        return "게시 없음"
+    body = spec.get("body", "").replace("{N}", str(n))
+    post_id, err = publish_carousel(urls, body)
+    if err:
+        time.sleep(20)
+        post_id, err = publish_carousel(urls, body)
+    if err:
+        notify(f"돈수저툰: EP.{n} 게시 실패", str(err))
+        note.append(f"게시 실패: {err}")
+        return "게시 없음"
+    _, pd = api("GET", post_id, fields="permalink")
+    hist["episodes"].append({
+        "ep": n, "date": date, "slot": slot, "title": spec.get("title", ""),
+        "topic": spec.get("topic", ""), "post_id": post_id,
+        "permalink": pd.get("permalink", ""), "images": img_rel,
+    })
+    hist["next_episode"] = n + 1
+    if df.exists():
+        df.rename(df.with_suffix(".done"))
+    elif qfile:
+        done = ROOT / "queue" / "done"
+        done.mkdir(exist_ok=True)
+        shutil.move(str(qfile), str(done / qfile.name))
+    return f"EP.{n} 툰 게시 {pd.get('permalink', post_id)}"
+
+
+def do_text(hist: dict, date: str, slot: str, kind: str, note: list[str]) -> str:
+    df = daily_file(date, slot)
+    if not df.exists():
+        note.append(f"{slot} {kind} 파일 없음 → 생략")
+        return "게시 없음"
+    data = json.loads(df.read_text(encoding="utf-8"))
+    body = data.get("body", "").strip()
+    if not body:
+        note.append(f"{slot} 본문 비어있음 → 생략")
+        return "게시 없음"
+    image_url = None
+    if kind == "tip":
+        src = TIP_SOURCE.get(slot)
+        toon = next((e for e in reversed(hist["episodes"])
+                     if e.get("date") == date and e.get("slot") == src
+                     and e.get("images")), None)
+        panel = data.get("attach_panel", 3)
+        if toon:
+            image_url = f"{RAW}{toon['images']}/{int(panel):02d}.png"
+            body = body.replace("{PERMALINK}", toon.get("permalink", ""))
+        elif "{PERMALINK}" in body:
+            note.append(f"{slot} 원본 툰 없음 → 링크 없이 게시")
+            body = body.replace("{PERMALINK}", "").strip()
+    post_id, err = publish_post(body, image_url)
+    if err:
+        time.sleep(20)
+        post_id, err = publish_post(body, image_url)
+    if err:
+        notify(f"돈수저툰: {date} {slot} {kind} 게시 실패", str(err))
+        note.append(f"{kind} 게시 실패: {err}")
+        return "게시 없음"
+    _, pd = api("GET", post_id, fields="permalink")
+    hist.setdefault("posts", []).append({
+        "date": date, "slot": slot, "kind": kind, "title": data.get("title", ""),
+        "post_id": post_id, "permalink": pd.get("permalink", ""),
+    })
+    df.rename(df.with_suffix(".done"))
+    return f"{kind} 게시 {pd.get('permalink', post_id)}"
+
+
 # ---------- 댓글 ----------
 
 def handle_comments(hist: dict):
@@ -225,8 +348,8 @@ def handle_comments(hist: dict):
     hidden = set(hist.get("hidden", []))
     n_replied = n_hidden = 0
     me = hist["account"]["username"]
-    posts = [e for e in hist["episodes"] if e.get("post_id")][-15:]
-    for e in posts:
+    rows = [r for r in hist["episodes"] + hist.get("posts", []) if r.get("post_id")]
+    for e in rows[-15:]:
         _, d = api("GET", f"{e['post_id']}/replies",
                    fields="id,text,username", limit="50")
         for rp in d.get("data", []):
@@ -301,99 +424,57 @@ def maybe_refresh_token(hist: dict):
 
 def main():
     hist = json.loads((ROOT / "state" / "history.json").read_text(encoding="utf-8"))
-    note_parts = []
+    note: list[str] = []
 
     reconcile(hist)
 
-    # 계정 확인 + 쿼터
     _, me = api("GET", "me", fields="id,username")
     if me.get("username") != hist["account"]["username"]:
         notify("돈수저툰: 토큰/계정 확인 필요",
                f"GET /me 결과가 예상 계정과 다릅니다: {me.get('username')} "
                f"(error: {me.get('error')})")
         sys.exit(1)
-    _, q = api("GET", f"{UID}/threads_publishing_limit",
-               fields="quota_usage,config")
-    quota = (q.get("data") or [{}])[0]
-    if quota.get("quota_usage", 0) >= quota.get("config", {}).get("quota_total", 250) - 5:
-        note_parts.append("쿼터 임박 → 게시 생략")
-        posted = None
-    else:
-        posted = True
 
+    _, q = api("GET", f"{UID}/threads_publishing_limit", fields="quota_usage,config")
+    quota = (q.get("data") or [{}])[0]
+    can_post = quota.get("quota_usage", 0) < quota.get("config", {}).get("quota_total", 250) - 5
+    if not can_post:
+        note.append("쿼터 임박 → 게시 생략")
+
+    date = datetime.now(KST).date().isoformat()
+    slot = pick_slot(hist)
+    kind = SLOT_TYPE.get(slot, "toon")
     ep_line = "게시 없음"
-    if posted:
-        qfile, spec = pick_queue_spec(hist)
-        if qfile is None:
-            notify("돈수저툰: 큐가 비었습니다",
-                   "queue/ 에 남은 에피소드 spec 이 없어 이번 회차 게시를 건너뜁니다. "
-                   "Cowork 에서 큐를 보충해 주세요.")
-            note_parts.append("큐 비어 게시 생략")
+    if can_post:
+        if already_posted(hist, date, slot):
+            note.append(f"{date} {slot} 이미 게시됨 → 중복 방지 생략")
+        elif kind == "toon":
+            ep_line = do_toon(hist, date, slot, note)
         else:
-            n = hist["next_episode"]
-            date = datetime.now(KST).date().isoformat()
-            slot = pick_slot(hist)
-            img_rel = f"images/{date}/ep{n:02d}"
-            out_dir = ROOT / img_rel
-            if not render_episode(spec, n, out_dir):
-                notify(f"돈수저툰: EP.{n} 렌더 실패",
-                       f"{qfile.name} 렌더가 실패해 이번 회차를 건너뜁니다.")
-                note_parts.append("렌더 실패")
-            else:
-                git_push(f"EP.{n} images")
-                urls = [f"{RAW}{img_rel}/{i:02d}.png" for i in range(1, 5)]
-                if not wait_raw(urls):
-                    notify(f"돈수저툰: EP.{n} raw 이미지 확인 실패",
-                           "푸시한 이미지가 raw URL 에서 확인되지 않습니다.")
-                    note_parts.append("raw 확인 실패, 게시 생략")
-                else:
-                    body = spec.get("body", "").replace("{N}", str(n))
-                    post_id, err = publish_carousel(urls, body)
-                    if err:
-                        time.sleep(20)
-                        post_id, err = publish_carousel(urls, body)  # 1회 재시도
-                    if err:
-                        notify(f"돈수저툰: EP.{n} 게시 실패", str(err))
-                        note_parts.append(f"게시 실패: {err}")
-                    else:
-                        _, pd = api("GET", post_id, fields="permalink")
-                        permalink = pd.get("permalink", "")
-                        hist["episodes"].append({
-                            "ep": n, "date": date, "slot": slot,
-                            "title": spec.get("title", ""),
-                            "topic": spec.get("topic", ""),
-                            "post_id": post_id, "permalink": permalink,
-                            "images": img_rel,
-                        })
-                        hist["next_episode"] = n + 1
-                        done = ROOT / "queue" / "done"
-                        done.mkdir(exist_ok=True)
-                        shutil.move(str(qfile), str(done / qfile.name))
-                        ep_line = f"EP.{n} 게시 {permalink}"
-                        log("[post]", ep_line)
+            ep_line = do_text(hist, date, slot, kind, note)
 
     n_rep, n_hid = handle_comments(hist)
 
-    # 큐 잔량 경고
     left = len(list((ROOT / "queue").glob("q*.json")))
-    if left <= 4:
+    tomorrow = (datetime.now(KST).date() + timedelta(days=1)).isoformat()
+    if left <= 4 and not (ROOT / "queue" / "daily" / tomorrow).exists():
         notify("돈수저툰: 큐 잔량 부족",
-               f"queue/ 에 {left}편 남았습니다. Cowork 에서 보충해 주세요.")
+               f"에버그린 큐 {left}편, 내일({tomorrow}) daily 콘텐츠 없음. 보충 필요.")
 
     token_note = maybe_refresh_token(hist)
     if token_note:
-        note_parts.append(token_note)
+        note.append(token_note)
         notify("돈수저툰: 토큰 갱신 필요", token_note)
 
     hist.setdefault("runs", []).append({
         "time": datetime.now(KST).isoformat(timespec="minutes"),
-        "ep": ep_line, "replies": n_rep, "hidden": n_hid,
-        "note": "; ".join(note_parts) or "ok", "queue_left": left,
+        "slot": slot, "result": ep_line, "replies": n_rep, "hidden": n_hid,
+        "note": "; ".join(note) or "ok", "evergreen_left": left,
     })
-    hist["runs"] = hist["runs"][-100:]
+    hist["runs"] = hist["runs"][-150:]
     save_history(hist)
-    git_push(f"state update ({ep_line}, r{n_rep}/h{n_hid})")
-    log(f"[done] {ep_line} / 답글 {n_rep} · 숨김 {n_hid} / 큐 {left}편 남음")
+    git_push(f"state update ({date} {slot}: {ep_line}, r{n_rep}/h{n_hid})")
+    log(f"[done] {slot} {ep_line} / 답글 {n_rep} · 숨김 {n_hid}")
 
 
 if __name__ == "__main__":
