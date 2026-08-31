@@ -8,28 +8,43 @@
       "bubble": "오 'KODEX 반도체' 이름 멋지다~ 반도체 오르니까 이거 사면 되겠지?",
       "face": "happy",
       "prop": "coin",
-      "caption": "이름만 보고 덜컥… 다들 한 번쯤 있지?"
+      "caption": "이름만 보고 덜컥… 다들 한 번쯤 있지?",
+      "bg": "mint",
+      "flip": false,
+      "tilt": -4,
+      "friend": "coin",
+      "friend_face": "think",
+      "friend_side": "left"
     },
     {
       "heading": "근데 잠깐, 안에 *뭐가 들었는지* 봤어?",
       "bubble": "같은 '반도체 ETF'라도 삼성전자 비중이 20%인 것도, 40% 넘는 것도 있어!",
       "face": "surprised",
       "prop": "magnifier",
-      "caption": "구성종목 = ETF의 진짜 정체"
+      "caption": "구성종목 = ETF의 진짜 정체",
+      "bg": "cream",
+      "flip": true,
+      "tilt": 3
     },
     {
       "heading": "확인은 *딱 3가지*만",
       "bubble": "① 구성종목 TOP10  ② 총보수(수수료)  ③ 거래량\n이 세 개는 증권사 앱에서 30초면 봐!",
       "face": "think",
       "prop": "doc",
-      "caption": "특히 수수료는 1년, 10년 쌓이면 차이 커져"
+      "caption": "특히 수수료는 1년, 10년 쌓이면 차이 커져",
+      "bg": "sky",
+      "flip": false,
+      "tilt": -2
     },
     {
       "heading": "이름은 *포장지*, 알맹이를 보자!",
       "bubble": "오늘부터 ETF 살 땐 구성종목부터 열어보기, 약속~",
       "face": "wink",
       "prop": "chart_up",
-      "caption": ""
+      "caption": "",
+      "bg": "lemon",
+      "flip": true,
+      "tilt": 5
     }
   ]
 }
