@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 3,
+ "next_episode": 4,
  "episodes": [
   {
    "ep": 1,
@@ -32,6 +32,16 @@
    "post_id": "18105201152230992",
    "permalink": "https://www.threads.com/@etfspoon/post/Dcr2OZkkmFm",
    "images": "images/2026-08-31/ep02"
+  },
+  {
+   "ep": 3,
+   "date": "2026-08-31",
+   "slot": "17:00",
+   "title": "뉴스에 나온 다음에 사면 늦어",
+   "topic": "급등 뉴스 보고 추격매수하는 심리",
+   "post_id": "18117706541483367",
+   "permalink": "https://www.threads.com/@etfspoon/post/DcsnkTMm34m",
+   "images": "images/2026-08-31/ep03"
   }
  ],
  "posts": [
@@ -86,6 +96,15 @@
    "time": "2026-08-31T14:05+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/DcsS4CCFQqt",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 14
+  },
+  {
+   "time": "2026-08-31T17:06+09:00",
+   "slot": "17:00",
+   "result": "EP.3 툰 게시 https://www.threads.com/@etfspoon/post/DcsnkTMm34m",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
