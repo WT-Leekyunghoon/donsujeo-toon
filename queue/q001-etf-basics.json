@@ -1,0 +1,37 @@
+{
+  "topic": "ETF기초 주식 도시락 비유",
+  "title": "ETF가 뭐냐고? 주식 도시락이야",
+  "series": "돈수저툰",
+  "footer": "저장해두고 ETF 공부할 때 다시 보기 ✔",
+  "body": "ETF가 뭐냐고? 주식 도시락이야 🍱\n\n한 주만 사도 여러 종목에 나눠 담기는 것, 4컷으로 정리했어 🥲\n\n너의 첫 ETF는 뭐였어? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "ETF가 뭐냐고? *주식 도시락*이야",
+      "bubble": "주식 사고는 싶은데 뭘 골라야 할지 모르겠어… 다들 어떻게 고르는 거야?",
+      "face": "happy",
+      "prop": "coin",
+      "caption": "종목 고르기, 시작부터 막막하지"
+    },
+    {
+      "heading": "한 종목만 사면 *몰빵*이 되잖아",
+      "bubble": "근데 알고 보니 여러 종목을 한 판에 담아둔 상품이 있더라고!",
+      "face": "surprised",
+      "prop": "doc",
+      "caption": "그게 바로 ETF"
+    },
+    {
+      "heading": "도시락처럼 *나눠 담는* 거야",
+      "bubble": "① 한 주만 사도 수십 종목에 분산 ② 주식처럼 실시간 매매 ③ 소액으로 시작 가능",
+      "face": "think",
+      "prop": "magnifier",
+      "caption": "지수를 따라가니 반찬 구성도 공개돼 있어"
+    },
+    {
+      "heading": "시작은 *분산*부터!",
+      "bubble": "뭘 담은 도시락인지, 구성종목 구경부터 해보자~",
+      "face": "wink",
+      "prop": "chart_up",
+      "caption": ""
+    }
+  ]
+}

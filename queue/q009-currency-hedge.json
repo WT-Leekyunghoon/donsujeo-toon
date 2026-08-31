@@ -1,0 +1,37 @@
+{
+  "topic": "환헤지 (H) 표시 뜻",
+  "title": "ETF 이름 끝 (H)의 정체",
+  "series": "돈수저툰",
+  "footer": "저장해두고 (H) 보일 때 다시 보기 ✔",
+  "body": "ETF 이름 끝 (H)의 정체 🔎\n\n환율 안전벨트, 환헤지 표시야. 4컷으로 정리했어!\n\n너는 H 있는 걸로 샀어, 없는 걸로 샀어? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "이름 끝에 *(H)*, 이거 뭐야?",
+      "bubble": "같은 지수인데 (H) 붙은 거랑 안 붙은 게 따로 있네?",
+      "face": "happy",
+      "prop": "magnifier",
+      "caption": "괄호 H의 정체는?"
+    },
+    {
+      "heading": "H는 *환율 안전벨트*야",
+      "bubble": "환헤지! 환율이 출렁여도 지수 움직임만 따라가게 막아둔 거더라고",
+      "face": "surprised",
+      "prop": "doc",
+      "caption": "H 없으면 환율 변동도 수익률에 반영"
+    },
+    {
+      "heading": "고를 땐 *3가지*만 생각해",
+      "bubble": "① 환율 예측 어려우면 H도 방법 ② 헤지에도 비용 존재 ③ 유불리는 시기마다 달라",
+      "face": "think",
+      "prop": "coin",
+      "caption": "정답은 없고 성격 차이야"
+    },
+    {
+      "heading": "H 하나로 *성격*이 갈려!",
+      "bubble": "내 해외지수 ETF에 H 있는지부터 확인해보자~",
+      "face": "wink",
+      "prop": "magnifier",
+      "caption": ""
+    }
+  ]
+}

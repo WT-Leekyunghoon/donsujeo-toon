@@ -1,0 +1,37 @@
+{
+  "topic": "ISA 절세 계좌",
+  "title": "같은 ETF 사도 계좌 따라 세금이 달라져",
+  "series": "돈수저툰",
+  "footer": "저장해두고 계좌 고를 때 다시 보기 ✔",
+  "body": "같은 ETF 사도 계좌 따라 세금이 달라져 💰\n\nISA 계좌 포인트만 4컷으로 정리했어.\n\nISA 쓰고 있어, 아직이야? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "ETF, *어느 계좌*로 사?",
+      "bubble": "그냥 일반 계좌로 사면 되는 거 아니야? 계좌가 뭐가 중요해?",
+      "face": "happy",
+      "prop": "doc",
+      "caption": "계좌 고민 안 해본 사람 많지"
+    },
+    {
+      "heading": "계좌 따라 *세금*이 달라져",
+      "bubble": "ISA로 사면 이익 일부는 비과세, 넘는 부분도 세율이 낮더라고!",
+      "face": "surprised",
+      "prop": "coin",
+      "caption": "같은 ETF인데 계좌로 아끼는 셈"
+    },
+    {
+      "heading": "ISA *포인트 3개*",
+      "bubble": "① 의무가입 기간 있음 ② 손익 합산 후 과세 ③ 한도 안에서 자유 납입",
+      "face": "think",
+      "prop": "piggy",
+      "caption": "구체 조건은 가입 전에 꼭 확인!"
+    },
+    {
+      "heading": "*계좌 선택*도 전략이야",
+      "bubble": "다음 매수 전에 내 계좌부터 점검해보자~",
+      "face": "wink",
+      "prop": "magnifier",
+      "caption": ""
+    }
+  ]
+}

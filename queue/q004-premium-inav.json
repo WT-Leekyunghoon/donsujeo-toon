@@ -1,0 +1,37 @@
+{
+  "topic": "괴리율 iNAV 정가 확인",
+  "title": "같은 ETF인데 나만 비싸게 샀다?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 주문 넣기 전에 다시 보기 ✔",
+  "body": "같은 ETF인데 나만 비싸게 샀다? 🥲\n\n정가(iNAV)와 시장가의 차이, 괴리율 얘기야. 4컷 정리!\n\n괴리율 확인해본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "같은 ETF인데 *비싸게* 샀다고?",
+      "bubble": "장 열리자마자 샀는데 친구보다 비싸게 샀대… 왜지?",
+      "face": "happy",
+      "prop": "coin",
+      "caption": "같은 날 샀는데 가격이 달라?"
+    },
+    {
+      "heading": "정가랑 시장가는 *다를 수 있어*",
+      "bubble": "ETF엔 정가(iNAV)가 있는데, 인기 몰리면 정가보다 비싸게 팔리더라고!",
+      "face": "surprised",
+      "prop": "chart_up",
+      "caption": "그 차이가 바로 괴리율"
+    },
+    {
+      "heading": "*괴리율* 체크는 이렇게",
+      "bubble": "① 호가창 옆 iNAV 확인 ② 괴리율 크면 잠깐 기다리기 ③ 장 초반·급등일 조심",
+      "face": "think",
+      "prop": "magnifier",
+      "caption": "증권사 앱에 다 표시돼 있어"
+    },
+    {
+      "heading": "정가 확인, *10초*면 돼!",
+      "bubble": "다음에 살 땐 iNAV 먼저 보고 주문 넣어보자~",
+      "face": "wink",
+      "prop": "doc",
+      "caption": ""
+    }
+  ]
+}

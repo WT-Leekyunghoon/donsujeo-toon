@@ -1,0 +1,37 @@
+{
+  "topic": "상장폐지 절차와 예방",
+  "title": "ETF 상장폐지되면 내 돈은?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 상폐 뉴스 볼 때 다시 보기 ✔",
+  "body": "ETF 상장폐지되면 내 돈은? 😱\n\n휴지조각 아니고 정산해서 돌려줘. 대신 예방법도 있어!\n\n소규모 ETF 걸러본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "ETF도 *상장폐지* 된다고?",
+      "bubble": "내가 든 ETF가 없어지면 내 돈도 같이 사라지는 거야?!",
+      "face": "happy",
+      "prop": "doc",
+      "caption": "상폐 공지 보면 심장 철렁하지"
+    },
+    {
+      "heading": "주식 상폐랑은 *달라*",
+      "bubble": "ETF는 남은 재산을 정리해서 투자자에게 돌려주고 문 닫더라고!",
+      "face": "surprised",
+      "prop": "coin",
+      "caption": "휴지조각 되는 게 아니야"
+    },
+    {
+      "heading": "그래도 *3가지*는 챙겨",
+      "bubble": "① 안내 공시 확인 ② 폐지 전 매도도 가능 ③ 규모 너무 작은 ETF는 피하기",
+      "face": "think",
+      "prop": "magnifier",
+      "caption": "순자산·거래량 작으면 상폐 후보"
+    },
+    {
+      "heading": "규모 확인이 *예방주사*!",
+      "bubble": "내 ETF 순자산 규모, 오늘 한번 확인해보자~",
+      "face": "wink",
+      "prop": "doc",
+      "caption": ""
+    }
+  ]
+}
