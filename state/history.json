@@ -34,7 +34,16 @@
    "images": "images/2026-08-31/ep02"
   }
  ],
- "posts": [],
+ "posts": [
+  {
+   "date": "2026-08-31",
+   "slot": "12:00",
+   "kind": "tip",
+   "title": "ETF 도시락, 반찬 확인하는 법",
+   "post_id": "17905218120485399",
+   "permalink": "https://www.threads.com/@etfspoon/post/DcsFI1_DRW2"
+  }
+ ],
  "replied": [],
  "hidden": [],
  "runs": [
@@ -55,6 +64,15 @@
    "hidden": 0,
    "note": "2026-08-31 10:00 이미 게시됨 → 중복 방지 생략",
    "evergreen_left": 11
+  },
+  {
+   "time": "2026-08-31T12:05+09:00",
+   "slot": "12:00",
+   "result": "tip 게시 https://www.threads.com/@etfspoon/post/DcsFI1_DRW2",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 14
   }
  ]
 }
