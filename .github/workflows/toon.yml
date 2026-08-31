@@ -1,10 +1,11 @@
 name: donsujeo-toon
 
 # 돈수저툰 자동 게시 — 큐 방식 (컴퓨터 꺼져 있어도 GitHub Actions가 실행)
-# KST 09:00 / 12:00 / 14:00 / 17:00 / 20:00 = UTC 00 / 03 / 05 / 08 / 11시
+# KST 10:00 툰① / 12:00 팁① / 14:00 뉴스 / 17:00 툰② / 19:00 팁②
+# = UTC 01 / 03 / 05 / 08 / 10시
 on:
   schedule:
-    - cron: '3 0,3,5,8,11 * * *'
+    - cron: '3 1,3,5,8,10 * * *'
   workflow_dispatch: {}
 
 permissions:
