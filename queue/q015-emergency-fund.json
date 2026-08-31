@@ -10,25 +10,30 @@
    "bubble": "이번 달 월급 몽땅 넣을 거야!! 가즈아!!",
    "face": "excited",
    "prop": "chart_up",
-   "bg": "pink",
-   "friend": "coin",
-   "friend_face": "surprised",
-   "friend_side": "left"
+   "bg": "sky",
+   "friend": "pink",
+   "friend_face": "excited",
+   "friend_side": "right",
+   "flip": true,
+   "tilt": -6
   },
   {
    "heading": "갑자기 *돈 쓸 일*이 생기면?",
    "bubble": "병원비, 이사, 경조사... 급전이 필요하면 하필 떨어진 날 팔게 되더라고",
    "face": "sad",
    "prop": "umbrella",
-   "bg": "sky"
+   "bg": "lemon",
+   "flip": false,
+   "tilt": 3
   },
   {
    "heading": "그래서 *비상금 먼저*",
    "bubble": "생활비 3~6개월치를 바로 뺄 수 있는 통장에! 그 다음이 투자야",
    "face": "think",
    "prop": "piggy",
-   "bg": "lemon",
-   "flip": true
+   "bg": "lavender",
+   "flip": false,
+   "tilt": -3
   },
   {
    "heading": "비상금 = *버티는 힘*",
@@ -37,7 +42,9 @@
    "prop": "lightbulb",
    "bg": "mint",
    "friend": "piggy_pet",
-   "friend_side": "right"
+   "friend_side": "right",
+   "flip": true,
+   "tilt": 5
   }
  ]
 }

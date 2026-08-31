@@ -10,34 +10,44 @@
    "bubble": "돈수저 형! 계좌에 웬 돈이 들어왔는데?!",
    "face": "happy",
    "prop": "wallet",
-   "bg": "lemon",
+   "bg": "mint",
    "friend": "coin",
    "friend_face": "excited",
-   "friend_side": "left"
+   "friend_side": "left",
+   "flip": false,
+   "tilt": 4
   },
   {
    "heading": "그게 *배당*이야",
    "bubble": "회사가 번 이익 일부를 주주한테 나눠주는 거야. 통장 이자 비슷한 느낌!",
    "face": "wink",
    "prop": "moneybag",
-   "bg": "cream"
+   "bg": "pink",
+   "flip": true,
+   "tilt": -4
   },
   {
    "heading": "단, *배당락일* 조심",
    "bubble": "받을 사람 명단이 정해지는 날이 있어서, 그 날 이후에 사면 이번 배당은 못 받아",
    "face": "surprised",
    "prop": "calendar",
-   "bg": "sky",
-   "flip": true
+   "bg": "lemon",
+   "flip": false,
+   "tilt": 6,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "right"
   },
   {
    "heading": "배당은 *보너스*, 본질은 회사",
    "bubble": "배당만 보고 사지 말고 회사가 꾸준히 버는지도 같이 보자~",
    "face": "cool",
    "prop": "chart_up",
-   "bg": "mint",
+   "bg": "sky",
    "friend": "piggy_pet",
-   "friend_side": "right"
+   "friend_side": "right",
+   "flip": true,
+   "tilt": -2
   }
  ]
 }

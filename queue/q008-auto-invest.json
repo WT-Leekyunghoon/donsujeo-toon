@@ -1,37 +1,52 @@
 {
-  "topic": "적립식 자동매수 습관",
-  "title": "살 타이밍 재다 한 달 지난 사람?",
-  "series": "돈수저툰",
-  "footer": "저장해두고 자동매수 설정할 때 다시 보기 ✔",
-  "body": "살 타이밍 재다 한 달 지난 사람? 나야 🥲\n\n타이밍 대신 날짜로 사는 적립식 자동매수, 4컷 정리!\n\n자동매수 쓰고 있어? 💬\n\n#돈수저툰 EP.{N}",
-  "panels": [
-    {
-      "heading": "살 타이밍만 *한 달째* 재는 중",
-      "bubble": "지금 사면 꼭지 같고, 기다리면 놓칠 것 같고… 못 사겠어!",
-      "face": "cool",
-      "prop": "chart_up",
-      "caption": "타이밍 재다 한 달 순삭"
-    },
-    {
-      "heading": "타이밍은 *아무도 몰라*",
-      "bubble": "고수들도 바닥은 못 맞히더라고. 그래서 날짜로 사는 방법이 있어!",
-      "face": "surprised",
-      "prop": "calendar",
-      "caption": "매달 같은 날, 같은 금액"
-    },
-    {
-      "heading": "*적립식 자동매수* 3줄 요약",
-      "bubble": "① 감정 개입 차단 ② 쌀 땐 많이 비쌀 땐 적게 담김 ③ 신경 끄고 본업 집중",
-      "face": "think",
-      "prop": "piggy",
-      "caption": "증권사 앱에서 자동 설정 가능"
-    },
-    {
-      "heading": "고민은 줄이고 *꾸준히*!",
-      "bubble": "금액은 부담 없게, 날짜는 월급날 다음날 어때~",
-      "face": "wink",
-      "prop": "calendar",
-      "caption": ""
-    }
-  ]
+ "topic": "적립식 자동매수 습관",
+ "title": "살 타이밍 재다 한 달 지난 사람?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 자동매수 설정할 때 다시 보기 ✔",
+ "body": "살 타이밍 재다 한 달 지난 사람? 나야 🥲\n\n타이밍 대신 날짜로 사는 적립식 자동매수, 4컷 정리!\n\n자동매수 쓰고 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "살 타이밍만 *한 달째* 재는 중",
+   "bubble": "지금 사면 꼭지 같고, 기다리면 놓칠 것 같고… 못 사겠어!",
+   "face": "cool",
+   "prop": "chart_up",
+   "caption": "타이밍 재다 한 달 순삭",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 6
+  },
+  {
+   "heading": "타이밍은 *아무도 몰라*",
+   "bubble": "고수들도 바닥은 못 맞히더라고. 그래서 날짜로 사는 방법이 있어!",
+   "face": "surprised",
+   "prop": "calendar",
+   "caption": "매달 같은 날, 같은 금액",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -2,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "right"
+  },
+  {
+   "heading": "*적립식 자동매수* 3줄 요약",
+   "bubble": "① 감정 개입 차단 ② 쌀 땐 많이 비쌀 땐 적게 담김 ③ 신경 끄고 본업 집중",
+   "face": "think",
+   "prop": "piggy",
+   "caption": "증권사 앱에서 자동 설정 가능",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 4
+  },
+  {
+   "heading": "고민은 줄이고 *꾸준히*!",
+   "bubble": "금액은 부담 없게, 날짜는 월급날 다음날 어때~",
+   "face": "wink",
+   "prop": "bell",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -4
+  }
+ ]
 }

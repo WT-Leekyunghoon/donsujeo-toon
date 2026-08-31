@@ -1,37 +1,49 @@
 {
-  "topic": "리밸런싱 연 1회 점검",
-  "title": "자동매수 해두고 1년 방치, 괜찮을까?",
-  "series": "돈수저툰",
-  "footer": "저장해두고 리밸런싱 날 다시 보기 ✔",
-  "body": "자동매수 해두고 1년 방치, 괜찮을까? 🤔\n\n비중이 멋대로 변해 있어서 1년에 한 번은 정리가 필요해!\n\n리밸런싱 날짜 정해뒀어? 💬\n\n#돈수저툰 EP.{N}",
-  "panels": [
-    {
-      "heading": "1년 방치한 계좌, *괜찮겠지*?",
-      "bubble": "자동매수 해뒀으니까 끝! 이제 안 봐도 되는 거지?",
-      "face": "happy",
-      "prop": "calendar",
-      "caption": "설정해두고 잊은 사람 많지"
-    },
-    {
-      "heading": "비중이 *멋대로* 변해 있어",
-      "bubble": "오른 놈은 커지고 내린 놈은 쪼그라들어서 처음 계획과 달라졌더라고!",
-      "face": "surprised",
-      "prop": "chart_up",
-      "caption": "내 의도와 다른 포트폴리오가 됨"
-    },
-    {
-      "heading": "*리밸런싱*은 이렇게",
-      "bubble": "① 1년에 한 번 날 정하기 ② 목표 비중과 비교 ③ 어긋난 만큼만 사고팔기",
-      "face": "think",
-      "prop": "doc",
-      "caption": "연초나 생일로 정하면 안 까먹어"
-    },
-    {
-      "heading": "1년에 *한 번*이면 충분!",
-      "bubble": "달력에 리밸런싱 날짜부터 박아두자~",
-      "face": "wink",
-      "prop": "calendar",
-      "caption": ""
-    }
-  ]
+ "topic": "리밸런싱 연 1회 점검",
+ "title": "자동매수 해두고 1년 방치, 괜찮을까?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 리밸런싱 날 다시 보기 ✔",
+ "body": "자동매수 해두고 1년 방치, 괜찮을까? 🤔\n\n비중이 멋대로 변해 있어서 1년에 한 번은 정리가 필요해!\n\n리밸런싱 날짜 정해뒀어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "1년 방치한 계좌, *괜찮겠지*?",
+   "bubble": "자동매수 해뒀으니까 끝! 이제 안 봐도 되는 거지?",
+   "face": "happy",
+   "prop": "calendar",
+   "caption": "설정해두고 잊은 사람 많지",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 5
+  },
+  {
+   "heading": "비중이 *멋대로* 변해 있어",
+   "bubble": "오른 놈은 커지고 내린 놈은 쪼그라들어서 처음 계획과 달라졌더라고!",
+   "face": "surprised",
+   "prop": "chart_up",
+   "caption": "내 의도와 다른 포트폴리오가 됨",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "*리밸런싱*은 이렇게",
+   "bubble": "① 1년에 한 번 날 정하기 ② 목표 비중과 비교 ③ 어긋난 만큼만 사고팔기",
+   "face": "think",
+   "prop": "doc",
+   "caption": "연초나 생일로 정하면 안 까먹어",
+   "bg": "mint",
+   "flip": false,
+   "tilt": 4
+  },
+  {
+   "heading": "1년에 *한 번*이면 충분!",
+   "bubble": "달력에 리밸런싱 날짜부터 박아두자~",
+   "face": "wink",
+   "prop": "bell",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -6
+  }
+ ]
 }

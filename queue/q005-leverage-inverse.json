@@ -1,37 +1,49 @@
 {
-  "topic": "레버리지 인버스 장기보유 금물",
-  "title": "2배 ETF, 오래 들면 2배 수익?",
-  "series": "돈수저툰",
-  "footer": "저장해두고 레버리지 끌릴 때 다시 보기 ✔",
-  "body": "2배 ETF, 오래 들면 2배 수익? 아니야 🥲\n\n횡보만 해도 녹는 이유, 4컷으로 정리했어.\n\n레버리지에 데인 적 있는 사람? 💬\n\n#돈수저툰 EP.{N}",
-  "panels": [
-    {
-      "heading": "2배로 오르면 *2배로 부자*?",
-      "bubble": "레버리지는 2배로 움직인다며? 오래 들고 있으면 대박이겠네!",
-      "face": "cool",
-      "prop": "chart_up",
-      "caption": "나도 처음엔 그렇게 생각했어"
-    },
-    {
-      "heading": "횡보만 해도 *녹아*",
-      "bubble": "매일매일 2배라서, 오르락내리락 반복되면 원금이 조금씩 깎이더라고!",
-      "face": "sad",
-      "prop": "chart_down",
-      "caption": "일간 수익률 2배 ≠ 기간 수익률 2배"
-    },
-    {
-      "heading": "기억할 건 *3가지*",
-      "bubble": "① 하루 단위로 설계된 상품 ② 횡보장에 불리 ③ 장기 적립식과는 안 맞음",
-      "face": "think",
-      "prop": "doc",
-      "caption": "인버스도 같은 원리야"
-    },
-    {
-      "heading": "장기 투자는 *기본형*으로!",
-      "bubble": "레버리지·인버스는 구조를 알기 전엔 건드리지 말자~",
-      "face": "wink",
-      "prop": "piggy",
-      "caption": ""
-    }
-  ]
+ "topic": "레버리지 인버스 장기보유 금물",
+ "title": "2배 ETF, 오래 들면 2배 수익?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 레버리지 끌릴 때 다시 보기 ✔",
+ "body": "2배 ETF, 오래 들면 2배 수익? 아니야 🥲\n\n횡보만 해도 녹는 이유, 4컷으로 정리했어.\n\n레버리지에 데인 적 있는 사람? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "2배로 오르면 *2배로 부자*?",
+   "bubble": "레버리지는 2배로 움직인다며? 오래 들고 있으면 대박이겠네!",
+   "face": "cool",
+   "prop": "chart_up",
+   "caption": "나도 처음엔 그렇게 생각했어",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "횡보만 해도 *녹아*",
+   "bubble": "매일매일 2배라서, 오르락내리락 반복되면 원금이 조금씩 깎이더라고!",
+   "face": "sad",
+   "prop": "chart_down",
+   "caption": "일간 수익률 2배 ≠ 기간 수익률 2배",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -5
+  },
+  {
+   "heading": "기억할 건 *3가지*",
+   "bubble": "① 하루 단위로 설계된 상품 ② 횡보장에 불리 ③ 장기 적립식과는 안 맞음",
+   "face": "think",
+   "prop": "doc",
+   "caption": "인버스도 같은 원리야",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 3
+  },
+  {
+   "heading": "장기 투자는 *기본형*으로!",
+   "bubble": "레버리지·인버스는 구조를 알기 전엔 건드리지 말자~",
+   "face": "wink",
+   "prop": "piggy",
+   "caption": "",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -2
+  }
+ ]
 }

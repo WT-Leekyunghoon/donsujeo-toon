@@ -1,37 +1,52 @@
 {
-  "topic": "이름읽기 운용사 브랜드+지수",
-  "title": "KODEX? TIGER? 동물원 아니야",
-  "series": "돈수저툰",
-  "footer": "저장해두고 ETF 이름 읽을 때 다시 보기 ✔",
-  "body": "KODEX? TIGER? 동물원 아니야 🐯\n\nETF 이름은 브랜드+지수+꼬리표, 3칸이면 다 읽혀!\n\n제일 헷갈렸던 ETF 이름 뭐야? 💬\n\n#돈수저툰 EP.{N}",
-  "panels": [
-    {
-      "heading": "KODEX? TIGER? *동물원* 아니야",
-      "bubble": "ETF 이름은 왜 다 암호 같지? KODEX 200이 대체 뭐야?",
-      "face": "cool",
-      "prop": "magnifier",
-      "caption": "이름부터 벽 느껴지는 사람 손"
-    },
-    {
-      "heading": "알고 보면 *성+이름* 구조야",
-      "bubble": "앞은 운용사 브랜드, 뒤는 따라가는 지수! 그게 다더라고",
-      "face": "surprised",
-      "prop": "doc",
-      "caption": "KODEX·TIGER·ACE·SOL·RISE = 회사 브랜드"
-    },
-    {
-      "heading": "읽는 순서는 *딱 3칸*",
-      "bubble": "① 브랜드(운용사) ② 지수/테마 ③ 꼬리표(H, TR, 레버리지 등)",
-      "face": "think",
-      "prop": "doc",
-      "caption": "꼬리표가 성격을 바꾸니 끝까지 읽기"
-    },
-    {
-      "heading": "이름만 봐도 *반은 파악*!",
-      "bubble": "아무 ETF나 하나 골라서 이름 3칸으로 쪼개보자~",
-      "face": "wink",
-      "prop": "chart_up",
-      "caption": ""
-    }
-  ]
+ "topic": "이름읽기 운용사 브랜드+지수",
+ "title": "KODEX? TIGER? 동물원 아니야",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 이름 읽을 때 다시 보기 ✔",
+ "body": "KODEX? TIGER? 동물원 아니야 🐯\n\nETF 이름은 브랜드+지수+꼬리표, 3칸이면 다 읽혀!\n\n제일 헷갈렸던 ETF 이름 뭐야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "KODEX? TIGER? *동물원* 아니야",
+   "bubble": "ETF 이름은 왜 다 암호 같지? KODEX 200이 대체 뭐야?",
+   "face": "cool",
+   "prop": "magnifier",
+   "caption": "이름부터 벽 느껴지는 사람 손",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "알고 보면 *성+이름* 구조야",
+   "bubble": "앞은 운용사 브랜드, 뒤는 따라가는 지수! 그게 다더라고",
+   "face": "surprised",
+   "prop": "doc",
+   "caption": "KODEX·TIGER·ACE·SOL·RISE = 회사 브랜드",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "읽는 순서는 *딱 3칸*",
+   "bubble": "① 브랜드(운용사) ② 지수/테마 ③ 꼬리표(H, TR, 레버리지 등)",
+   "face": "think",
+   "prop": "phone",
+   "caption": "꼬리표가 성격을 바꾸니 끝까지 읽기",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "이름만 봐도 *반은 파악*!",
+   "bubble": "아무 ETF나 하나 골라서 이름 3칸으로 쪼개보자~",
+   "face": "wink",
+   "prop": "chart_up",
+   "caption": "",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
 }

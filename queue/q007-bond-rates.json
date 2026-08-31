@@ -1,37 +1,49 @@
 {
-  "topic": "채권 금리와 가격 시소",
-  "title": "채권 ETF인데 왜 떨어져?",
-  "series": "돈수저툰",
-  "footer": "저장해두고 금리 뉴스 볼 때 다시 보기 ✔",
-  "body": "채권 ETF인데 왜 떨어져? 🥲\n\n금리와 채권 가격은 시소야. 원리만 4컷으로 정리!\n\n채권형 담아본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
-  "panels": [
-    {
-      "heading": "채권 ETF는 *안전*한 거 아니야?",
-      "bubble": "채권은 안전자산이라며! 근데 내 채권 ETF는 왜 파란불이야?",
-      "face": "happy",
-      "prop": "chart_down",
-      "caption": "안전 = 안 떨어짐이 아니더라"
-    },
-    {
-      "heading": "금리 오르면 *가격은 내려가*",
-      "bubble": "새 채권이 이자를 더 주면, 옛날 채권은 매력이 떨어지거든!",
-      "face": "surprised",
-      "prop": "doc",
-      "caption": "금리와 채권 가격은 시소 관계"
-    },
-    {
-      "heading": "체크 포인트 *3가지*",
-      "bubble": "① 만기 길수록 크게 출렁 ② 단기채는 덜 흔들림 ③ 금리 내리면 반대로 유리",
-      "face": "think",
-      "prop": "magnifier",
-      "caption": "듀레이션이라는 말이 이거야"
-    },
-    {
-      "heading": "시소 원리 알면 *안 놀라*!",
-      "bubble": "내 채권 ETF가 장기인지 단기인지부터 확인해보자~",
-      "face": "wink",
-      "prop": "doc",
-      "caption": ""
-    }
-  ]
+ "topic": "채권 금리와 가격 시소",
+ "title": "채권 ETF인데 왜 떨어져?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 금리 뉴스 볼 때 다시 보기 ✔",
+ "body": "채권 ETF인데 왜 떨어져? 🥲\n\n금리와 채권 가격은 시소야. 원리만 4컷으로 정리!\n\n채권형 담아본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "채권 ETF는 *안전*한 거 아니야?",
+   "bubble": "채권은 안전자산이라며! 근데 내 채권 ETF는 왜 파란불이야?",
+   "face": "happy",
+   "prop": "chart_down",
+   "caption": "안전 = 안 떨어짐이 아니더라",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -5
+  },
+  {
+   "heading": "금리 오르면 *가격은 내려가*",
+   "bubble": "새 채권이 이자를 더 주면, 옛날 채권은 매력이 떨어지거든!",
+   "face": "surprised",
+   "prop": "doc",
+   "caption": "금리와 채권 가격은 시소 관계",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "체크 포인트 *3가지*",
+   "bubble": "① 만기 길수록 크게 출렁 ② 단기채는 덜 흔들림 ③ 금리 내리면 반대로 유리",
+   "face": "think",
+   "prop": "magnifier",
+   "caption": "듀레이션이라는 말이 이거야",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "시소 원리 알면 *안 놀라*!",
+   "bubble": "내 채권 ETF가 장기인지 단기인지부터 확인해보자~",
+   "face": "wink",
+   "prop": "phone",
+   "caption": "",
+   "bg": "mint",
+   "flip": false,
+   "tilt": 4
+  }
+ ]
 }
