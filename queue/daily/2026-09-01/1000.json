@@ -1,0 +1,56 @@
+{
+ "series": "돈수저툰",
+ "episode": "EP.{N}",
+ "topic": "PER 뜻 — 본전 뽑는 시간 비유 (국내 주식 기초)",
+ "title": "PER? 본전 뽑는 시간이야",
+ "body": "PER? 본전 뽑는 시간이야 ⏱\n\n주가가 싼지 비싼지 감 잡는 숫자 하나, 4컷으로 정리했어 🥲\n\n너는 종목 볼 때 뭐부터 확인해? 💬\n\n#돈수저툰 EP.{N}",
+ "footer": "저장해두고 PER 볼 때 다시 보기 ✔",
+ "panels": [
+  {
+   "heading": "주식 앱에 *PER 8배*…이게 뭔데?",
+   "bubble": "PER 낮으면 무조건 싸고 좋은 거라던데? 맞지?",
+   "face": "happy",
+   "prop": "phone",
+   "caption": "숫자만 보고 덜컥 판단하기 쉽지",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "PER = *본전 뽑는 데 걸리는 시간*",
+   "bubble": "회사가 지금처럼 벌면, 그 이익으로 내 주식값 회수까지 몇 년 걸리나 하는 숫자야!",
+   "face": "surprised",
+   "prop": "clock",
+   "caption": "8배면 지금 이익 기준 8년이라는 뜻",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 2
+  },
+  {
+   "heading": "볼 때는 *딱 이렇게*",
+   "bubble": "① 같은 업종끼리 비교 ② 낮은 덴 이유가 있는지 ③ 이익이 들쭉날쭉하면 참고만!",
+   "face": "think",
+   "prop": "scale",
+   "caption": "PER은 만능 정답이 아니라 힌트야",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "숫자는 *비교*할 때 힘이 세!",
+   "bubble": "혼자 보면 그냥 숫자, 업종 친구들이랑 같이 보면 힌트가 돼~",
+   "face": "wink",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 4,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "series": "돈수저툰",
+ "episode": "EP.{N}",
+ "topic": "물타기 vs 분할매수 — 계획 있는 추가매수 (습관·심리)",
+ "title": "물타기랑 분할매수, 뭐가 달라?",
+ "body": "물타기랑 분할매수, 뭐가 달라? 💧\n\n같은 추가매수인데 계획이 있냐 없냐로 갈린다는 얘기, 4컷으로 정리했어 🥲\n\n너는 떨어지면 더 사는 편이야, 기다리는 편이야? 💬\n\n#돈수저툰 EP.{N}",
+ "footer": "저장해두고 추가매수 전에 다시 보기 ✔",
+ "panels": [
+  {
+   "heading": "떨어졌으니까 *더 사면* 되지?",
+   "bubble": "평단 낮추자~ 어제도 샀는데 오늘 또 사야지!",
+   "face": "cool",
+   "prop": "chart_down",
+   "caption": "이거 물타기일까, 분할매수일까?",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 3,
+   "friend": "pink",
+   "friend_face": "sad",
+   "friend_side": "right"
+  },
+  {
+   "heading": "차이는 *계획*이 있냐 없냐",
+   "bubble": "분할매수는 사기 전에 날짜·금액을 정해두는 거고, 물타기는 떨어질 때마다 기분으로 사는 거야!",
+   "face": "sad",
+   "prop": "moneybag",
+   "caption": "같은 추가매수인데 출발이 달라",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": -2
+  },
+  {
+   "heading": "*딱 2개*만 정하고 시작해",
+   "bubble": "① 몇 번에 나눠 살지 ② 한 번에 얼마씩인지. 사기 전에 미리 적어두는 게 포인트!",
+   "face": "think",
+   "prop": "umbrella",
+   "caption": "예산 없는 추가매수는 밑 빠진 독",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -4
+  },
+  {
+   "heading": "계획이 있으면 *하락도 기회*",
+   "bubble": "떨어진 날 기분으로 사지 말고, 정한 날에 정한 만큼~",
+   "face": "wink",
+   "prop": "piggy",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}
