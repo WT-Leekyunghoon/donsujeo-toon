@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 5,
+ "next_episode": 6,
  "episodes": [
   {
    "ep": 1,
@@ -52,6 +52,16 @@
    "post_id": "18126299203772881",
    "permalink": "https://www.threads.com/@etfspoon/post/DcucnODib0M",
    "images": "images/2026-09-01/ep04"
+  },
+  {
+   "ep": 5,
+   "date": "2026-09-01",
+   "slot": "17:00",
+   "title": "물타기랑 분할매수, 뭐가 달라?",
+   "topic": "물타기 vs 분할매수 — 계획 있는 추가매수 (습관·심리)",
+   "post_id": "17990819834841292",
+   "permalink": "https://www.threads.com/@etfspoon/post/DcvM1TTFs8s",
+   "images": "images/2026-09-01/ep05"
   }
  ],
  "posts": [
@@ -175,6 +185,15 @@
    "time": "2026-09-01T14:08+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/Dcu3-1-Fs8M",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 14
+  },
+  {
+   "time": "2026-09-01T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.5 툰 게시 https://www.threads.com/@etfspoon/post/DcvM1TTFs8s",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
