@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 4,
+ "next_episode": 5,
  "episodes": [
   {
    "ep": 1,
@@ -42,6 +42,16 @@
    "post_id": "18117706541483367",
    "permalink": "https://www.threads.com/@etfspoon/post/DcsnkTMm34m",
    "images": "images/2026-08-31/ep03"
+  },
+  {
+   "ep": 4,
+   "date": "2026-09-01",
+   "slot": "10:00",
+   "title": "PER? 본전 뽑는 시간이야",
+   "topic": "PER 뜻 — 본전 뽑는 시간 비유 (국내 주식 기초)",
+   "post_id": "18126299203772881",
+   "permalink": "https://www.threads.com/@etfspoon/post/DcucnODib0M",
+   "images": "images/2026-09-01/ep04"
   }
  ],
  "posts": [
@@ -122,6 +132,15 @@
    "time": "2026-08-31T19:05+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/Dcs1L2noKka",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 14
+  },
+  {
+   "time": "2026-09-01T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.4 툰 게시 https://www.threads.com/@etfspoon/post/DcucnODib0M",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
