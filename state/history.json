@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 6,
+ "next_episode": 7,
  "episodes": [
   {
    "ep": 1,
@@ -62,6 +62,16 @@
    "post_id": "17990819834841292",
    "permalink": "https://www.threads.com/@etfspoon/post/DcvM1TTFs8s",
    "images": "images/2026-09-01/ep05"
+  },
+  {
+   "ep": 6,
+   "date": "2026-09-02",
+   "slot": "10:00",
+   "title": "KODEX? TIGER? 동물원 아니야",
+   "topic": "이름읽기 운용사 브랜드+지수",
+   "post_id": "18113717738036584",
+   "permalink": "https://www.threads.com/@etfspoon/post/DcxBT-ZDS0J",
+   "images": "images/2026-09-02/ep06"
   }
  ],
  "posts": [
@@ -215,6 +225,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 14
+  },
+  {
+   "time": "2026-09-02T10:08+09:00",
+   "slot": "10:00",
+   "result": "EP.6 툰 게시 https://www.threads.com/@etfspoon/post/DcxBT-ZDS0J",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 13
   }
  ]
 }
