@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 7,
+ "next_episode": 8,
  "episodes": [
   {
    "ep": 1,
@@ -72,6 +72,16 @@
    "post_id": "18113717738036584",
    "permalink": "https://www.threads.com/@etfspoon/post/DcxBT-ZDS0J",
    "images": "images/2026-09-02/ep06"
+  },
+  {
+   "ep": 7,
+   "date": "2026-09-02",
+   "slot": "17:00",
+   "title": "매달 월급처럼 나오는 월배당 ETF",
+   "topic": "월배당 분배금 구조",
+   "post_id": "18091093766391683",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dcxxoa1lRGb",
+   "images": "images/2026-09-02/ep07"
   }
  ],
  "posts": [
@@ -252,6 +262,15 @@
    "hidden": 0,
    "note": "14:00 news 파일 없음 → 생략",
    "evergreen_left": 13
+  },
+  {
+   "time": "2026-09-02T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.7 툰 게시 https://www.threads.com/@etfspoon/post/Dcxxoa1lRGb",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 12
   }
  ]
 }
