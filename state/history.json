@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 9,
+ "next_episode": 10,
  "episodes": [
   {
    "ep": 1,
@@ -92,6 +92,16 @@
    "post_id": "18124405891785527",
    "permalink": "https://www.threads.com/@etfspoon/post/DczmJQMoEob",
    "images": "images/2026-09-03/ep08"
+  },
+  {
+   "ep": 9,
+   "date": "2026-09-03",
+   "slot": "17:00",
+   "title": "친구가 샀대서 나도 샀다면",
+   "topic": "심리 카더라 투자(친구 따라 사기)",
+   "post_id": "18365153260208805",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dc0Wa0yFVtW",
+   "images": "images/2026-09-03/ep09"
   }
  ],
  "posts": [
@@ -312,6 +322,15 @@
    "time": "2026-09-03T14:25+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/Dc0DhAvkdgV",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 12
+  },
+  {
+   "time": "2026-09-03T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.9 툰 게시 https://www.threads.com/@etfspoon/post/Dc0Wa0yFVtW",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
