@@ -88,7 +88,6 @@ _DEFS = '''<defs>
 
 def mascot(face: str, scale: float = 1.0, tilt: int = 0, flip: bool = False) -> str:
     f = FACES.get(face, FACES["happy"])
-    arms = ARMS[FACE_ARMS.get(face, "wave")]
     sx = -1 if flip else 1
     return f'''
 <svg viewBox="-150 -175 300 345" width="{int(300*scale)}" height="{int(345*scale)}" xmlns="http://www.w3.org/2000/svg">
@@ -101,13 +100,10 @@ def mascot(face: str, scale: float = 1.0, tilt: int = 0, flip: bool = False) -> 
     <!-- leaf -->
     <path d="M16 108 q28 -10 34 16 q-28 10 -34 -16z" fill="url(#gLeaf)" stroke="#3b2f1e" stroke-width="4"/>
     <path d="M18 110 q14 4 30 12" stroke="#3b2f1e" stroke-width="3" fill="none"/>
-    <!-- arms -->
-    <g transform="translate(0,-40)">{arms}</g>
     <!-- bowl -->
     <ellipse cx="0" cy="-60" rx="88" ry="98" fill="url(#gBowl)" stroke="#3b2f1e" stroke-width="6.5"/>
     <ellipse cx="0" cy="-60" rx="70" ry="80" fill="url(#gBowlIn)"/>
     <path d="M-40 -130 q40 -14 62 8" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round" opacity=".9"/>
-    <path d="M-62 -8 q56 26 124 0" stroke="#d9a83c" stroke-width="5" fill="none" opacity=".35" transform="translate(0,-30)"/>
     <!-- face -->
     <g transform="translate(0,-52)">{f}</g>
   </g>
