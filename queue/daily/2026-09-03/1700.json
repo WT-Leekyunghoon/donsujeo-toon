@@ -1,0 +1,44 @@
+{
+ "topic": "심리 카더라 투자(친구 따라 사기)",
+ "title": "친구가 샀대서 나도 샀다면",
+ "series": "돈수저툰",
+ "footer": "저장해두고 '카더라' 들릴 때 다시 보기 ✔",
+ "body": "\"이거 산 사람 다 벌었대\" 그 말에 샀다면 🥲\n\n카더라로 사면 팔 때도 카더라에 휘둘린다는 얘기, 4컷!\n\n너도 친구 따라 사본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*친구가* 그러는데 말이야",
+   "bubble": "형!! 옆자리 형이 이거 사서 벌었대!! 나도 살래!!",
+   "face": "surprised",
+   "prop": "bell",
+   "bg": "pink",
+   "friend": "coin",
+   "friend_face": "excited",
+   "friend_side": "left"
+  },
+  {
+   "heading": "근데 그 친구, *언제 샀대*?",
+   "bubble": "벌었다는 얘기는 늘 오르고 난 다음에 들려오거든...",
+   "face": "think",
+   "prop": "clock",
+   "bg": "sky"
+  },
+  {
+   "heading": "더 무서운 건 *팔 때*야",
+   "bubble": "왜 샀는지 모르면, 떨어질 때 왜 들고 있어야 하는지도 몰라서 제일 아래에서 팔게 돼",
+   "face": "sad",
+   "prop": "chart_down",
+   "bg": "lavender",
+   "flip": true
+  },
+  {
+   "heading": "남의 확신 말고 *내 이유*",
+   "bubble": "한 줄이라도 좋아. '내가 이걸 사는 이유'를 적을 수 있을 때만 사자~",
+   "face": "cool",
+   "prop": "doc",
+   "bg": "mint",
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  }
+ ]
+}

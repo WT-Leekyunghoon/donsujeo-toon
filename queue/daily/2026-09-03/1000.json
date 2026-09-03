@@ -1,0 +1,44 @@
+{
+ "topic": "주식기초 시가총액",
+ "title": "시가총액? 회사 통째 가격표야",
+ "series": "돈수저툰",
+ "footer": "저장해두고 뉴스 볼 때 다시 보기 ✔",
+ "body": "시가총액? 회사를 통째로 산다면 얼마, 그 가격표야 🏷️\n\n주가 3만원짜리가 30만원짜리보다 큰 회사일 수도 있는 이유, 4컷으로 정리했어\n\n시총 1위 회사가 어딘지 바로 떠올라? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "주가 *3만원*이면 싼 회사야?",
+   "bubble": "형! 주가 3만원짜리가 30만원짜리보다 싸구려 회사인 거지?",
+   "face": "happy",
+   "prop": "coin",
+   "bg": "sky",
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "주가만 보면 *착각*해",
+   "bubble": "주식 수가 다르거든! 조각 하나 값이랑 회사 전체 값은 별개야",
+   "face": "surprised",
+   "prop": "scale",
+   "bg": "lemon",
+   "flip": true
+  },
+  {
+   "heading": "시가총액 = *주가 × 주식 수*",
+   "bubble": "회사를 통째로 산다면 내야 하는 돈! 그래서 회사 크기 비교는 시총으로 해",
+   "face": "think",
+   "prop": "moneybag",
+   "bg": "cream"
+  },
+  {
+   "heading": "뉴스의 '시총 1위'가 *이 뜻*!",
+   "bubble": "이제 '시총 몇 조' 나오면 회사 전체 가격표구나~ 하면 돼!",
+   "face": "wink",
+   "prop": "lightbulb",
+   "bg": "mint",
+   "friend": "coin",
+   "friend_face": "excited",
+   "friend_side": "right"
+  }
+ ]
+}
