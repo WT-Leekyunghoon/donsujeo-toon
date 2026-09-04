@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 11,
+ "next_episode": 12,
  "episodes": [
   {
    "ep": 1,
@@ -112,6 +112,16 @@
    "post_id": "18082383116701183",
    "permalink": "https://www.threads.com/@etfspoon/post/Dc2K4pwGuQ0",
    "images": "images/2026-09-04/ep10"
+  },
+  {
+   "ep": 11,
+   "date": "2026-09-04",
+   "slot": "17:00",
+   "title": "2배 ETF, 오래 들면 2배 수익?",
+   "topic": "레버리지 인버스 장기보유 금물",
+   "post_id": "18073767614425590",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dc27PbwnCQl",
+   "images": "images/2026-09-04/ep11"
   }
  ],
  "posts": [
@@ -389,6 +399,15 @@
    "hidden": 0,
    "note": "14:00 news 파일 없음 → 생략",
    "evergreen_left": 11
+  },
+  {
+   "time": "2026-09-04T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.11 툰 게시 https://www.threads.com/@etfspoon/post/Dc27PbwnCQl",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 10
   }
  ]
 }
