@@ -1,0 +1,49 @@
+{
+ "topic": "운용사툰: RISE(KB)",
+ "title": "KBSTAR가 사라졌다?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 이름 볼 때 다시 보기 ✔",
+ "body": "KBSTAR가 사라졌다? 🤔\n\n없어진 게 아니라 KB자산운용이 브랜드를 RISE로 바꾼 거야. 상품은 그대로, 문패만 교체! 운용사 시리즈 2편 🥲\n\n이름 바뀐 ETF 찾다가 당황한 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*KBSTAR*, 어디 갔지?",
+   "bubble": "형, 예전에 봐둔 KBSTAR ETF가 검색해도 안 나와!",
+   "face": "cool",
+   "prop": "coin",
+   "bg": "cream",
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "sad",
+   "friend_side": "left"
+  },
+  {
+   "heading": "이름이 *RISE*로 바뀌었어",
+   "bubble": "KB자산운용이 2024년에 브랜드를 RISE로 바꿨거든. 상품은 그대로, 문패만 교체!",
+   "face": "surprised",
+   "prop": "bell",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "리브랜딩 땐 *체크 3가지*",
+   "bubble": "① 내 상품은 그대로인지 ② 새 이름으로 재검색 ③ 뒤쪽 지수명 확인\n알맹이는 동일!",
+   "face": "think",
+   "prop": "doc",
+   "bg": "lavender",
+   "tilt": -2
+  },
+  {
+   "heading": "문패는 *바뀔 수 있다*!",
+   "bubble": "이름 바꾼 운용사가 꽤 있어~ 옛 이름이 안 보이면 당황 말고 검색부터!",
+   "face": "wink",
+   "prop": "piggy",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 6,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}

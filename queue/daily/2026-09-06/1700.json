@@ -1,0 +1,46 @@
+{
+ "topic": "주식기초 예수금·D+2 출금",
+ "title": "판 돈이 왜 안 나와?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 출금할 때 다시 보기 ✔",
+ "body": "판 돈이 왜 안 나와? 🥲\n\n주식 판 돈은 영업일 기준 이틀 뒤(D+2)에 출금 가능해져. 예수금 화면 읽는 법까지 4컷 정리!\n\n너도 출금 막혀서 당황한 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "팔았는데 *출금이 안 돼*?",
+   "bubble": "주식 판 돈으로 바로 이체하면 되겠지? 했다가 나도 당황했잖아~",
+   "face": "happy",
+   "prop": "cart",
+   "bg": "lemon",
+   "tilt": 3
+  },
+  {
+   "heading": "결제는 *이틀 뒤*에 끝나",
+   "bubble": "체결된 날 바로가 아니라 영업일로 이틀 뒤에 진짜 돈이 들어와. 이게 D+2야!",
+   "face": "surprised",
+   "prop": "clock",
+   "bg": "mint",
+   "flip": true,
+   "tilt": -4
+  },
+  {
+   "heading": "*예수금* 화면 읽는 법",
+   "bubble": "① 출금 가능한 돈은 D+2 예수금 ② 주말·공휴일은 영업일에서 제외\n이체 계획은 여기 보고!",
+   "face": "think",
+   "prop": "calendar",
+   "bg": "sky",
+   "tilt": 2
+  },
+  {
+   "heading": "돈 쓸 일 있으면 *미리* 팔기",
+   "bubble": "이체할 일 있으면 이틀 넉넉히 두고 팔자~ 이것만 알아도 당황 끝!",
+   "face": "wink",
+   "prop": "wallet",
+   "bg": "pink",
+   "flip": true,
+   "tilt": -6,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
