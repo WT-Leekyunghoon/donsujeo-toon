@@ -1,0 +1,46 @@
+{
+ "topic": "습관·심리 수익률 제대로 계산 (추가 입금 착시)",
+ "title": "그 수익률, 진짜 맞아?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 수익률 볼 때 다시 보기 ✔",
+ "body": "그 수익률, 진짜 맞아? 🤔\n\n중간에 돈을 더 넣으면 앱 수익률이 실제랑 달라 보일 수 있어. 진짜 성적표 내는 법 4컷 정리 🥲\n\n너는 진짜 수익률 계산해본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "나 *수익률 20%*래!",
+   "bubble": "앱에 빨간불 들어왔다~ 나 혹시 투자 천재인가 봐!",
+   "face": "cool",
+   "prop": "moneybag",
+   "bg": "sky",
+   "tilt": 3
+  },
+  {
+   "heading": "근데 *넣은 돈*은 다 셌어?",
+   "bubble": "중간에 추가 입금을 하면 앱 수익률이 실제 성적이랑 달라 보일 때가 있거든!",
+   "face": "surprised",
+   "prop": "scale",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -4
+  },
+  {
+   "heading": "진짜 계산은 *딱 이렇게*",
+   "bubble": "① 총 넣은 돈 기준 ② 받은 배당도 포함 ③ 수수료·세금 빼기\n이게 진짜 성적표!",
+   "face": "think",
+   "prop": "magnifier",
+   "bg": "pink",
+   "tilt": 2
+  },
+  {
+   "heading": "성적표는 *내 돈 기준*!",
+   "bubble": "지금 총 가치에서 총 넣은 돈을 빼보면 끝~ 오늘 한 번 계산해봐!",
+   "face": "wink",
+   "prop": "chart_up",
+   "bg": "mint",
+   "flip": true,
+   "tilt": -6,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  }
+ ]
+}

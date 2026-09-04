@@ -1,0 +1,49 @@
+{
+ "topic": "운용사툰: TIGER(미래에셋)",
+ "title": "TIGER, 어디 호랑이게?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 이름 볼 때 다시 보기 ✔",
+ "body": "TIGER, 어디 호랑이게? 🐯\n\nETF 이름 맨 앞 브랜드는 만든 운용사의 문패야. TIGER는 미래에셋자산운용 거! 운용사 브랜드 시리즈 1편 🥲\n\n네 ETF 이름은 뭘로 시작해? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "ETF 앞의 *TIGER*, 뭐게?",
+   "bubble": "형, TIGER 어쩌구 ETF 많던데~ 호랑이가 운용하는 거야?",
+   "face": "happy",
+   "prop": "phone",
+   "bg": "mint",
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "브랜드 = 운용사 *문패*",
+   "bubble": "TIGER는 미래에셋자산운용의 ETF 브랜드야. KODEX, SOL처럼 회사마다 문패가 달라!",
+   "face": "surprised",
+   "prop": "newspaper",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "이름은 *뒤쪽*이 알맹이",
+   "bubble": "① 앞 = 브랜드(운용사) ② 뒤 = 지수·테마\n뒤에 붙은 말이 진짜 내용이야!",
+   "face": "think",
+   "prop": "lightbulb",
+   "bg": "cream",
+   "tilt": -2
+  },
+  {
+   "heading": "문패 알면 *뉴스가 들려*",
+   "bubble": "시장지수부터 테마·채권까지 유형은 다양해~ 문패 말고 알맹이 보고 고르자!",
+   "face": "wink",
+   "prop": "wallet",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 5,
+   "friend": "coin",
+   "friend_face": "excited",
+   "friend_side": "right"
+  }
+ ]
+}
