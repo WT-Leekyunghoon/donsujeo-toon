@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 10,
+ "next_episode": 11,
  "episodes": [
   {
    "ep": 1,
@@ -102,6 +102,16 @@
    "post_id": "18365153260208805",
    "permalink": "https://www.threads.com/@etfspoon/post/Dc0Wa0yFVtW",
    "images": "images/2026-09-03/ep09"
+  },
+  {
+   "ep": 10,
+   "date": "2026-09-04",
+   "slot": "10:00",
+   "title": "같은 ETF인데 나만 비싸게 샀다?",
+   "topic": "괴리율 iNAV 정가 확인",
+   "post_id": "18082383116701183",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dc2K4pwGuQ0",
+   "images": "images/2026-09-04/ep10"
   }
  ],
  "posts": [
@@ -352,6 +362,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 12
+  },
+  {
+   "time": "2026-09-04T10:08+09:00",
+   "slot": "10:00",
+   "result": "EP.10 툰 게시 https://www.threads.com/@etfspoon/post/Dc2K4pwGuQ0",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 11
   }
  ]
 }
