@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 12,
+ "next_episode": 13,
  "episodes": [
   {
    "ep": 1,
@@ -122,6 +122,16 @@
    "post_id": "18073767614425590",
    "permalink": "https://www.threads.com/@etfspoon/post/Dc27PbwnCQl",
    "images": "images/2026-09-04/ep11"
+  },
+  {
+   "ep": 12,
+   "date": "2026-09-05",
+   "slot": "10:00",
+   "title": "TIGER, 어디 호랑이게?",
+   "topic": "운용사툰: TIGER(미래에셋)",
+   "post_id": "17900539203569711",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dc4wEb4IOgS",
+   "images": "images/2026-09-05/ep12"
   }
  ],
  "posts": [
@@ -421,6 +431,15 @@
    "time": "2026-09-04T19:09+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/Dc3I1g0HEj7",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 10
+  },
+  {
+   "time": "2026-09-05T10:11+09:00",
+   "slot": "10:00",
+   "result": "EP.12 툰 게시 https://www.threads.com/@etfspoon/post/Dc4wEb4IOgS",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
