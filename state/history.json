@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 15,
+ "next_episode": 16,
  "episodes": [
   {
    "ep": 1,
@@ -152,6 +152,16 @@
    "post_id": "18129879856718785",
    "permalink": "https://www.threads.com/@etfspoon/post/Dc7Uc3MDYJO",
    "images": "images/2026-09-06/ep14"
+  },
+  {
+   "ep": 15,
+   "date": "2026-09-06",
+   "slot": "17:00",
+   "title": "판 돈이 왜 안 나와?",
+   "topic": "주식기초 예수금·D+2 출금",
+   "post_id": "17945697858296315",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dc8ExJsG3L7",
+   "images": "images/2026-09-06/ep15"
   }
  ],
  "posts": [
@@ -563,6 +573,15 @@
    "time": "2026-09-06T14:08+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/Dc7v_UajiUm",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 10
+  },
+  {
+   "time": "2026-09-06T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.15 툰 게시 https://www.threads.com/@etfspoon/post/Dc8ExJsG3L7",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
