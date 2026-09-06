@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 14,
+ "next_episode": 15,
  "episodes": [
   {
    "ep": 1,
@@ -142,6 +142,16 @@
    "post_id": "18339977824269022",
    "permalink": "https://www.threads.com/@etfspoon/post/Dc5f7HeG1pj",
    "images": "images/2026-09-05/ep13"
+  },
+  {
+   "ep": 14,
+   "date": "2026-09-06",
+   "slot": "10:00",
+   "title": "KBSTAR가 사라졌다?",
+   "topic": "운용사툰: RISE(KB)",
+   "post_id": "18129879856718785",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dc7Uc3MDYJO",
+   "images": "images/2026-09-06/ep14"
   }
  ],
  "posts": [
@@ -510,6 +520,15 @@
    "time": "2026-09-05T19:08+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/Dc5thq0ETpY",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 10
+  },
+  {
+   "time": "2026-09-06T10:08+09:00",
+   "slot": "10:00",
+   "result": "EP.14 툰 게시 https://www.threads.com/@etfspoon/post/Dc7Uc3MDYJO",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
