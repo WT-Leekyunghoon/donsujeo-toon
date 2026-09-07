@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 17,
+ "next_episode": 18,
  "episodes": [
   {
    "ep": 1,
@@ -172,6 +172,16 @@
    "post_id": "18100072718200043",
    "permalink": "https://www.threads.com/@etfspoon/post/Dc95W62INR5",
    "images": "images/2026-09-07/ep16"
+  },
+  {
+   "ep": 17,
+   "date": "2026-09-07",
+   "slot": "17:00",
+   "title": "채권 ETF인데 왜 떨어져?",
+   "topic": "채권 금리와 가격 시소",
+   "post_id": "18004347302985388",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dc-pp9PlmA8",
+   "images": "images/2026-09-07/ep17"
   }
  ],
  "posts": [
@@ -640,6 +650,15 @@
    "hidden": 0,
    "note": "14:00 news 파일 없음 → 생략",
    "evergreen_left": 9
+  },
+  {
+   "time": "2026-09-07T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.17 툰 게시 https://www.threads.com/@etfspoon/post/Dc-pp9PlmA8",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 8
   }
  ]
 }
