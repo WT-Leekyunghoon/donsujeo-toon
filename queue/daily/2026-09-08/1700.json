@@ -1,0 +1,55 @@
+{
+ "topic": "주식기초 우선주 vs 보통주",
+ "title": "이름 끝에 붙은 '우', 뭐야?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 '우' 붙은 주식 볼 때 다시 보기 ✔",
+ "body": "이름 끝에 붙은 '우', 뭐야? 🥲\n\n같은 회사인데 더 싼 주식? 우선주는 의결권 대신 배당을 챙기는 주식이야. 보통주랑 다른 점 4컷 정리!\n\n너도 '우' 붙은 주식 보고 갸우뚱한 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "같은 회산데 *더 싼 주식*이 있다?",
+   "bubble": "'삼성전자우'가 그냥 삼성전자보다 싸네? 같은 회사면 싼 게 이득이겠지?",
+   "face": "happy",
+   "prop": "coin",
+   "caption": "이름 끝 '우' 한 글자, 본 적 있지?",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "알고 보니 *다른 종류*의 주식",
+   "bubble": "우선주는 주총 투표권(의결권)이 없는 대신, 배당을 조금 더 주는 주식이야!",
+   "face": "surprised",
+   "prop": "scale",
+   "caption": "싼 데는 이유가 있었어",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "우선주 볼 때 *체크 3*",
+   "bubble": "① 의결권 없음 ② 배당은 보통 조금 더 ③ 거래량 적으면 가격이 크게 출렁여",
+   "face": "think",
+   "prop": "lightbulb",
+   "caption": "가격 차이에는 다 이유가 있다",
+   "bg": "sky",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "싸다고 *같은 주식* 아니야",
+   "bubble": "이름 끝에 '우' 보이면 우선주! 뭐가 다른지 알고 고르자~",
+   "face": "wink",
+   "prop": "wallet",
+   "caption": "",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -6,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
