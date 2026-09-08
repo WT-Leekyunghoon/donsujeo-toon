@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 19,
+ "next_episode": 20,
  "episodes": [
   {
    "ep": 1,
@@ -192,6 +192,16 @@
    "post_id": "17890982403435310",
    "permalink": "https://www.threads.com/@etfspoon/post/DdAePBuDtQW",
    "images": "images/2026-09-08/ep18"
+  },
+  {
+   "ep": 19,
+   "date": "2026-09-08",
+   "slot": "17:00",
+   "title": "이름 끝에 붙은 '우', 뭐야?",
+   "topic": "주식기초 우선주 vs 보통주",
+   "post_id": "18148797295540411",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdBOZ9gm2fU",
+   "images": "images/2026-09-08/ep19"
   }
  ],
  "posts": [
@@ -704,6 +714,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "14:00 news 파일 없음 → 생략",
+   "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-08T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.19 툰 게시 https://www.threads.com/@etfspoon/post/DdBOZ9gm2fU",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
    "evergreen_left": 7
   }
  ]
