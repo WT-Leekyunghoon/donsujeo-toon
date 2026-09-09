@@ -1,0 +1,55 @@
+{
+ "topic": "습관 통장 쪼개기 (월급·소비·저축 분리)",
+ "title": "월급날엔 부자, 월말엔 거지?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 다음 월급날 다시 보기 ✔",
+ "body": "월급날엔 부자, 월말엔 거지? 💰\n\n돈이 새는 건 의지 문제가 아니라 통장이 하나라서야. 월급·소비·저축, 셋으로 쪼개는 법 4컷 정리 🥲\n\n너는 통장 몇 개 써? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "월급날엔 부자, *월말엔* 거지?",
+   "bubble": "월급 들어왔다~ 이번 달은 진짜 아껴 쓸 수 있을 것 같은데?",
+   "face": "happy",
+   "prop": "phone",
+   "caption": "월급날의 자신감, 다들 알지?",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": 4,
+   "friend": "pink",
+   "friend_face": "happy",
+   "friend_side": "right"
+  },
+  {
+   "heading": "근데 돈이 *어디로* 샌 거지?",
+   "bubble": "한 통장에서 다 나가니까 뭘 얼마 썼는지 하나도 모르겠더라고",
+   "face": "sad",
+   "prop": "cart",
+   "caption": "월세도 커피도 저축도 전부 한 통장",
+   "bg": "mint",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "통장을 *셋*으로 쪼개봐",
+   "bubble": "① 월급 받는 통장 ② 쓰는 통장 ③ 모으는 통장. 월급날 자동이체로 나누는 거야",
+   "face": "think",
+   "prop": "clock",
+   "caption": "옮기는 건 내가 아니라 자동이체가 한다",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "쓰는 건 *쓰는 통장* 안에서만!",
+   "bubble": "모으는 통장은 없는 돈 치기. 이것만 해도 월말 잔고가 달라져",
+   "face": "wink",
+   "prop": "umbrella",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -5,
+   "friend": "pink",
+   "friend_face": "excited",
+   "friend_side": "left"
+  }
+ ]
+}

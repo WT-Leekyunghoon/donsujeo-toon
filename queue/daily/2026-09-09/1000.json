@@ -1,0 +1,55 @@
+{
+ "topic": "운용사툰: KODEX(삼성)",
+ "title": "국내 1호 ETF 만든 곳은?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 KODEX 상품 볼 때 다시 보기 ✔",
+ "body": "국내 1호 ETF 만든 곳은? 💰\n\n맨날 보이는 KODEX, 알고 보면 삼성자산운용의 브랜드야. 코리아+인덱스, 이름부터 '한국 지수'라는 뜻 🥲\n\n네가 처음 산 ETF는 무슨 브랜드였어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "국내 *1호 ETF* 만든 곳은?",
+   "bubble": "KODEX 많이 봤지? 사실 국내에서 제일 오래된 ETF 브랜드야",
+   "face": "cool",
+   "prop": "newspaper",
+   "caption": "이름은 익숙한데 정체는 모르는 그 브랜드",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -5,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "정체는 *삼성자산운용*이야",
+   "bubble": "2002년 국내 1호 ETF를 만든 곳이거든. 이름은 코리아+인덱스, 줄여서 KODEX!",
+   "face": "surprised",
+   "prop": "magnifier",
+   "caption": "K는 코리아, DEX는 인덱스(지수)",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "라인업은 *유형*으로 나눠 봐",
+   "bubble": "① 코스피200 같은 시장지수 ② 반도체 같은 테마 ③ 채권·파킹형까지 있어",
+   "face": "think",
+   "prop": "doc",
+   "caption": "규모가 큰 편이라 종류가 진짜 다양해",
+   "bg": "cream",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "브랜드는 *간판*, 알맹이 확인!",
+   "bubble": "같은 KODEX여도 상품마다 완전 달라. 구성종목·총보수·거래량은 꼭 보기!",
+   "face": "wink",
+   "prop": "moneybag",
+   "caption": "",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "excited",
+   "friend_side": "right"
+  }
+ ]
+}
