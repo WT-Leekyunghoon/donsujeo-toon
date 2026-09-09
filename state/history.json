@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 20,
+ "next_episode": 21,
  "episodes": [
   {
    "ep": 1,
@@ -202,6 +202,16 @@
    "post_id": "18148797295540411",
    "permalink": "https://www.threads.com/@etfspoon/post/DdBOZ9gm2fU",
    "images": "images/2026-09-08/ep19"
+  },
+  {
+   "ep": 20,
+   "date": "2026-09-09",
+   "slot": "10:00",
+   "title": "국내 1호 ETF 만든 곳은?",
+   "topic": "운용사툰: KODEX(삼성)",
+   "post_id": "18094345136248827",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdDC_TzmFA3",
+   "images": "images/2026-09-09/ep20"
   }
  ],
  "posts": [
@@ -737,6 +747,15 @@
    "time": "2026-09-08T19:10+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/DdBcEr2FW1L",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-09T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.20 툰 게시 https://www.threads.com/@etfspoon/post/DdDC_TzmFA3",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
