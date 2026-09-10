@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 23,
+ "next_episode": 24,
  "episodes": [
   {
    "ep": 1,
@@ -232,6 +232,16 @@
    "post_id": "18032443667814696",
    "permalink": "https://www.threads.com/@etfspoon/post/DdFnzRgDQTG",
    "images": "images/2026-09-10/ep22"
+  },
+  {
+   "ep": 23,
+   "date": "2026-09-10",
+   "slot": "17:00",
+   "title": "팔고 나면 꼭 오르더라?",
+   "topic": "습관·심리 패닉셀 — 급락에 감정으로 파는 심리",
+   "post_id": "18126167491792199",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdGYBIJlus2",
+   "images": "images/2026-09-10/ep23"
   }
  ],
  "posts": [
@@ -879,6 +889,15 @@
    "time": "2026-09-10T14:09+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/DdGDPhNludK",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-10T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.23 툰 게시 https://www.threads.com/@etfspoon/post/DdGYBIJlus2",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
