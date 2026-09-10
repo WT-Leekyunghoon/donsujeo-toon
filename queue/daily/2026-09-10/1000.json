@@ -1,0 +1,55 @@
+{
+ "topic": "운용사툰: SOL(신한)",
+ "title": "은행 앱 이름이 왜 ETF에?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 SOL 보일 때 다시 보기 ✔",
+ "body": "은행 앱 이름이 왜 ETF에? 📌\n\nSOL은 신한자산운용의 ETF 브랜드야. SMART에서 이름 바꾼 사연까지 4컷으로 정리했어!\n\n너도 SOL 붙은 ETF 본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*SOL*? 어디서 많이 봤는데",
+   "bubble": "신한 쏠 앱이랑 이름이 같네? 은행이 ETF도 파는 건가?",
+   "face": "happy",
+   "prop": "coin",
+   "caption": "어디서 본 이름이다 했지?",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "신한자산운용의 *ETF 브랜드*야",
+   "bubble": "원래 SMART였는데 SOL로 바꾼 거더라고. 신한금융 계열 운용사야",
+   "face": "surprised",
+   "prop": "bell",
+   "caption": "은행 앱과 같은 이름이라 기억하기 쉽지",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "SOL 볼 때 *체크 3가지*",
+   "bubble": "① 뒤에 붙은 지수·테마 이름 ② 월배당형이면 분배금 일정 ③ 총보수·거래량은 기본",
+   "face": "think",
+   "prop": "lightbulb",
+   "caption": "시장지수·테마·채권·월배당까지 유형이 다양해",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -5
+  },
+  {
+   "heading": "브랜드는 *간판*, 선택은 알맹이!",
+   "bubble": "SOL 뒤에 붙는 이름까지 읽어야 진짜 아는 거야~",
+   "face": "wink",
+   "prop": "chart_up",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}

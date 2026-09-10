@@ -1,0 +1,55 @@
+{
+ "topic": "습관·심리 패닉셀 — 급락에 감정으로 파는 심리",
+ "title": "팔고 나면 꼭 오르더라?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 급락한 날 다시 보기 ✔",
+ "body": "팔고 나면 꼭 오르더라? 🥲\n\n공포에 파는 패닉셀, 왜 반복되는지 4컷으로 정리했어.\n\n너는 급락한 날 어떻게 버텨? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "급락한 날엔 *일단 팔고* 본다?",
+   "bubble": "더 떨어지기 전에 파는 게 상책이지! 손은 빠를수록 좋아~",
+   "face": "cool",
+   "prop": "chart_down",
+   "caption": "계좌가 파래지면 손부터 나가지?",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "근데 판 다음 날 *반등*하더라?",
+   "bubble": "공포에 팔면 제일 싼 가격에 넘기는 꼴이 되기 쉽더라고…",
+   "face": "sad",
+   "prop": "piggy",
+   "caption": "감정이 시킨 매도는 타이밍이 늘 나빠",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 5
+  },
+  {
+   "heading": "팔기 전 *3초 질문*",
+   "bubble": "① 산 이유가 사라졌나? ② 가격 말고 다른 근거 있나? ③ 내일도 같은 생각일까?",
+   "face": "think",
+   "prop": "calendar",
+   "caption": "셋 다 아니면 그건 공포가 시킨 매도",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -6
+  },
+  {
+   "heading": "기준 없이 팔면 *늘 후회*해",
+   "bubble": "팔 기준은 떨어지기 전에 정해두는 거야~ 오늘 미리 적어놔!",
+   "face": "wink",
+   "prop": "wallet",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 2,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
