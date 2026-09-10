@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 22,
+ "next_episode": 23,
  "episodes": [
   {
    "ep": 1,
@@ -222,6 +222,16 @@
    "post_id": "18101580581204345",
    "permalink": "https://www.threads.com/@etfspoon/post/DdDzKT0m9wN",
    "images": "images/2026-09-09/ep21"
+  },
+  {
+   "ep": 22,
+   "date": "2026-09-10",
+   "slot": "10:00",
+   "title": "은행 앱 이름이 왜 ETF에?",
+   "topic": "운용사툰: SOL(신한)",
+   "post_id": "18032443667814696",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdFnzRgDQTG",
+   "images": "images/2026-09-10/ep22"
   }
  ],
  "posts": [
@@ -826,6 +836,15 @@
    "time": "2026-09-09T19:09+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/DdEA3MGFaDW",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-10T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.22 툰 게시 https://www.threads.com/@etfspoon/post/DdFnzRgDQTG",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
