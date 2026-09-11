@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 24,
+ "next_episode": 25,
  "episodes": [
   {
    "ep": 1,
@@ -242,6 +242,16 @@
    "post_id": "18126167491792199",
    "permalink": "https://www.threads.com/@etfspoon/post/DdGYBIJlus2",
    "images": "images/2026-09-10/ep23"
+  },
+  {
+   "ep": 24,
+   "date": "2026-09-11",
+   "slot": "10:00",
+   "title": "KINDEX, 어디 갔어?",
+   "topic": "운용사툰: ACE(한국투자)",
+   "post_id": "17958056667231934",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdIMivdjr25",
+   "images": "images/2026-09-11/ep24"
   }
  ],
  "posts": [
@@ -915,6 +925,15 @@
    "time": "2026-09-10T19:09+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/DdGlnaFFdJT",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-11T10:08+09:00",
+   "slot": "10:00",
+   "result": "EP.24 툰 게시 https://www.threads.com/@etfspoon/post/DdIMivdjr25",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
