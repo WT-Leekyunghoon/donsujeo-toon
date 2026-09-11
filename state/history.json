@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 25,
+ "next_episode": 26,
  "episodes": [
   {
    "ep": 1,
@@ -252,6 +252,16 @@
    "post_id": "17958056667231934",
    "permalink": "https://www.threads.com/@etfspoon/post/DdIMivdjr25",
    "images": "images/2026-09-11/ep24"
+  },
+  {
+   "ep": 25,
+   "date": "2026-09-11",
+   "slot": "17:00",
+   "title": "세금 돌려주는 계좌가 있다?",
+   "topic": "절세 연금저축·IRP 세액공제",
+   "post_id": "18619217899059264",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdI80j-m2z8",
+   "images": "images/2026-09-11/ep25"
   }
  ],
  "posts": [
@@ -968,6 +978,15 @@
    "time": "2026-09-11T14:08+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/DdIoAXrHBnt",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-11T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.25 툰 게시 https://www.threads.com/@etfspoon/post/DdI80j-m2z8",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
