@@ -1,0 +1,52 @@
+{
+ "topic": "절세 연금저축·IRP 세액공제",
+ "title": "세금 돌려주는 계좌가 있다?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 연말정산 전에 다시 보기 ✔",
+ "body": "세금 돌려주는 계좌가 있다? 💰\n\n연금저축·IRP에 넣으면 연말정산 때 세금 일부를 돌려받아. 대신 조건이 있지! 4컷 확인!\n\n너 연금계좌 만들어봤어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "연금계좌? *나중에* 하지 뭐",
+   "bubble": "노후는 아직 멀었잖아~ 연금 얘기는 왠지 남 일 같지?",
+   "face": "cool",
+   "prop": "clock",
+   "caption": "나도 그랬어. 근데 이건 노후만의 얘기가 아니더라",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -3
+  },
+  {
+   "heading": "근데 *세액공제* 계좌인 거 알아?",
+   "bubble": "연금저축·IRP에 넣은 돈은 연말정산 때 세금 일부를 돌려줘!",
+   "face": "surprised",
+   "prop": "umbrella",
+   "caption": "노후 대비 우산 씌워주면서 세금까지 깎아주는 구조",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 4,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "가입 전 *체크 3가지*",
+   "bubble": "① 오래 묶이니 여유돈만 ② 중도해지하면 혜택 토해냄 ③ 계좌 안에서 ETF도 살 수 있어",
+   "face": "think",
+   "prop": "scale",
+   "caption": "돌려받는 비율·한도는 소득에 따라 달라서 확인 필수",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -5
+  },
+  {
+   "heading": "노후 준비하며 *세금*도 아끼자",
+   "bubble": "무리하지 말고, 부담 없는 소액 자동이체부터 시작해봐~",
+   "face": "wink",
+   "prop": "moneybag",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 3
+  }
+ ]
+}

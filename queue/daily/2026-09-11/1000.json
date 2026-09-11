@@ -1,0 +1,55 @@
+{
+ "topic": "운용사툰: ACE(한국투자)",
+ "title": "KINDEX, 어디 갔어?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ACE 보일 때 다시 보기 ✔",
+ "body": "KINDEX, 어디 갔어? 📌\n\nACE는 한국투자신탁운용의 ETF 브랜드야. KINDEX에서 이름 바꾼 사연, 4컷으로 정리했어!\n\n너는 옛 이름이 더 익숙한 ETF 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "예전에 보던 *KINDEX*가 없다?",
+   "bubble": "옛날 글에서 본 KINDEX ETF, 검색하면 왜 안 나오지?",
+   "face": "happy",
+   "prop": "phone",
+   "caption": "분명 있었는데… 하고 당황한 적 있지?",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "이름이 *ACE*로 바뀌었거든",
+   "bubble": "한국투자신탁운용이 KINDEX를 ACE로 리브랜딩했어. 회사는 그대로야",
+   "face": "surprised",
+   "prop": "newspaper",
+   "caption": "요즘 운용사들, 브랜드 이름 많이 바꿨어",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "ACE 볼 때 *체크 3가지*",
+   "bubble": "① 뒤에 붙은 지수·테마 이름 ② 헷갈리면 종목코드로 확인 ③ 총보수·거래량은 기본",
+   "face": "think",
+   "prop": "doc",
+   "caption": "시장지수·테마·채권·미국지수까지 유형이 넓은 편",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "이름은 변해도 *알맹이*를 보자",
+   "bubble": "브랜드가 바뀌어도 고르는 기준은 똑같아. 구성종목부터!",
+   "face": "wink",
+   "prop": "magnifier",
+   "caption": "",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 5,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
