@@ -1,0 +1,52 @@
+{
+ "topic": "운용사툰: KIWOOM(키움)",
+ "title": "KOSEF도 이름 바꿨어",
+ "series": "돈수저툰",
+ "footer": "저장해두고 KIWOOM 보일 때 다시 보기 ✔",
+ "body": "KOSEF도 이름 바꿨어 📌\n\nKIWOOM은 키움투자자산운용의 ETF 브랜드! 증권사랑 뭐가 다른지도 4컷으로 정리했어!\n\n키움 하면 뭐가 먼저 떠올라? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*KIWOOM*? 증권사 아니었어?",
+   "bubble": "키움증권이 ETF도 만드나? 이름이 똑같은데?",
+   "face": "happy",
+   "prop": "magnifier",
+   "caption": "이름만 보면 헷갈리는 게 당연해",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "만드는 곳은 *키움투자자산운용*",
+   "bubble": "증권사는 파는 곳, 운용사는 만드는 곳! 예전 브랜드는 KOSEF였어",
+   "face": "surprised",
+   "prop": "clock",
+   "caption": "KOSEF에서 KIWOOM으로 리브랜딩했어",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "KIWOOM 볼 때 *체크 3가지*",
+   "bubble": "① 뒤에 붙는 지수·테마 이름 ② 같은 지수면 다른 브랜드와 총보수 비교 ③ 거래량 확인",
+   "face": "think",
+   "prop": "scale",
+   "caption": "시장지수부터 테마·채권형까지 유형은 두루 있어",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -4
+  },
+  {
+   "heading": "간판 뒤 *알맹이*까지 읽기",
+   "bubble": "익숙한 이름만 믿지 말고, 상품 설명까지 열어보자~",
+   "face": "wink",
+   "prop": "moneybag",
+   "caption": "",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}

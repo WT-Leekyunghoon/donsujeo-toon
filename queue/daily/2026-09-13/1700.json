@@ -1,0 +1,52 @@
+{
+ "topic": "경제상식 환율 오르면 생기는 일",
+ "title": "환율 오르면 누가 웃을까?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 환율 뉴스 볼 때 다시 보기 ✔",
+ "body": "환율 오르면 누가 웃을까? 💰\n\n환율 뉴스가 내 지갑이랑 주식에 무슨 상관인지 4컷으로 정리했어!\n\n요즘 환율 확인해본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*환율*이 올랐다는데 그래서?",
+   "bubble": "1300원? 1400원? 숫자만 보면 남 얘기 같지?",
+   "face": "happy",
+   "prop": "coin",
+   "caption": "뉴스마다 나오는데 뭔지 모르고 넘긴 사람?",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -3
+  },
+  {
+   "heading": "환율 = *달러의 가격*이야",
+   "bubble": "환율이 오르면 달러가 비싸진 거야. 해외직구, 여행, 수입 원료까지 다 비싸져",
+   "face": "surprised",
+   "prop": "cart",
+   "caption": "수입 물가가 오르면 내 장바구니도 무거워져",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "주식엔 *양면*이 있어",
+   "bubble": "① 수출기업엔 대체로 유리 ② 수입 비중 큰 기업엔 부담 ③ 해외 ETF는 환율 따라 출렁",
+   "face": "think",
+   "prop": "chart_up",
+   "caption": "그래서 환율 뉴스가 증시 뉴스에 같이 나오는 거야",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -4
+  },
+  {
+   "heading": "숫자 말고 *영향*을 읽자",
+   "bubble": "환율 방향 맞추려 하지 말고, 내 투자에 어떤 영향인지만 챙겨~",
+   "face": "wink",
+   "prop": "wallet",
+   "caption": "",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 4
+  }
+ ]
+}
