@@ -1,0 +1,52 @@
+{
+ "topic": "주식기초 서킷브레이커·사이드카",
+ "title": "주식시장에도 브레이크가 있다",
+ "series": "돈수저툰",
+ "footer": "저장해두고 급락장에 다시 보기 ✔",
+ "body": "주식시장에도 브레이크가 있다 📌\n\n폭락하는 날 뉴스에 나오는 사이드카·서킷브레이커, 겁먹지 말라고 4컷으로 정리!\n\n발동됐다는 뉴스 본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "장이 *와르르*, 나 어떡해?",
+   "bubble": "뉴스에 '사이드카 발동' 떴다고? 일단 숨부터 쉬어~",
+   "face": "cool",
+   "prop": "chart_down",
+   "caption": "동전이처럼 발동 뉴스에 더 놀라는 사람 많아",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "sad",
+   "friend_side": "left"
+  },
+  {
+   "heading": "시장에도 *브레이크*가 있어",
+   "bubble": "가격이 너무 급하게 움직이면 거래를 잠깐 멈추는 안전장치야",
+   "face": "surprised",
+   "prop": "newspaper",
+   "caption": "과열·공포 속 실수를 막으라고 주는 타임아웃",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "*둘의 차이* 딱 정리",
+   "bubble": "① 사이드카: 선물 급변동 때 프로그램 매매만 잠깐 정지 ② 서킷브레이커: 지수 급락 때(예: 8% 이상) 거래 전체 중단",
+   "face": "think",
+   "prop": "doc",
+   "caption": "발동 기준은 단계별로 미리 정해져 있어",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "멈춤은 *생각할 시간*이야",
+   "bubble": "브레이크 걸린 날일수록 감정 매매 금지! 계획을 다시 보자~",
+   "face": "wink",
+   "prop": "phone",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}

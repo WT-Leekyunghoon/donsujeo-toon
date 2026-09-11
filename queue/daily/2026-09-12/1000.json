@@ -1,0 +1,55 @@
+{
+ "topic": "운용사툰: PLUS(한화)",
+ "title": "아리랑 ETF가 사라졌다?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 PLUS 보일 때 다시 보기 ✔",
+ "body": "아리랑 ETF가 사라졌다? 📌\n\nPLUS는 한화자산운용의 ETF 브랜드야. ARIRANG에서 이름 바꾼 사연까지 4컷 정리!\n\n이름 바뀐 거 몰랐던 사람? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*ARIRANG*이란 ETF 기억나?",
+   "bubble": "아리랑? 민요 아니고 ETF 얘기 맞아~ 예전엔 꽤 보이던 이름이지",
+   "face": "happy",
+   "prop": "coin",
+   "caption": "동전이는 처음 듣는 눈치",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "지금은 *PLUS*가 됐어",
+   "bubble": "한화자산운용이 ARIRANG을 PLUS로 리브랜딩했거든. 회사는 그대로 한화 계열이야",
+   "face": "surprised",
+   "prop": "bell",
+   "caption": "짧고 부르기 쉽게 바꾸는 게 요즘 흐름이야",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "PLUS 볼 때 *체크 3가지*",
+   "bubble": "① 뒤에 붙는 지수·테마 이름 ② 테마형이면 구성종목 확인 ③ 총보수·거래량은 기본",
+   "face": "think",
+   "prop": "lightbulb",
+   "caption": "시장지수·테마·배당·채권형까지 유형이 다양해",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": -4
+  },
+  {
+   "heading": "간판 말고 *알맹이*로 고르자",
+   "bubble": "옛 이름이든 새 이름이든, 안에 뭐가 들었는지가 진짜야~",
+   "face": "wink",
+   "prop": "chart_up",
+   "caption": "",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 5,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
