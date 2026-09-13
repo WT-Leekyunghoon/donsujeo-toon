@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 28,
+ "next_episode": 29,
  "episodes": [
   {
    "ep": 1,
@@ -282,6 +282,16 @@
    "post_id": "18108433382137815",
    "permalink": "https://www.threads.com/@etfspoon/post/DdLheQ8FjEO",
    "images": "images/2026-09-12/ep27"
+  },
+  {
+   "ep": 28,
+   "date": "2026-09-13",
+   "slot": "10:00",
+   "title": "KOSEF도 이름 바꿨어",
+   "topic": "운용사툰: KIWOOM(키움)",
+   "post_id": "17900323548577097",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdNWEmdGrJf",
+   "images": "images/2026-09-13/ep28"
   }
  ],
  "posts": [
@@ -1093,6 +1103,15 @@
    "time": "2026-09-12T19:09+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/DdLvHTWld3r",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-13T10:08+09:00",
+   "slot": "10:00",
+   "result": "EP.28 툰 게시 https://www.threads.com/@etfspoon/post/DdNWEmdGrJf",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
