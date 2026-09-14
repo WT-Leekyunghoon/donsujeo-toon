@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 30,
+ "next_episode": 31,
  "episodes": [
   {
    "ep": 1,
@@ -302,6 +302,16 @@
    "post_id": "17907530346543957",
    "permalink": "https://www.threads.com/@etfspoon/post/DdOGUIim43P",
    "images": "images/2026-09-13/ep29"
+  },
+  {
+   "ep": 30,
+   "date": "2026-09-14",
+   "slot": "10:00",
+   "title": "ETF 이름 끝 (H)의 정체",
+   "topic": "환헤지 (H) 표시 뜻",
+   "post_id": "18164479249470777",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdP7DeFk53d",
+   "images": "images/2026-09-14/ep30"
   }
  ],
  "posts": [
@@ -1186,6 +1196,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 7
+  },
+  {
+   "time": "2026-09-14T10:10+09:00",
+   "slot": "10:00",
+   "result": "EP.30 툰 게시 https://www.threads.com/@etfspoon/post/DdP7DeFk53d",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 6
   }
  ]
 }
