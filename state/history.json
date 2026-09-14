@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 31,
+ "next_episode": 32,
  "episodes": [
   {
    "ep": 1,
@@ -312,6 +312,16 @@
    "post_id": "18164479249470777",
    "permalink": "https://www.threads.com/@etfspoon/post/DdP7DeFk53d",
    "images": "images/2026-09-14/ep30"
+  },
+  {
+   "ep": 31,
+   "date": "2026-09-14",
+   "slot": "17:00",
+   "title": "계좌 파란불일 때 뭐 해?",
+   "topic": "하락장 대응 심리",
+   "post_id": "17932273074384905",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdQrh9HFlJq",
+   "images": "images/2026-09-14/ep31"
   }
  ],
  "posts": [
@@ -1223,6 +1233,15 @@
    "hidden": 0,
    "note": "14:00 news 파일 없음 → 생략",
    "evergreen_left": 6
+  },
+  {
+   "time": "2026-09-14T17:13+09:00",
+   "slot": "17:00",
+   "result": "EP.31 툰 게시 https://www.threads.com/@etfspoon/post/DdQrh9HFlJq",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
   }
  ]
 }
