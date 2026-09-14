@@ -1242,6 +1242,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-14T19:09+09:00",
+   "slot": "19:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "19:00 tip 파일 없음 → 생략",
+   "evergreen_left": 5
   }
  ]
 }
