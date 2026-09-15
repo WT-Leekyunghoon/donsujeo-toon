@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 33,
+ "next_episode": 34,
  "episodes": [
   {
    "ep": 1,
@@ -332,6 +332,16 @@
    "post_id": "18141035563579352",
    "permalink": "https://www.threads.com/@etfspoon/post/DdSf89sGvoJ",
    "images": "images/2026-09-15/ep32"
+  },
+  {
+   "ep": 33,
+   "date": "2026-09-15",
+   "slot": "17:00",
+   "title": "해외 ETF, 팔 때 세금 있다?",
+   "topic": "절세 국내상장 해외지수 ETF 세금 vs 국내주식형",
+   "post_id": "18101888111278529",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdTQChgFgJs",
+   "images": "images/2026-09-15/ep33"
   }
  ],
  "posts": [
@@ -1300,6 +1310,15 @@
    "time": "2026-09-15T14:09+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/DdS7NBoERwW",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-15T17:11+09:00",
+   "slot": "17:00",
+   "result": "EP.33 툰 게시 https://www.threads.com/@etfspoon/post/DdTQChgFgJs",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
