@@ -1,0 +1,52 @@
+{
+ "topic": "운용사툰: HANARO(NH-Amundi)",
+ "title": "HANARO, 하나은행 거야?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 HANARO 보일 때 다시 보기 ✔",
+ "body": "HANARO, 하나은행 거야? 🥲\n\n정답은 NO! NH농협 계열 운용사와 유럽 아문디가 합작한 브랜드야. 이름 유래까지 4컷 정리!\n\n너도 은행 이름인 줄 알았지? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*HANARO*? 하나은행 건가?",
+   "bubble": "하나은행이 만든 ETF인가? 읽으면 딱 '하나로'잖아?",
+   "face": "happy",
+   "prop": "newspaper",
+   "caption": "이름만 보면 헷갈리는 게 당연해",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "정체는 *NH-Amundi자산운용*",
+   "bubble": "NH농협금융과 유럽 대형 운용사 아문디가 합작한 회사의 브랜드야!",
+   "face": "surprised",
+   "prop": "lightbulb",
+   "caption": "'하나로'는 우리말에서 온 이름이야",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "HANARO 볼 때 *체크 3가지*",
+   "bubble": "① 뒤에 붙는 지수·테마 이름 ② 같은 지수면 다른 브랜드와 총보수 비교 ③ 거래량 확인",
+   "face": "think",
+   "prop": "scale",
+   "caption": "시장지수·테마·채권형까지 유형은 두루 있어",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "이름은 *문패*, 만든 곳을 보자",
+   "bubble": "은행 이름 같아도 운용사는 따로! 상품 정보에서 만든 곳부터 확인~",
+   "face": "wink",
+   "prop": "chart_up",
+   "caption": "",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}

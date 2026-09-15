@@ -1,0 +1,52 @@
+{
+ "topic": "절세 국내상장 해외지수 ETF 세금 vs 국내주식형",
+ "title": "해외 ETF, 팔 때 세금 있다?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 고를 때 다시 보기 ✔",
+ "body": "해외 ETF, 팔 때 세금 있다? 🥲\n\n국내주식형은 매매차익 비과세, 국내상장 해외지수형은 15.4%! 사기 전에 유형부터 확인하자.\n\n너는 세후 수익까지 계산해봤어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "ETF 팔면 *세금*은?",
+   "bubble": "국내주식형 ETF는 팔 때 세금 없다며? 미국지수 ETF도 똑같겠지~",
+   "face": "cool",
+   "prop": "wallet",
+   "caption": "여기서 방심하는 사람 진짜 많아",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -3,
+   "friend": "pink",
+   "friend_face": "happy",
+   "friend_side": "right"
+  },
+  {
+   "heading": "해외지수형은 *다르다!*",
+   "bubble": "국내 상장이어도 해외지수 ETF는 판 이익에 15.4% 세금이 붙어!",
+   "face": "surprised",
+   "prop": "moneybag",
+   "caption": "매매차익 비과세는 국내주식형 얘기야",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "사기 전 *체크 3가지*",
+   "bubble": "① 내 ETF가 국내주식형인지 해외형인지 ② 해외형 이익엔 15.4% ③ 절세계좌 활용 여부",
+   "face": "think",
+   "prop": "calendar",
+   "caption": "수익 계산엔 세금까지 넣어야 진짜 수익",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "수익률은 *세후*가 진짜",
+   "bubble": "사기 전에 유형 확인하고, 담을 계좌까지 정하면 준비 끝~",
+   "face": "wink",
+   "prop": "bell",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 6
+  }
+ ]
+}
