@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 34,
+ "next_episode": 35,
  "episodes": [
   {
    "ep": 1,
@@ -342,6 +342,16 @@
    "post_id": "18101888111278529",
    "permalink": "https://www.threads.com/@etfspoon/post/DdTQChgFgJs",
    "images": "images/2026-09-15/ep33"
+  },
+  {
+   "ep": 34,
+   "date": "2026-09-16",
+   "slot": "10:00",
+   "title": "1Q? 1분기 아니야",
+   "topic": "운용사툰: 1Q(하나)",
+   "post_id": "18110133941462304",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdVEjSJDc9c",
+   "images": "images/2026-09-16/ep34"
   }
  ],
  "posts": [
@@ -1336,6 +1346,15 @@
    "time": "2026-09-15T19:10+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/DdTdsoVnEUU",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-16T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.34 툰 게시 https://www.threads.com/@etfspoon/post/DdVEjSJDc9c",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
