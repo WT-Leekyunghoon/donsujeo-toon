@@ -1,0 +1,52 @@
+{
+ "topic": "운용사툰: 1Q(하나)",
+ "title": "1Q? 1분기 아니야",
+ "series": "돈수저툰",
+ "footer": "저장해두고 1Q 보일 때 다시 보기 ✔",
+ "body": "1Q? 1분기 아니야 🥲\n\n하나자산운용의 ETF 브랜드 '원큐'야. 원래 이름은 KTOP이었다는 것까지 4컷 정리!\n\n너는 1Q 처음에 뭐라고 읽었어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "ETF 앞의 *1Q*, 분기 얘기?",
+   "bubble": "1Q 뭐지, 1분기 실적인가? 나도 처음엔 그렇게 읽었어",
+   "face": "happy",
+   "prop": "magnifier",
+   "caption": "이름 앞 글자 = 운용사 브랜드야",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "정체는 *하나자산운용*",
+   "bubble": "하나금융 공통 브랜드 '원큐(1Q)'야. 원래는 KTOP이었는데 2024년에 바꿨어",
+   "face": "surprised",
+   "prop": "phone",
+   "caption": "하나원큐 앱이랑 같은 집안 이름",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "1Q 볼 때 *체크 3가지*",
+   "bubble": "① 브랜드 뒤 지수·테마 확인 ② 오래된 KTOP 자료는 날짜 확인 ③ 구성종목·총보수는 기본",
+   "face": "think",
+   "prop": "doc",
+   "caption": "채권·파킹형 라인업이 많은 편이야",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "간판보다 *알맹이*!",
+   "bubble": "이름이 바뀌어도 상품 내용은 그대로야. 브랜드 읽는 눈만 있으면 안 헷갈려",
+   "face": "wink",
+   "prop": "piggy",
+   "caption": "",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}

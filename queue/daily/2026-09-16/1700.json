@@ -1,0 +1,52 @@
+{
+ "topic": "주식기초 액면분할 — 피자 나누기 비유",
+ "title": "주식이 쪼개졌대, 호재야?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 액면분할 뉴스 볼 때 다시 보기 ✔",
+ "body": "주식이 쪼개졌대, 호재야? 🥲\n\n액면분할은 피자 한 판을 여러 조각으로 나누는 것! 양은 그대로라는 걸 4컷으로 정리했어.\n\n너는 액면분할 뉴스 보면 사고 싶어져? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "'*액면분할* 하면 오른대!'",
+   "bubble": "주식이 싸지면 사람들이 많이 사서 오른다던데, 진짜야?",
+   "face": "cool",
+   "prop": "coin",
+   "caption": "어디서 많이 들어본 소문이지?",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 4,
+   "friend": "pink",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "실은 *피자 나누기*야",
+   "bubble": "한 판을 10조각 내도 피자 양은 그대로! 주가 내려간 만큼 주식 수가 늘어날 뿐이야",
+   "face": "surprised",
+   "prop": "chart_down",
+   "caption": "회사 가치는 1도 안 변해",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "체크포인트 *3가지*",
+   "bubble": "① 가치는 그대로, 가격표만 변경 ② 분할 전후 거래정지 기간 확인 ③ 살 이유는 소문 말고 실적에서",
+   "face": "think",
+   "prop": "clock",
+   "caption": "거래정지 일정은 공시에 나와",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "싸 보여도 *같은 피자*",
+   "bubble": "한 조각 가격이 낮아져 접근이 쉬워졌을 뿐! 결국 볼 건 회사 그 자체야",
+   "face": "wink",
+   "prop": "cart",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -5
+  }
+ ]
+}
