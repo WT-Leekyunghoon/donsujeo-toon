@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 36,
+ "next_episode": 37,
  "episodes": [
   {
    "ep": 1,
@@ -362,6 +362,16 @@
    "post_id": "17971714539122893",
    "permalink": "https://www.threads.com/@etfspoon/post/DdV0zOFlhvx",
    "images": "images/2026-09-16/ep35"
+  },
+  {
+   "ep": 36,
+   "date": "2026-09-17",
+   "slot": "10:00",
+   "title": "ETF 상장폐지되면 내 돈은?",
+   "topic": "상장폐지 절차와 예방",
+   "post_id": "18068977640762245",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdXpaENDqW-",
+   "images": "images/2026-09-17/ep36"
   }
  ],
  "posts": [
@@ -1429,6 +1439,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-17T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.36 툰 게시 https://www.threads.com/@etfspoon/post/DdXpaENDqW-",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 4
   }
  ]
 }
