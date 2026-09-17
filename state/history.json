@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 37,
+ "next_episode": 38,
  "episodes": [
   {
    "ep": 1,
@@ -372,6 +372,16 @@
    "post_id": "18068977640762245",
    "permalink": "https://www.threads.com/@etfspoon/post/DdXpaENDqW-",
    "images": "images/2026-09-17/ep36"
+  },
+  {
+   "ep": 37,
+   "date": "2026-09-17",
+   "slot": "17:00",
+   "title": "자동매수 해두고 1년 방치, 괜찮을까?",
+   "topic": "리밸런싱 연 1회 점검",
+   "post_id": "18137617873714001",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdYZkxEFcNi",
+   "images": "images/2026-09-17/ep37"
   }
  ],
  "posts": [
@@ -1466,6 +1476,15 @@
    "hidden": 0,
    "note": "14:00 news 파일 없음 → 생략",
    "evergreen_left": 4
+  },
+  {
+   "time": "2026-09-17T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.37 툰 게시 https://www.threads.com/@etfspoon/post/DdYZkxEFcNi",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 3
   }
  ]
 }
