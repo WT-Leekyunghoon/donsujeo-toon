@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 39,
+ "next_episode": 40,
  "episodes": [
   {
    "ep": 1,
@@ -392,6 +392,16 @@
    "post_id": "17888698068654671",
    "permalink": "https://www.threads.com/@etfspoon/post/DdaOILRlaMD",
    "images": "images/2026-09-18/ep38"
+  },
+  {
+   "ep": 39,
+   "date": "2026-09-18",
+   "slot": "17:00",
+   "title": "PER 말고 PBR은 뭐야?",
+   "topic": "주식기초 PBR — 순자산(재산) 대비 가격",
+   "post_id": "18141211402614720",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dda-XAMm-pR",
+   "images": "images/2026-09-18/ep39"
   }
  ],
  "posts": [
@@ -1543,6 +1553,15 @@
    "time": "2026-09-18T14:08+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/Ddapg6rlmrx",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 6
+  },
+  {
+   "time": "2026-09-18T17:10+09:00",
+   "slot": "17:00",
+   "result": "EP.39 툰 게시 https://www.threads.com/@etfspoon/post/Dda-XAMm-pR",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
