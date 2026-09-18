@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 38,
+ "next_episode": 39,
  "episodes": [
   {
    "ep": 1,
@@ -382,6 +382,16 @@
    "post_id": "18137617873714001",
    "permalink": "https://www.threads.com/@etfspoon/post/DdYZkxEFcNi",
    "images": "images/2026-09-17/ep37"
+  },
+  {
+   "ep": 38,
+   "date": "2026-09-18",
+   "slot": "10:00",
+   "title": "WON, 원화 담는 거 아니야?",
+   "topic": "운용사툰: WON(우리)",
+   "post_id": "17888698068654671",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdaOILRlaMD",
+   "images": "images/2026-09-18/ep38"
   }
  ],
  "posts": [
@@ -1494,6 +1504,15 @@
    "hidden": 0,
    "note": "19:00 tip 파일 없음 → 생략",
    "evergreen_left": 3
+  },
+  {
+   "time": "2026-09-18T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.38 툰 게시 https://www.threads.com/@etfspoon/post/DdaOILRlaMD",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 6
   }
  ]
 }
