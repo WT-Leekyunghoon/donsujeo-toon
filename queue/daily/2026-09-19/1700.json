@@ -1,0 +1,52 @@
+{
+ "topic": "경제상식 인플레이션 — 돈의 구매력이 줄어드는 것",
+ "title": "돈 가치가 녹고 있대",
+ "series": "돈수저툰",
+ "footer": "저장해두고 물가 뉴스 볼 때 다시 보기 ✔",
+ "body": "돈 가치가 녹고 있대 🥲\n\n잔고는 그대론데 장바구니가 가벼워지는 게 물가 상승이야. 목표는 대박이 아니라 물가보다 조금 앞서기.\n\n너는 요즘 뭐 살 때 제일 놀랐어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "잔고는 그대론데 *장바구니*가 가벼워",
+   "bubble": "만원 들고 갔는데 예전만큼 못 담겨서 당황했잖아.",
+   "face": "happy",
+   "prop": "cart",
+   "caption": "숫자는 안 줄었는데 이상하지",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -3,
+   "friend": "pink",
+   "friend_face": "sad",
+   "friend_side": "right"
+  },
+  {
+   "heading": "그게 바로 *물가 상승*이야",
+   "bubble": "물가가 오르면 같은 만원으로 살 수 있는 양이 줄어. 돈의 힘이 약해지는 거지.",
+   "face": "sad",
+   "prop": "moneybag",
+   "caption": "돈이 녹는다는 표현, 딱 이 얘기",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "그래서 *현금만* 두면 제자리일 수도",
+   "bubble": "① 물가만큼은 불어나야 본전\n② 그래서 투자 얘기가 나오는 거야.",
+   "face": "think",
+   "prop": "piggy",
+   "caption": "은행 이자랑 물가를 같이 보는 습관",
+   "bg": "sky",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "목표는 *물가보다 조금 앞서기*",
+   "bubble": "대박 말고 물가 이기기. 이게 생각보다 현실적인 목표더라고.",
+   "face": "wink",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": -5
+  }
+ ]
+}

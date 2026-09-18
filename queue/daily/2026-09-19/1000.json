@@ -1,0 +1,52 @@
+{
+ "topic": "운용사툰: TIME(타임폴리오)",
+ "title": "TIMEFOLIO가 짧아졌어",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 이름 바뀔 때 다시 보기 ✔",
+ "body": "TIMEFOLIO가 짧아졌어 🥲\n\n타임폴리오자산운용이 올해 1월 ETF 브랜드를 TIME으로 바꿨어. 이름이 바뀌어도 내 주식 수는 그대로라는 것까지 4컷 정리!\n\n너는 이름 바뀐 ETF 들고 있어 본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "아홉 글자 *TIMEFOLIO*, 어디 갔어?",
+   "bubble": "검색창에 다 치기도 길었는데 어느 날 짧아져 있더라고.",
+   "face": "cool",
+   "prop": "clock",
+   "caption": "긴 이름 치다가 오타 내던 시절",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "올해 1월부터 *TIME*으로 바뀌었어",
+   "bubble": "타임폴리오자산운용이 ETF 브랜드만 TIME으로 줄였대. 회사 이름은 그대로야.",
+   "face": "surprised",
+   "prop": "magnifier",
+   "caption": "브랜드만 바뀌고 운용사는 같아",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": -4
+  },
+  {
+   "heading": "이 브랜드는 *액티브형*이 많은 편",
+   "bubble": "① 지수를 그대로 따라가는 쪽\n② 운용역이 비중을 조절하는 쪽\n여긴 ②가 많은 편이야.",
+   "face": "think",
+   "prop": "doc",
+   "caption": "어떤 방식으로 굴리는지도 유형이야",
+   "bg": "cream",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "이름 바뀌어도 *내 주식 수*는 그대로",
+   "bubble": "브랜드가 바뀌어도 갖고 있던 건 안 없어져. 검색만 새 이름으로 하면 돼.",
+   "face": "excited",
+   "prop": "coin",
+   "caption": "",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": -2
+  }
+ ]
+}
