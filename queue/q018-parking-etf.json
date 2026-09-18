@@ -1,0 +1,52 @@
+{
+ "topic": "ETF 파킹형(CD금리·KOFR) — 잠깐 넣어두는 돈",
+ "title": "잠깐 쉬는 돈 두는 곳",
+ "series": "돈수저툰",
+ "footer": "저장해두고 목돈 잠깐 둘 때 다시 보기 ✔",
+ "body": "잠깐 쉬는 돈은 어디 둬? 🥲\n\n며칠 뒤 쓸 돈까지 주식에 넣긴 불안하잖아. 하루 단위로 이자가 쌓이는 파킹형 ETF 얘기를 4컷으로 정리했어.\n\n너는 쉬는 돈 어디에 두는 편이야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "다음 달에 쓸 돈, *어디에* 둬야 하지?",
+   "bubble": "예금 걸자니 짧고, 그냥 두자니 아깝고 애매하더라고.",
+   "face": "think",
+   "prop": "clock",
+   "caption": "쉬는 돈도 은근 오래 쉬지",
+   "bg": "sky",
+   "flip": false,
+   "tilt": 4,
+   "friend": "pink",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "이런 돈 담으라고 만든 *유형*이 있어",
+   "bubble": "CD금리나 KOFR 같은 짧은 금리를 따라가는 ETF야. 파킹형이라고 불러.",
+   "face": "surprised",
+   "prop": "bell",
+   "caption": "주차하듯 잠깐 세워둔다는 뜻",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "대신 이건 *알고* 들어가야 해",
+   "bubble": "① 원금 보장 상품은 아니야\n② 사고팔 때 수수료가 붙어\n③ 짧게 둘수록 수수료 비중이 커져.",
+   "face": "sad",
+   "prop": "umbrella",
+   "caption": "예금이랑은 성격이 달라",
+   "bg": "cream",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "길게 굴릴 돈이랑 *칸을 나누자*",
+   "bubble": "곧 쓸 돈과 오래 둘 돈을 섞지 않는 것, 그게 핵심이야.",
+   "face": "cool",
+   "prop": "cart",
+   "caption": "",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": -2
+  }
+ ]
+}

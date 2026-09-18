@@ -1,0 +1,52 @@
+{
+ "topic": "ETF 총보수 vs 실부담비용",
+ "title": "총보수가 전부가 아니었어",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 비용 볼 때 다시 보기 ✔",
+ "body": "총보수가 전부가 아니었어 🥲\n\n상품 설명에 적힌 총보수 말고, 1년 뒤 실제로 빠진 비용은 따로 있어. 어디서 보는지까지 4컷 정리!\n\n너는 갖고 있는 ETF 비용 확인해봤어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "총보수 *0.1%*래, 완전 싸다!",
+   "bubble": "숫자가 작길래 별거 아니겠지 하고 그냥 샀었어.",
+   "face": "excited",
+   "prop": "coin",
+   "caption": "1년 보관료 같은 거라고 배웠지",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "happy",
+   "friend_side": "left"
+  },
+  {
+   "heading": "근데 실제로 빠진 건 *그보다 컸어*",
+   "bubble": "총보수 말고도 사고파는 데 드는 비용이 펀드 안에서 따로 나가거든.",
+   "face": "surprised",
+   "prop": "scale",
+   "caption": "이걸 합친 게 실부담비용",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -4
+  },
+  {
+   "heading": "확인은 *여기 두 곳*에서",
+   "bubble": "① 운용사 홈페이지 상품 페이지\n② 금융투자협회 공시\n'실부담비용률'로 적혀 있어.",
+   "face": "think",
+   "prop": "calendar",
+   "caption": "분기마다 갱신되니 가끔 보면 돼",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "작은 차이도 *10년이면* 커져",
+   "bubble": "0.1%p 차이도 오래 들면 쌓여. 살 때 한 번만 확인해두자.",
+   "face": "wink",
+   "prop": "piggy",
+   "caption": "",
+   "bg": "pink",
+   "flip": true,
+   "tilt": -2
+  }
+ ]
+}

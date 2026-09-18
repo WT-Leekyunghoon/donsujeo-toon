@@ -1,0 +1,52 @@
+{
+ "topic": "경제상식 코스피200·코스닥150 지수 뜻",
+ "title": "코스피200이 대체 뭔데?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 지수 이름 볼 때 다시 보기 ✔",
+ "body": "코스피200이 대체 뭔데? 🥲\n\n지수는 시장의 평균 점수표야. 200, 150 같은 숫자가 무슨 뜻인지 4컷으로 정리했어.\n\n너는 지수 이름 보고 헷갈린 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "코스피200, *200개 회사*인 건 알겠는데",
+   "bubble": "그래서 그게 왜 중요한 건지는 몰랐거든.",
+   "face": "happy",
+   "prop": "newspaper",
+   "caption": "뉴스에 맨날 나오던 그 단어",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "지수는 시장의 *평균 점수표*야",
+   "bubble": "코스피에 상장된 회사 중 대표 200곳을 골라 묶어서 점수를 매긴 거야.",
+   "face": "surprised",
+   "prop": "chart_up",
+   "caption": "코스닥150은 코스닥 대표 150곳",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "ETF 이름 뒤에 붙으면 *담는 대상*",
+   "bubble": "① 브랜드 + ② 지수 이름\n'○○ 코스피200'이면 그 200곳을 담는다는 뜻이야.",
+   "face": "think",
+   "prop": "magnifier",
+   "caption": "이름만 읽어도 절반은 알 수 있어",
+   "bg": "mint",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "숫자는 *몇 곳을 담나*의 표시",
+   "bubble": "지수 이름만 알아둬도 ETF 이름이 훨씬 잘 읽혀.",
+   "face": "wink",
+   "prop": "wallet",
+   "caption": "",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -5
+  }
+ ]
+}
