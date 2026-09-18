@@ -1,0 +1,52 @@
+{
+ "topic": "주식기초 PBR — 순자산(재산) 대비 가격",
+ "title": "PER 말고 PBR은 뭐야?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 종목 지표 볼 때 다시 보기 ✔",
+ "body": "PER 말고 PBR은 뭐야? 🥲\n\nPER이 '버는 돈' 기준이면 PBR은 '가진 재산' 기준이야. 1배가 무슨 뜻인지까지 4컷으로 정리했어.\n\n너는 종목 볼 때 어떤 지표부터 봐? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "PER은 배웠는데 *PBR*은 또 뭐야",
+   "bubble": "P로 시작하니까 비슷한 거겠지 하고 그냥 넘겼었어.",
+   "face": "happy",
+   "prop": "scale",
+   "caption": "나도 한동안 못 본 척했지",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 4,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "right"
+  },
+  {
+   "heading": "PBR은 회사 *재산*이랑 비교하는 거야",
+   "bubble": "PER이 버는 돈 기준이면, PBR은 회사가 가진 순재산 기준이야.",
+   "face": "surprised",
+   "prop": "newspaper",
+   "caption": "이익이냐 재산이냐, 기준이 달라",
+   "bg": "mint",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "PBR 1배 = *재산만큼의 몸값*",
+   "bubble": "① 1배보다 낮으면 재산보다 싸게\n② 높으면 비싸게 거래되는 셈이야.",
+   "face": "think",
+   "prop": "calendar",
+   "caption": "'몇 배'라는 말이 이 뜻이었어",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "숫자 하나로 *결론내지* 말기",
+   "bubble": "업종마다 보통 수준이 달라. PER이랑 같이 봐야 그림이 보여.",
+   "face": "cool",
+   "prop": "bell",
+   "caption": "",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -5
+  }
+ ]
+}

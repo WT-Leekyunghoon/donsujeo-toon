@@ -1,0 +1,52 @@
+{
+ "topic": "운용사툰: WON(우리)",
+ "title": "WON, 원화 담는 거 아니야?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 이름 헷갈릴 때 다시 보기 ✔",
+ "body": "WON ETF, 그 '원(₩)' 아니야? 🥲\n\n우리자산운용이 ETF 브랜드를 WOORI에서 WON으로 바꿨어. 이름은 간판, 알맹이는 뒷글자라는 걸 4컷으로 정리했어.\n\n너도 브랜드 이름 때문에 헷갈린 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "'WON' ETF, 그거 *원화* 담는 거야?",
+   "bubble": "이름이 WON이길래 원화 모아두는 상품인 줄 알았지 뭐야.",
+   "face": "happy",
+   "prop": "wallet",
+   "caption": "나도 처음엔 그렇게 읽었어",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "알고 보니 *운용사 브랜드* 이름이었어",
+   "bubble": "우리자산운용이 2024년에 WOORI에서 WON으로 바꿨어.\n우리금융 디지털 브랜드에서 따온 이름이래.",
+   "face": "surprised",
+   "prop": "moneybag",
+   "caption": "요즘 이름 바꾼 운용사 꽤 많지",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "ETF 이름은 *브랜드 다음이 알맹이*",
+   "bubble": "① 앞은 운용사 브랜드\n② 뒤는 뭘 담았는지\n이 순서만 기억하면 돼.",
+   "face": "think",
+   "prop": "lightbulb",
+   "caption": "WON 뒤에 붙은 말이 진짜 정체",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "브랜드는 간판, 볼 건 *뒷글자*",
+   "bubble": "브랜드가 낯설어도 괜찮아. 뒤에 뭘 담았는지부터 열어보자.",
+   "face": "wink",
+   "prop": "chart_up",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}
