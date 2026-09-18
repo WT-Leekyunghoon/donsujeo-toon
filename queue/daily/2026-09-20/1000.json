@@ -1,0 +1,52 @@
+{
+ "topic": "운용사툰: KCGI(KCGI자산운용)",
+ "title": "브랜드 이름이 곧 회사 이름",
+ "series": "돈수저툰",
+ "footer": "저장해두고 낯선 ETF 볼 때 다시 보기 ✔",
+ "body": "브랜드 이름이 곧 회사 이름 🥲\n\nKCGI자산운용은 예전 MASTER 브랜드를 회사 이름 그대로인 KCGI로 바꿨어. 낯선 브랜드를 볼 땐 거래량부터 보는 습관까지 4컷 정리!\n\n너는 처음 보는 ETF 브랜드 만나면 어떻게 해? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "KCGI ETF? 그거 그냥 *회사 이름*인데",
+   "bubble": "보통은 따로 브랜드를 붙이던데 여긴 회사명 그대로더라고.",
+   "face": "happy",
+   "prop": "phone",
+   "caption": "TIGER, KODEX 같은 별명이 없네",
+   "bg": "mint",
+   "flip": false,
+   "tilt": 4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "원래 브랜드는 *MASTER*였어",
+   "bubble": "KCGI자산운용이 예전 MASTER라는 ETF 브랜드를 회사 이름인 KCGI로 바꿨어.",
+   "face": "surprised",
+   "prop": "doc",
+   "caption": "이름 바꾼 곳, 이번 달만 여러 곳",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "브랜드가 낯설 땐 *거래량*부터",
+   "bubble": "① 하루에 얼마나 거래되나\n② 사려는 값과 팔려는 값 차이\n이 둘만 봐도 감이 와.",
+   "face": "think",
+   "prop": "scale",
+   "caption": "낯설다고 나쁜 것도, 유명하다고 좋은 것도 아냐",
+   "bg": "sky",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "이름보다 *안에 뭐가 들었나*",
+   "bubble": "익숙한 브랜드냐보다, 뭘 담았고 사고팔기 편하냐가 먼저야.",
+   "face": "wink",
+   "prop": "chart_up",
+   "caption": "",
+   "bg": "pink",
+   "flip": true,
+   "tilt": -5
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "topic": "주식기초 전자공시 DART — 회사 발표 원본 확인하는 법",
+ "title": "소문 말고 원본을 보자",
+ "series": "돈수저툰",
+ "footer": "저장해두고 소문 들었을 때 다시 보기 ✔",
+ "body": "소문 말고 원본을 보자 🥲\n\n회사가 직접 올린 문서는 금융감독원 전자공시(DART)에 다 있어. 단톡방 카더라보다 한 줄 원문이 훨씬 세더라고.\n\n너는 공시 직접 찾아본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "그 얘기, 대체 *어디서* 봤어?",
+   "bubble": "단톡방에서 봤다는 말만 듣고 그냥 믿은 적 있어.",
+   "face": "happy",
+   "prop": "newspaper",
+   "caption": "출처가 '아는 형'이었던 그때",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "excited",
+   "friend_side": "right"
+  },
+  {
+   "heading": "회사 발표는 *원본*이 따로 있어",
+   "bubble": "금융감독원 전자공시, 줄여서 DART에 회사가 직접 올린 문서가 다 모여 있어.",
+   "face": "surprised",
+   "prop": "magnifier",
+   "caption": "무료야, 누구나 볼 수 있어",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "초보는 이 *세 가지*만 훑어도 돼",
+   "bubble": "① 실적 발표\n② 증자·분할 같은 변동\n③ 주요 주주 변화",
+   "face": "think",
+   "prop": "bell",
+   "caption": "제목만 읽어도 절반은 파악돼",
+   "bg": "mint",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "카더라보다 *한 줄 원문*이 세다",
+   "bubble": "궁금한 회사 이름 검색해서 공시 목록만 훑어도 충분해.",
+   "face": "cool",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -2
+  }
+ ]
+}
