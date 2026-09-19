@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 40,
+ "next_episode": 41,
  "episodes": [
   {
    "ep": 1,
@@ -402,6 +402,16 @@
    "post_id": "18141211402614720",
    "permalink": "https://www.threads.com/@etfspoon/post/Dda-XAMm-pR",
    "images": "images/2026-09-18/ep39"
+  },
+  {
+   "ep": 40,
+   "date": "2026-09-19",
+   "slot": "10:00",
+   "title": "TIMEFOLIO가 짧아졌어",
+   "topic": "운용사툰: TIME(타임폴리오)",
+   "post_id": "18131258749596483",
+   "permalink": "https://www.threads.com/@etfspoon/post/Ddcy3CdjHqz",
+   "images": "images/2026-09-19/ep40"
   }
  ],
  "posts": [
@@ -1579,6 +1589,15 @@
    "time": "2026-09-18T19:09+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/DdbL-epmzKv",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 6
+  },
+  {
+   "time": "2026-09-19T10:08+09:00",
+   "slot": "10:00",
+   "result": "EP.40 툰 게시 https://www.threads.com/@etfspoon/post/Ddcy3CdjHqz",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
