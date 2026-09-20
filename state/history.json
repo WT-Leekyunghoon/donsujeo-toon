@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 42,
+ "next_episode": 43,
  "episodes": [
   {
    "ep": 1,
@@ -422,6 +422,16 @@
    "post_id": "18183674335416746",
    "permalink": "https://www.threads.com/@etfspoon/post/DddjETQla2s",
    "images": "images/2026-09-19/ep41"
+  },
+  {
+   "ep": 42,
+   "date": "2026-09-20",
+   "slot": "10:00",
+   "title": "브랜드 이름이 곧 회사 이름",
+   "topic": "운용사툰: KCGI(KCGI자산운용)",
+   "post_id": "17959290056998127",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdfXtkggLS_",
+   "images": "images/2026-09-20/ep42"
   }
  ],
  "posts": [
@@ -1668,6 +1678,15 @@
    "time": "2026-09-19T19:08+09:00",
    "slot": "19:00",
    "result": "tip 게시 https://www.threads.com/@etfspoon/post/DddwrQtG61F",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 6
+  },
+  {
+   "time": "2026-09-20T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.42 툰 게시 https://www.threads.com/@etfspoon/post/DdfXtkggLS_",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
