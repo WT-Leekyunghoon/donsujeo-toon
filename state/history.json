@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 43,
+ "next_episode": 44,
  "episodes": [
   {
    "ep": 1,
@@ -432,6 +432,16 @@
    "post_id": "17959290056998127",
    "permalink": "https://www.threads.com/@etfspoon/post/DdfXtkggLS_",
    "images": "images/2026-09-20/ep42"
+  },
+  {
+   "ep": 43,
+   "date": "2026-09-20",
+   "slot": "17:00",
+   "title": "소문 말고 원본을 보자",
+   "topic": "주식기초 전자공시 DART — 회사 발표 원본 확인하는 법",
+   "post_id": "18462365671184524",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdgH2DtG2BC",
+   "images": "images/2026-09-20/ep43"
   }
  ],
  "posts": [
@@ -1721,6 +1731,15 @@
    "time": "2026-09-20T14:08+09:00",
    "slot": "14:00",
    "result": "news 게시 https://www.threads.com/@etfspoon/post/DdfzIe6G7nf",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 6
+  },
+  {
+   "time": "2026-09-20T17:09+09:00",
+   "slot": "17:00",
+   "result": "EP.43 툰 게시 https://www.threads.com/@etfspoon/post/DdgH2DtG2BC",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
