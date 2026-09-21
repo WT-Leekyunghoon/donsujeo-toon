@@ -1,0 +1,55 @@
+{
+ "topic": "ETF 거래량·호가 스프레드 — 사고팔기 쉬운 정도",
+ "title": "호가창이 텅 빈 ETF",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 고를 때 다시 보기 ✔",
+ "body": "호가창이 텅 빈 ETF 🥲\n\n같은 지수를 따라가도 거래가 한산하면 사는 값과 파는 값 사이가 벌어져 있어. 시작부터 불리하게 들어가는 거야.\n\n너는 살 때 호가창도 열어봐? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "지수만 같으면 *다 똑같지* 않아?",
+   "bubble": "같은 지수 따라가는 ETF면 아무거나 골라도 되는 거 아니야?",
+   "face": "happy",
+   "prop": "phone",
+   "caption": "나도 한동안 그렇게 생각했어",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "근데 *호가창*이 텅 비었어",
+   "bubble": "거래가 한산한 ETF는 사는 값과 파는 값 사이가 넓게 벌어져 있어.",
+   "face": "surprised",
+   "prop": "chart_down",
+   "caption": "이 간격을 호가 스프레드라고 불러",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "사기 전에 *세 가지*만",
+   "bubble": "① 하루 거래량\n② 사는 값과 파는 값의 간격\n③ 호가가 촘촘히 채워져 있는지",
+   "face": "think",
+   "prop": "magnifier",
+   "caption": "장 시작 직후와 끝 무렵은 특히 헐렁한 편",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "거래가 *많아야* 편해",
+   "bubble": "잘 팔리는 가게일수록 제값 받기 쉬운 거랑 같아~",
+   "face": "wink",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 5,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}

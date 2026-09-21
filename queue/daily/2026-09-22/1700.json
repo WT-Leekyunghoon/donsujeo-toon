@@ -1,0 +1,55 @@
+{
+ "topic": "경제상식 예금자보호 — 예수금과 투자상품의 차이",
+ "title": "ETF도 예금자보호 될까?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 계좌 볼 때 다시 보기 ✔",
+ "body": "ETF도 예금자보호 될까? 🥲\n\n예금·적금에 적용되는 그 제도, 주식이나 ETF에는 적용되지 않아. 대신 내가 산 몫은 다른 방식으로 따로 보관돼.\n\n너는 이 차이 알고 있었어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "증권 계좌도 *예금자보호* 되지?",
+   "bubble": "은행이랑 똑같이 넣어둔 돈 다 지켜주는 거 아니야?",
+   "face": "cool",
+   "prop": "piggy",
+   "caption": "나도 당연히 그런 줄 알았어",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "투자상품은 *대상이 아니야*",
+   "bubble": "예금자보호는 예금·적금처럼 원금이 정해진 상품에 적용돼. 주식이나 ETF는 여기 안 들어가.",
+   "face": "surprised",
+   "prop": "umbrella",
+   "caption": "보호 한도는 작년 9월부터 1인당 1억원으로 올랐어",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "그럼 내 몫은 *어떻게* 남아?",
+   "bubble": "① 산 ETF·주식은 예탁결제원에 따로 보관\n② 아직 안 쓴 예수금은 별도로 예치\n③ 값이 오르내리는 건 보호 대상이 아님",
+   "face": "think",
+   "prop": "bell",
+   "caption": "증권사 재산과 섞이지 않게 분리해두는 구조야",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "보관과 *수익*은 다른 얘기",
+   "bubble": "수량은 내 거로 남아. 대신 값이 움직이는 건 원래 내 몫이야~",
+   "face": "happy",
+   "prop": "moneybag",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -5,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}
