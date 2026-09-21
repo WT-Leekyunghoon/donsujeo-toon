@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 44,
+ "next_episode": 45,
  "episodes": [
   {
    "ep": 1,
@@ -442,6 +442,16 @@
    "post_id": "18462365671184524",
    "permalink": "https://www.threads.com/@etfspoon/post/DdgH2DtG2BC",
    "images": "images/2026-09-20/ep43"
+  },
+  {
+   "ep": 44,
+   "date": "2026-09-21",
+   "slot": "10:00",
+   "title": "투자보다 먼저, 비상금",
+   "topic": "습관 비상금 먼저 만들기",
+   "post_id": "18116484590072966",
+   "permalink": "https://www.threads.com/@etfspoon/post/Ddh8iUgEYtz",
+   "images": "images/2026-09-21/ep44"
   }
  ],
  "posts": [
@@ -1761,6 +1771,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 6
+  },
+  {
+   "time": "2026-09-21T10:09+09:00",
+   "slot": "10:00",
+   "result": "EP.44 툰 게시 https://www.threads.com/@etfspoon/post/Ddh8iUgEYtz",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
   }
  ]
 }
