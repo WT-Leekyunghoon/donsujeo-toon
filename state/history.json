@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 45,
+ "next_episode": 46,
  "episodes": [
   {
    "ep": 1,
@@ -452,6 +452,16 @@
    "post_id": "18116484590072966",
    "permalink": "https://www.threads.com/@etfspoon/post/Ddh8iUgEYtz",
    "images": "images/2026-09-21/ep44"
+  },
+  {
+   "ep": 45,
+   "date": "2026-09-21",
+   "slot": "17:00",
+   "title": "ETF가 진짜로 담고 있을까?",
+   "topic": "ETF 실물 vs 합성 — 직접 담기와 약속으로 따라가기",
+   "post_id": "18140161057719023",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdivX6ZG3IT",
+   "images": "images/2026-09-21/ep45"
   }
  ],
  "posts": [
@@ -1776,6 +1786,15 @@
    "time": "2026-09-21T10:09+09:00",
    "slot": "10:00",
    "result": "EP.44 툰 게시 https://www.threads.com/@etfspoon/post/Ddh8iUgEYtz",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-21T17:33+09:00",
+   "slot": "17:00",
+   "result": "EP.45 툰 게시 https://www.threads.com/@etfspoon/post/DdivX6ZG3IT",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
