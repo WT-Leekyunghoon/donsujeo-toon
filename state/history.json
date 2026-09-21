@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 46,
+ "next_episode": 47,
  "episodes": [
   {
    "ep": 1,
@@ -462,6 +462,16 @@
    "post_id": "18140161057719023",
    "permalink": "https://www.threads.com/@etfspoon/post/DdivX6ZG3IT",
    "images": "images/2026-09-21/ep45"
+  },
+  {
+   "ep": 46,
+   "date": "2026-09-22",
+   "slot": "10:00",
+   "title": "호가창이 텅 빈 ETF",
+   "topic": "ETF 거래량·호가 스프레드 — 사고팔기 쉬운 정도",
+   "post_id": "18148833949543277",
+   "permalink": "https://www.threads.com/@etfspoon/post/Ddjjz4RHF4-",
+   "images": "images/2026-09-22/ep46"
   }
  ],
  "posts": [
@@ -1795,6 +1805,15 @@
    "time": "2026-09-21T17:33+09:00",
    "slot": "17:00",
    "result": "EP.45 툰 게시 https://www.threads.com/@etfspoon/post/DdivX6ZG3IT",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-22T01:11+09:00",
+   "slot": "10:00",
+   "result": "EP.46 툰 게시 https://www.threads.com/@etfspoon/post/Ddjjz4RHF4-",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
