@@ -1,0 +1,55 @@
+{
+ "topic": "ETF 실물 vs 합성 — 직접 담기와 약속으로 따라가기",
+ "title": "ETF가 진짜로 담고 있을까?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 고를 때 다시 보기 ✔",
+ "body": "ETF가 진짜로 담고 있을까? 🥲\n\n지수에 든 걸 직접 사서 담는 실물형이 있고, 증권사랑 맺은 약속으로 수익률만 따라가는 합성형이 있어. 이름 뒤 (합성) 표시가 힌트야.\n\n너는 (합성) 표시 본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "ETF는 *다 사서 담는* 거 아니야?",
+   "bubble": "지수에 든 주식들을 진짜로 사서 넣어두는 거 아니었어?",
+   "face": "happy",
+   "prop": "cart",
+   "caption": "나도 당연히 그런 줄 알았어",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -5,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "right"
+  },
+  {
+   "heading": "약속으로 따라가는 것도 *있어*",
+   "bubble": "증권사와 계약을 맺고 지수 수익률만 받기로 한 방식도 있어. 이게 합성형이야.",
+   "face": "surprised",
+   "prop": "doc",
+   "caption": "직접 담기 어려운 시장에 주로 쓰여",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "구분은 *이름과 설명서*에",
+   "bubble": "① 이름 끝 (합성) 표시\n② 상품 페이지의 운용 방식\n③ 합성이면 약속한 상대방 얘기도 함께 읽기",
+   "face": "think",
+   "prop": "scale",
+   "caption": "어느 쪽이 좋다 나쁘다가 아니라 구조가 달라",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "구조를 알고 *고르면 돼*",
+   "bubble": "내 ETF가 어느 쪽인지만 알아도 뉴스가 다르게 읽혀~",
+   "face": "wink",
+   "prop": "wallet",
+   "caption": "",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": -3,
+   "friend": "pink",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}
