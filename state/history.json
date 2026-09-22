@@ -1818,6 +1818,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-22T14:49+09:00",
+   "slot": "14:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "news 게시 실패: 컨테이너 실패: {'message': 'Param text must be at most 500 characters long.', 'type': 'THApiException', 'code': 100, 'fbtrace_id': 'AB7y0d0PXZvx4LbIBF1RjXs'}",
+   "evergreen_left": 5
   }
  ]
 }
