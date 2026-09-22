@@ -842,6 +842,14 @@
    "title": "공시, 이 순서로 열어봐",
    "post_id": "18020782649923406",
    "permalink": "https://www.threads.com/@etfspoon/post/DdgVhRIFmZR"
+  },
+  {
+   "date": "2026-09-22",
+   "slot": "19:00",
+   "kind": "tip",
+   "title": "예수금이랑 투자금은 달라",
+   "post_id": "18140821657589770",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdlzEmkG3Cw"
   }
  ],
  "replied": [],
@@ -1826,6 +1834,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "news 게시 실패: 컨테이너 실패: {'message': 'Param text must be at most 500 characters long.', 'type': 'THApiException', 'code': 100, 'fbtrace_id': 'AB7y0d0PXZvx4LbIBF1RjXs'}",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-22T22:03+09:00",
+   "slot": "19:00",
+   "result": "tip 게시 https://www.threads.com/@etfspoon/post/DdlzEmkG3Cw",
+   "replies": 0,
+   "hidden": 0,
+   "note": "19:00 원본 툰 없음 → 링크 없이 게시",
    "evergreen_left": 5
   }
  ]
