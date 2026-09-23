@@ -1,0 +1,55 @@
+{
+ "topic": "ETF 테마형 — 종목 수가 많아도 한 업종이면 분산이 약하다",
+ "title": "테마 ETF도 분산일까?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 테마 상품 볼 때 다시 보기 ✔",
+ "body": "테마 ETF도 분산일까? 🥲\n\n여러 종목을 담아도 전부 같은 업종이면 흔들릴 땐 같이 흔들려. 종목 개수보다 방향이 몇 갈래인지가 중요해.\n\n네 ETF는 업종이 몇 개야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "ETF니까 *분산은 됐지*?",
+   "bubble": "여러 종목 담겼으니까 하나만 들고 있는 것보단 마음 놓아도 되겠지?",
+   "face": "happy",
+   "prop": "cart",
+   "caption": "나도 개수만 세고 안심했었어",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "근데 전부 *같은 업종*이야",
+   "bubble": "한 테마만 담은 상품은 그 업종 분위기가 식으면 다 같이 식어.",
+   "face": "surprised",
+   "prop": "bell",
+   "caption": "종목이 많아도 방향이 하나면 같이 움직여",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "세어볼 건 *두 가지*",
+   "bubble": "① 담긴 업종이 몇 갈래인지\n② 상위 몇 종목이 얼마나 차지하는지",
+   "face": "think",
+   "prop": "newspaper",
+   "caption": "비중이 한쪽에 몰려 있으면 분산은 약한 편이야",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -5
+  },
+  {
+   "heading": "개수보다 *방향*이야",
+   "bubble": "테마가 나쁘다는 게 아니라, 그게 전부면 안 된다는 얘기야~",
+   "face": "wink",
+   "prop": "clock",
+   "caption": "오래 들고 갈수록 쏠림은 더 크게 느껴져",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 6,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}

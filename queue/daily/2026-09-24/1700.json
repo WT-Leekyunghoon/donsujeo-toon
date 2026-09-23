@@ -1,0 +1,55 @@
+{
+ "topic": "습관 명절 지출 — 연휴 카드값과 투자 계획",
+ "title": "명절 지나고 나면 통장이",
+ "series": "돈수저툰",
+ "footer": "저장해두고 연휴 시작할 때 다시 보기 ✔",
+ "body": "명절 지나고 나면 통장이 🥲\n\n연휴 지출은 한 달 뒤 카드값으로 돌아와. 덜 쓰라는 게 아니라, 쓸 만큼 미리 정해두자는 얘기야.\n\n너는 명절 예산 정해두는 편이야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "이번 *명절만* 좀 쓰자",
+   "bubble": "명절인데 이 정도는 괜찮겠지? 다음 달에 아끼면 되잖아.",
+   "face": "excited",
+   "prop": "moneybag",
+   "caption": "나도 매년 이 말로 시작해",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": -4
+  },
+  {
+   "heading": "다음 달 *카드값*에서 만나",
+   "bubble": "연휴에 긁은 건 한 달쯤 뒤에 청구서로 한꺼번에 돌아오더라고.",
+   "face": "sad",
+   "prop": "umbrella",
+   "caption": "그때 가서 적립식 매수를 멈추게 되는 게 진짜 손해야",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "right"
+  },
+  {
+   "heading": "연휴 전에 *세 가지*",
+   "bubble": "① 쓸 금액 먼저 정하기\n② 자동매수 날짜 확인\n③ 다음 달 카드값 미리 적어두기",
+   "face": "think",
+   "prop": "scale",
+   "caption": "적는 데 3분이면 충분해",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "*정해둔 만큼*이면 괜찮아",
+   "bubble": "아끼라는 얘기가 아니라, 놀라지 말자는 얘기야~",
+   "face": "wink",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 5,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}
