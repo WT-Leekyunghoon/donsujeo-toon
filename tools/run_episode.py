@@ -46,6 +46,9 @@ ASK_PICK = ["뭐 사", "뭐사", "사도 돼", "사도돼", "사도 되", "사�
 PICK_REPLY = "종목 픽은 내가 안 해 🥲 대신 구성종목·총보수·거래량 3개는 꼭 보고 골라봐!"
 MAX_REPLIES = 15
 MAX_HIDES = 15
+MAX_POSTS_PER_RUN = 1      # 한 번 실행에서 최대 게시 수 (매시간 실행이므로 1회차씩 따라잡는다)
+CATCHUP_MINUTES = 300      # 슬롯 시각보다 이만큼(분) 넘게 늦으면 그 회차는 포기
+CATCHUP_LAST_HOUR = 22     # KST 이 시각 이후에는 밀린 회차를 게시하지 않는다
 
 
 # ---------- 유틸 ----------
@@ -138,15 +141,41 @@ def reconcile(hist: dict):
 
 # ---------- 슬롯·큐 ----------
 
+def slot_minutes(slot: str) -> int:
+    h, m = map(int, slot.split(":"))
+    return h * 60 + m
+
+
 def pick_slot(hist: dict) -> str:
+    """가장 가까운 슬롯 (기록용 폴백)."""
+    cur = datetime.now(KST).hour * 60 + datetime.now(KST).minute
+    return min(hist.get("schedule_kst", list(SLOT_TYPE)),
+               key=lambda s: abs(cur - slot_minutes(s)))
+
+
+def slot_due(hist: dict, date: str, slot: str) -> tuple[bool, str]:
+    """지금 이 슬롯을 게시해야 하는가. (가능여부, 사유)
+
+    GitHub Actions 의 cron 은 지연·누락이 잦다. '지금 시각에 제일 가까운 슬롯'
+    하나만 고르면 늦게 돈 실행이 엉뚱한 슬롯을 잡고 놓친 회차는 영영 복구되지
+    않으므로, 시각이 지난 미게시 슬롯을 순서대로 따라잡는다.
+    """
     now = datetime.now(KST)
-    cur = now.hour * 60 + now.minute
-
-    def dist(s):
-        h, m = map(int, s.split(":"))
-        return abs(cur - (h * 60 + m))
-
-    return min(hist.get("schedule_kst", list(SLOT_TYPE)), key=dist)
+    late = now.hour * 60 + now.minute - slot_minutes(slot)
+    if late < 0:
+        return False, "아직 시각 전"
+    if already_posted(hist, date, slot):
+        return False, "이미 게시됨"
+    if late > CATCHUP_MINUTES or now.hour >= CATCHUP_LAST_HOUR:
+        return False, f"{late // 60}시간 지연 → 이 회차 포기"
+    kind = SLOT_TYPE.get(slot, "toon")
+    if kind != "toon" and not daily_file(date, slot).exists():
+        return False, "콘텐츠 파일 없음"
+    if kind == "tip":
+        src = TIP_SOURCE.get(slot)
+        if src and not already_posted(hist, date, src):
+            return False, f"원본 툰({src}) 미게시 → 팁만 따로 올리지 않음"
+    return True, ""
 
 
 def daily_file(date: str, slot: str) -> Path:
@@ -449,16 +478,30 @@ def main():
         note.append("쿼터 임박 → 게시 생략")
 
     date = datetime.now(KST).date().isoformat()
-    slot = pick_slot(hist)
-    kind = SLOT_TYPE.get(slot, "toon")
-    ep_line = "게시 없음"
+    results: list[str] = []
+    posted = 0
     if can_post:
-        if already_posted(hist, date, slot):
-            note.append(f"{date} {slot} 이미 게시됨 → 중복 방지 생략")
-        elif kind == "toon":
-            ep_line = do_toon(hist, date, slot, note)
-        else:
-            ep_line = do_text(hist, date, slot, kind, note)
+        for slot in sorted(hist.get("schedule_kst", list(SLOT_TYPE)), key=slot_minutes):
+            if posted >= MAX_POSTS_PER_RUN:
+                note.append(f"{slot} 이후는 다음 실행에서 이어서")
+                break
+            ok, why = slot_due(hist, date, slot)
+            if not ok:
+                if why not in ("아직 시각 전", "이미 게시됨"):
+                    note.append(f"{slot} {why}")
+                continue
+            kind = SLOT_TYPE.get(slot, "toon")
+            if kind == "toon":
+                r = do_toon(hist, date, slot, note)
+            else:
+                r = do_text(hist, date, slot, kind, note)
+            results.append(f"{slot} {r}")
+            save_history(hist)
+            if r != "게시 없음":
+                posted += 1
+                time.sleep(30)
+    slot = results[0].split(" ", 1)[0] if results else pick_slot(hist)
+    ep_line = " | ".join(results) or "게시 없음"
 
     n_rep, n_hid = handle_comments(hist)
 
