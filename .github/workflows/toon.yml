@@ -2,10 +2,12 @@ name: donsujeo-toon
 
 # 돈수저툰 자동 게시 — 큐 방식 (컴퓨터 꺼져 있어도 GitHub Actions가 실행)
 # KST 10:00 툰① / 12:00 팁① / 14:00 뉴스 / 17:00 툰② / 19:00 팁②
-# = UTC 01 / 03 / 05 / 08 / 10시
+# GitHub cron 은 지연·누락이 잦아 슬롯 시각에만 돌리면 회차가 통째로 빠진다.
+# KST 10~21시(UTC 1~12시) 매시간 돌면서 '시각이 지난 미게시 슬롯'을 따라잡는다.
+# 게시할 게 없으면 run_episode.py 가 그냥 넘어간다.
 on:
   schedule:
-    - cron: '3 1,3,5,8,10 * * *'
+    - cron: '3 1-12 * * *'
   workflow_dispatch: {}
 
 permissions:
