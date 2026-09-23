@@ -1,0 +1,55 @@
+{
+ "topic": "주식기초 유상증자 vs 무상증자 — 새 주식이 생기는 두 방식",
+ "title": "증자래, 좋은 거야 나쁜 거야?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 증자 공시 볼 때 다시 보기 ✔",
+ "body": "증자래, 좋은 거야 나쁜 거야? 🥲\n\n유상은 돈을 새로 받고 찍는 거고, 무상은 돈 없이 나눠주는 거야. 같은 증자라도 왜 하는지에 따라 얘기가 달라져.\n\n너는 증자 공시 끝까지 읽어봤어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*증자*한다는데 호재야?",
+   "bubble": "회사가 주식을 더 찍는대. 규모가 커지는 거면 좋은 거 아니야?",
+   "face": "happy",
+   "prop": "phone",
+   "caption": "나도 처음엔 무조건 호재인 줄 알았어",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -5,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "*돈을 받고 찍냐*가 갈려",
+   "bubble": "유상증자는 돈을 새로 받고 찍고, 무상증자는 돈 안 받고 주주에게 나눠줘.",
+   "face": "surprised",
+   "prop": "wallet",
+   "caption": "이름의 유상·무상이 딱 그 뜻이야",
+   "bg": "pink",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "볼 건 *돈의 쓰임새*야",
+   "bubble": "① 왜 필요한지\n② 누구한테 파는지\n③ 주식이 얼마나 늘어나는지",
+   "face": "think",
+   "prop": "magnifier",
+   "caption": "목적은 공시에 글로 적혀 있어",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "이름 말고 *이유*를 보자",
+   "bubble": "같은 증자라도 이유가 다르면 받아들이는 쪽도 달라지더라고~",
+   "face": "wink",
+   "prop": "calendar",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 5,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}

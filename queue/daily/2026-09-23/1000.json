@@ -1,0 +1,55 @@
+{
+ "topic": "ETF TR 표시 — 분배금을 다시 담는 방식",
+ "title": "이름 끝에 붙은 TR, 뭐야?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 ETF 이름 볼 때 다시 보기 ✔",
+ "body": "이름 끝에 붙은 TR, 뭐야? 🥲\n\n같은 지수를 따라가도 TR이 붙으면 분배금을 현금으로 주는 대신 그 안에서 다시 사 담아. 현금이 필요한지 아닌지가 갈림길이야.\n\n너는 받는 쪽이야, 다시 담는 쪽이야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "TR? 그냥 *이름만 긴* 거 아니야?",
+   "bubble": "같은 지수 따라가는데 뒤에 TR이 붙은 것도 있네? 뭐가 다른 거지?",
+   "face": "happy",
+   "prop": "coin",
+   "caption": "나도 한참 그냥 지나쳤던 표시야",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "분배금을 *안 주고 다시 담아*",
+   "bubble": "TR은 나온 분배금을 현금으로 안 주고, 그 안에서 바로 다시 사 담는 방식이야.",
+   "face": "surprised",
+   "prop": "chart_up",
+   "caption": "그래서 계좌에 현금이 안 들어와",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "고를 땐 *이거 하나*만",
+   "bubble": "① 현금이 필요하면 일반형\n② 굴리기만 할 거면 TR도 선택지",
+   "face": "think",
+   "prop": "piggy",
+   "caption": "세금 구조도 다를 수 있어서 상품 설명은 꼭 읽어봐",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "*받을지 다시 담을지*의 차이야",
+   "bubble": "오늘은 내가 가진 ETF 이름 끝에 뭐가 붙었는지만 확인해보자~",
+   "face": "wink",
+   "prop": "doc",
+   "caption": "",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 5,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
