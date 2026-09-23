@@ -1,0 +1,55 @@
+{
+ "topic": "주식기초 공매도 — 빌려서 먼저 파는 거래",
+ "title": "공매도, 빌려서 판다고?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 뉴스에 공매도 나올 때 다시 보기 ✔",
+ "body": "공매도, 빌려서 판다고? 🥲\n\n주식을 빌려서 먼저 팔고 나중에 사서 갚는 거래야. 따라 할 일은 아니어도 구조는 알아두면 뉴스가 읽혀.\n\n너는 공매도 뜻, 알고 있었어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*공매도* 나오면 다들 화내던데",
+   "bubble": "뉴스에 공매도 얘기만 나오면 시끄럽던데, 대체 뭐길래 그래?",
+   "face": "happy",
+   "prop": "wallet",
+   "caption": "나도 뜻부터 몰랐어",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "*빌려서 먼저 파는* 거야",
+   "bubble": "주식을 빌려 판 다음, 나중에 다시 사서 돌려주는 순서로 하는 거래야.",
+   "face": "surprised",
+   "prop": "doc",
+   "caption": "값이 내리면 이득, 오르면 손해인 구조",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "초보가 볼 건 *두 가지*",
+   "bubble": "① 공매도 잔고는 공개돼 있다\n② 잔고가 많다고 꼭 내린다는 뜻은 아니다",
+   "face": "think",
+   "prop": "magnifier",
+   "caption": "한 방향으로만 해석하면 오히려 헷갈려",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": -5
+  },
+  {
+   "heading": "*구조만* 알아두면 충분해",
+   "bubble": "따라 할 거래는 아니고, 기사 읽을 때 안 헷갈리면 그걸로 된 거야~",
+   "face": "wink",
+   "prop": "calendar",
+   "caption": "제도는 바뀌기도 하니 최신 내용은 거래소 공지로",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 6,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}
