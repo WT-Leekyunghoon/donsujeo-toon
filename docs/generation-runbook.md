@@ -12,8 +12,9 @@
     앞으로 7일간 `list_events`.
   - 예) 금요일 → 금·토·일 (월이 공휴일이면 월도). 수요일인데 목요일이 공휴일
     → 수·목. 평일이고 내일도 평일 → 오늘만.
-- repo 를 클라우드 샌드박스에서 `git clone https://github.com/WT-Leekyunghoon/donsujeo-toon.git`
-  로 받아, 이미 `queue/daily/<날짜>/` 에 5개 파일이 있는 날짜는 건너뛴다.
+- 실행 환경에서 `git clone https://github.com/WT-Leekyunghoon/donsujeo-toon.git`
+  로 저장소를 받거나 기존 클론을 `git fetch origin main` 후 최신 `main` 으로 맞춘다.
+  이미 `queue/daily/<날짜>/` 에 5개 파일이 있는 날짜는 건너뛴다.
 - 오늘이 토·일·공휴일이면 (전날 이미 생성됨) 파일 존재만 확인하고 종료.
 
 ## 2. 읽을 것
@@ -75,14 +76,19 @@ Threads API 는 **본문 500자 초과 시 게시 자체가 실패**한다
   ③ 수식어 덜어내기. 말투·구조(연결 멘트 → 설명 → 실수 → 오늘 할 일 →
   링크 → 질문)는 유지한다.
 
-## 4. 커밋 (브라우저 GitHub 업로드)
+## 4. 커밋 (Git 직접 업로드)
 
-- 크롬 도구 로드 후 `https://github.com/WT-Leekyunghoon/donsujeo-toon/upload/main/queue/daily/<날짜>`
-  로 이동 → file_upload 로 그 날짜의 json 들 업로드 → Commit changes.
-- PC/크롬이 꺼져 있으면: 만든 내용을 보고에 남기고 종료 (다음날 재시도).
-  Actions 는 daily 파일이 없으면 툰 슬롯만 에버그린 큐로 폴백한다.
-- 에버그린 큐(`queue/q*.json`)가 5편 미만이면 툰 spec 을 2~3편 만들어
-  `queue/` 에도 업로드해 둔다.
+- 저장소의 최신 `main` 과 대상 파일 상태를 다시 확인한다. 게시 완료로 `.done` 으로
+  바뀐 파일은 덮어쓰지 않는다.
+- 생성한 `queue/daily/<날짜>/` 파일만 `git add` 한다. 에버그린 큐(`queue/q*.json`)
+  중 아직 게시 안 된 것이 5편 미만이면 툰 spec 2~3편을 더 만들어 `queue/` 에
+  추가하고 함께 `git add` 한다.
+- `git diff --cached --check` 와 파일 형식·본문 길이 검증이 통과하면 `git commit` 후
+  `git push origin main` 으로 업로드한다. `git ls-remote origin refs/heads/main` 으로
+  원격 커밋이 반영됐는지 확인한다. 강제 push 는 하지 않는다.
+- 인증이 없거나 push 가 거절되면 원격 변경을 확인하고 안전하게 재시도한다. 충돌을
+  해결할 수 없으면 만든 내용과 사유를 보고하고 종료한다. Actions 는 daily 파일이
+  없으면 툰 슬롯만 에버그린 큐로 폴백한다.
 
 ## 5. 보고
 
