@@ -1,0 +1,55 @@
+{
+ "topic": "경제상식 미국 연준·FOMC — 미국 금리 회의가 우리 증시에 닿는 경로",
+ "title": "미국 회의 하나에 왜 흔들려?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 금리 뉴스 나올 때 다시 보기 ✔",
+ "body": "미국 회의 하나에 왜 흔들려? 🥲\n\n미국 금리가 달라지면 세계 돈의 방향과 환율이 같이 움직여. 그 파도가 우리 증시까지 오는 거야.\n\n너는 회의 날짜 챙겨보는 편이야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "*남의 나라 회의*잖아?",
+   "bubble": "미국에서 금리 정하는 회의를 한다는데, 그게 우리랑 무슨 상관이야?",
+   "face": "happy",
+   "prop": "moneybag",
+   "caption": "나도 한동안 남 얘긴 줄 알았어",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "돈은 *금리를 따라* 움직여",
+   "bubble": "미국 금리가 달라지면 세계 돈이 가는 방향이 바뀌고, 환율도 같이 흔들려.",
+   "face": "surprised",
+   "prop": "scale",
+   "caption": "그 파도가 우리 증시까지 밀려오는 거야",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 4
+  },
+  {
+   "heading": "챙길 건 *두 가지*",
+   "bubble": "① 회의 날짜가 언제인지\n② 결과보다 앞으로 어떻게 하겠다는 말",
+   "face": "think",
+   "prop": "lightbulb",
+   "caption": "숫자보다 표현 하나에 더 움직이기도 해",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -5
+  },
+  {
+   "heading": "예측 말고 *일정*만 알아두자",
+   "bubble": "언제 발표인지만 알아도 놀랄 일이 확 줄더라고~",
+   "face": "wink",
+   "prop": "cart",
+   "caption": "금리는 결국 물가랑도 이어져 있어",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 6,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}

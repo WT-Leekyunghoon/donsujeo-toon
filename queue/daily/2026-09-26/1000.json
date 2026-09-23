@@ -1,0 +1,55 @@
+{
+ "topic": "ETF 추적오차 — 지수와 성과가 조금씩 달라지는 이유",
+ "title": "지수는 올랐는데 내 건 덜 올라",
+ "series": "돈수저툰",
+ "footer": "저장해두고 수익률 비교할 때 다시 보기 ✔",
+ "body": "지수는 올랐는데 내 건 덜 올라 🥲\n\n보수도 빠지고 종목 갈아끼우는 비용도 들어서, 지수와 완전히 똑같을 순 없어. 이 차이를 추적오차라고 불러.\n\n너는 지수랑 나란히 비교해본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "지수 따라간다며, *왜 달라*?",
+   "bubble": "같은 지수를 따라간다면서 내 수익률은 왜 조금씩 다르지?",
+   "face": "happy",
+   "prop": "phone",
+   "caption": "나도 계산 잘못한 줄 알았어",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "*완전히 같을 순* 없어",
+   "bubble": "보수도 빠지고, 종목 갈아끼우는 비용도 들고, 분배금 반영 시점도 달라.",
+   "face": "surprised",
+   "prop": "bell",
+   "caption": "이 차이를 추적오차라고 불러",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "비교는 *이렇게*",
+   "bubble": "① 기간을 똑같이 맞추고\n② 지수 수익률과 나란히 놓고 보기",
+   "face": "think",
+   "prop": "newspaper",
+   "caption": "하루만 어긋나도 숫자는 꽤 달라 보여",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "*작고 꾸준한지*를 봐",
+   "bubble": "차이가 나는 건 당연하고, 들쭉날쭉한지가 더 중요해~",
+   "face": "wink",
+   "prop": "clock",
+   "caption": "",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 5,
+   "friend": "piggy_pet",
+   "friend_face": "happy",
+   "friend_side": "right"
+  }
+ ]
+}
