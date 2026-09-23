@@ -1,55 +1,52 @@
 {
- "topic": "경제상식 미국 연준·FOMC — 미국 금리 회의가 우리 증시에 닿는 경로",
- "title": "미국 회의 하나에 왜 흔들려?",
- "series": "돈수저툰",
- "footer": "저장해두고 금리 뉴스 나올 때 다시 보기 ✔",
- "body": "미국 회의 하나에 왜 흔들려? 🥲\n\n미국 금리가 달라지면 세계 돈의 방향과 환율이 같이 움직여. 그 파도가 우리 증시까지 오는 거야.\n\n너는 회의 날짜 챙겨보는 편이야? 💬\n\n#돈수저툰 EP.{N}",
- "panels": [
-  {
-   "heading": "*남의 나라 회의*잖아?",
-   "bubble": "미국에서 금리 정하는 회의를 한다는데, 그게 우리랑 무슨 상관이야?",
-   "face": "happy",
-   "prop": "moneybag",
-   "caption": "나도 한동안 남 얘긴 줄 알았어",
-   "bg": "sky",
-   "flip": false,
-   "tilt": -3,
-   "friend": "coin",
-   "friend_face": "think",
-   "friend_side": "right"
-  },
-  {
-   "heading": "돈은 *금리를 따라* 움직여",
-   "bubble": "미국 금리가 달라지면 세계 돈이 가는 방향이 바뀌고, 환율도 같이 흔들려.",
-   "face": "surprised",
-   "prop": "scale",
-   "caption": "그 파도가 우리 증시까지 밀려오는 거야",
-   "bg": "cream",
-   "flip": true,
-   "tilt": 4
-  },
-  {
-   "heading": "챙길 건 *두 가지*",
-   "bubble": "① 회의 날짜가 언제인지\n② 결과보다 앞으로 어떻게 하겠다는 말",
-   "face": "think",
-   "prop": "lightbulb",
-   "caption": "숫자보다 표현 하나에 더 움직이기도 해",
-   "bg": "pink",
-   "flip": false,
-   "tilt": -5
-  },
-  {
-   "heading": "예측 말고 *일정*만 알아두자",
-   "bubble": "언제 발표인지만 알아도 놀랄 일이 확 줄더라고~",
-   "face": "wink",
-   "prop": "cart",
-   "caption": "금리는 결국 물가랑도 이어져 있어",
-   "bg": "lavender",
-   "flip": true,
-   "tilt": 6,
-   "friend": "piggy_pet",
-   "friend_face": "happy",
-   "friend_side": "left"
-  }
- ]
+  "topic": "주식기초 무상증자 — 주식 수와 기준가격의 관계",
+  "title": "무상증자, 공짜 주식?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 무상증자 공시 볼 때 다시 보기 ✔",
+  "body": "무상증자, 공짜 주식? 🥲\n\n주식 수가 늘었다고 내 몫의 가치가 저절로 늘진 않아. 권리락 뒤 기준가격도 조정될 수 있으니 전체 가치를 함께 봐.\n\n넌 주식 수가 늘면 먼저 뭘 확인해? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "주식이 *더 생긴대*",
+      "bubble": "돈 안 내고 받으면 이득 아닌가?",
+      "face": "happy",
+      "prop": "coin",
+      "caption": "나도 수량부터 세었어",
+      "bg": "lemon",
+      "flip": false,
+      "tilt": -4,
+      "friend": "coin",
+      "friend_face": "excited",
+      "friend_side": "left"
+    },
+    {
+      "heading": "가격도 *조정될 수 있어*",
+      "bubble": "주식 수만 늘었다고 가치가 복사되는 건 아니야.",
+      "face": "surprised",
+      "prop": "chart_down",
+      "caption": "권리락 기준가격도 확인해",
+      "bg": "lavender",
+      "flip": true,
+      "tilt": 4
+    },
+    {
+      "heading": "봐야 할 건 *전체*",
+      "bubble": "① 늘어난 주식 수 ② 조정된 기준가격을 같이 봐.",
+      "face": "think",
+      "prop": "scale",
+      "caption": "한 주 가격보다 전체 몫",
+      "bg": "sky",
+      "flip": false,
+      "tilt": -2
+    },
+    {
+      "heading": "공시 먼저 *열어보자*",
+      "bubble": "오늘은 무상증자 일정과 권리락 안내를 찾아봐.",
+      "face": "wink",
+      "prop": "doc",
+      "caption": "공짜 수익이라고 단정하지 않기",
+      "bg": "mint",
+      "flip": true,
+      "tilt": 5
+    }
+  ]
 }

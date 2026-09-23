@@ -1,55 +1,55 @@
 {
- "topic": "절세 연말정산 — 연말이 아니라 지금부터 챙기는 이유",
- "title": "연말정산, 지금부터 챙겨",
- "series": "돈수저툰",
- "footer": "저장해두고 가을에 다시 보기 ✔",
- "body": "연말정산, 지금부터 챙겨 🥲\n\n1년 동안 쌓인 걸로 계산하니까 정작 12월엔 손댈 게 별로 없어. 남은 달에 뭘 할 수 있는지 지금 보는 게 이득이야.\n\n너는 연말정산 미리 챙기는 편이야? 💬\n\n#돈수저툰 EP.{N}",
- "panels": [
-  {
-   "heading": "그거 *12월에* 하는 거 아니야?",
-   "bubble": "어차피 연말에 서류 내면 되는 거잖아. 지금은 신경 안 써도 되지?",
-   "face": "happy",
-   "prop": "calendar",
-   "caption": "나도 매년 12월에 허둥댔어",
-   "bg": "pink",
-   "flip": false,
-   "tilt": -3
-  },
-  {
-   "heading": "*이미 지나간 달*은 못 바꿔",
-   "bubble": "1년 동안 쌓인 걸로 계산하니까, 12월엔 손댈 수 있는 게 별로 없어.",
-   "face": "sad",
-   "prop": "doc",
-   "caption": "바꿀 수 있는 건 남은 달뿐이야",
-   "bg": "lavender",
-   "flip": true,
-   "tilt": 4,
-   "friend": "coin",
-   "friend_face": "surprised",
-   "friend_side": "right"
-  },
-  {
-   "heading": "지금 볼 건 *두 가지*",
-   "bubble": "① 올해 얼마나 넣었는지\n② 남은 달에 얼마나 더 넣을 수 있는지",
-   "face": "think",
-   "prop": "magnifier",
-   "caption": "공제되는 계좌들은 한 해 넣을 수 있는 한도가 정해져 있어",
-   "bg": "mint",
-   "flip": false,
-   "tilt": -5
-  },
-  {
-   "heading": "*미리 보는 게* 절세야",
-   "bubble": "국세청에서 미리 계산해보는 서비스도 열리니까 그때 한 번 돌려봐~",
-   "face": "wink",
-   "prop": "piggy",
-   "caption": "한도와 조건은 해마다 바뀌니 올해 기준으로 확인",
-   "bg": "lemon",
-   "flip": true,
-   "tilt": 6,
-   "friend": "piggy_pet",
-   "friend_face": "happy",
-   "friend_side": "left"
-  }
- ]
+  "topic": "습관·심리 — 휴장 뒤 첫 거래일 충동 주문 점검",
+  "title": "연휴 뒤 첫날, 급해졌어?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 연휴 뒤 장 열릴 때 다시 보기 ✔",
+  "body": "연휴 뒤 첫날, 급해졌어? 🥲\n\n쉬는 동안 쌓인 소식이 한꺼번에 눈에 들어오면 마음이 급해져. 주문 전엔 원래 계획이 바뀌었는지부터 확인해보자.\n\n넌 장이 다시 열리면 뭘 먼저 봐? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "연휴 끝나면 *바로 주문*?",
+      "bubble": "그동안 소식이 많아서 놓친 느낌이야.",
+      "face": "happy",
+      "prop": "phone",
+      "caption": "나도 첫 화면에 마음이 바빴어",
+      "bg": "lavender",
+      "flip": false,
+      "tilt": -4,
+      "friend": "coin",
+      "friend_face": "think",
+      "friend_side": "left"
+    },
+    {
+      "heading": "소식이 *한꺼번에* 보여",
+      "bubble": "급한 마음이 꼭 중요한 정보는 아니더라고.",
+      "face": "surprised",
+      "prop": "newspaper",
+      "caption": "서두름과 필요를 구분해",
+      "bg": "cream",
+      "flip": true,
+      "tilt": 4
+    },
+    {
+      "heading": "주문 전 *한 문장*",
+      "bubble": "내 계획이 왜 바뀌었는지 적을 수 있어?",
+      "face": "think",
+      "prop": "doc",
+      "caption": "이유가 없으면 잠깐 멈춰봐",
+      "bg": "sky",
+      "flip": false,
+      "tilt": -2,
+      "friend": "coin",
+      "friend_face": "happy",
+      "friend_side": "left"
+    },
+    {
+      "heading": "첫날은 *점검부터*",
+      "bubble": "오늘은 원래 정한 기준을 다시 읽어보자.",
+      "face": "wink",
+      "prop": "clock",
+      "caption": "결정은 계획을 확인한 뒤에",
+      "bg": "mint",
+      "flip": true,
+      "tilt": 5
+    }
+  ]
 }

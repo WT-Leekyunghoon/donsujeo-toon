@@ -312,6 +312,13 @@ def do_text(hist: dict, date: str, slot: str, kind: str, note: list[str]) -> str
         note.append(f"{slot} 본문 비어있음 → 생략")
         return "게시 없음"
     image_url = None
+    if kind == "news" and data.get("image"):
+        image_rel = Path(data["image"])
+        image_path = (ROOT / image_rel).resolve()
+        if image_rel.is_absolute() or not image_path.is_relative_to(ROOT.resolve()) or not image_path.is_file():
+            note.append(f"{slot} 첨부 이미지 없음 → 생략")
+            return "게시 없음"
+        image_url = f"{RAW}{image_rel.as_posix()}"
     if kind == "tip":
         src = TIP_SOURCE.get(slot)
         toon = next((e for e in reversed(hist["episodes"])

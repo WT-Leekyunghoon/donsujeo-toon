@@ -1,55 +1,55 @@
 {
- "topic": "주식기초 공매도 — 빌려서 먼저 파는 거래",
- "title": "공매도, 빌려서 판다고?",
- "series": "돈수저툰",
- "footer": "저장해두고 뉴스에 공매도 나올 때 다시 보기 ✔",
- "body": "공매도, 빌려서 판다고? 🥲\n\n주식을 빌려서 먼저 팔고 나중에 사서 갚는 거래야. 따라 할 일은 아니어도 구조는 알아두면 뉴스가 읽혀.\n\n너는 공매도 뜻, 알고 있었어? 💬\n\n#돈수저툰 EP.{N}",
- "panels": [
-  {
-   "heading": "*공매도* 나오면 다들 화내던데",
-   "bubble": "뉴스에 공매도 얘기만 나오면 시끄럽던데, 대체 뭐길래 그래?",
-   "face": "happy",
-   "prop": "wallet",
-   "caption": "나도 뜻부터 몰랐어",
-   "bg": "lemon",
-   "flip": false,
-   "tilt": -3,
-   "friend": "coin",
-   "friend_face": "think",
-   "friend_side": "right"
-  },
-  {
-   "heading": "*빌려서 먼저 파는* 거야",
-   "bubble": "주식을 빌려 판 다음, 나중에 다시 사서 돌려주는 순서로 하는 거래야.",
-   "face": "surprised",
-   "prop": "doc",
-   "caption": "값이 내리면 이득, 오르면 손해인 구조",
-   "bg": "sky",
-   "flip": true,
-   "tilt": 4
-  },
-  {
-   "heading": "초보가 볼 건 *두 가지*",
-   "bubble": "① 공매도 잔고는 공개돼 있다\n② 잔고가 많다고 꼭 내린다는 뜻은 아니다",
-   "face": "think",
-   "prop": "magnifier",
-   "caption": "한 방향으로만 해석하면 오히려 헷갈려",
-   "bg": "lavender",
-   "flip": false,
-   "tilt": -5
-  },
-  {
-   "heading": "*구조만* 알아두면 충분해",
-   "bubble": "따라 할 거래는 아니고, 기사 읽을 때 안 헷갈리면 그걸로 된 거야~",
-   "face": "wink",
-   "prop": "calendar",
-   "caption": "제도는 바뀌기도 하니 최신 내용은 거래소 공지로",
-   "bg": "mint",
-   "flip": true,
-   "tilt": 6,
-   "friend": "piggy_pet",
-   "friend_face": "happy",
-   "friend_side": "left"
-  }
- ]
+  "topic": "주식기초 배당기준일과 배당락일 — 배당 공시 확인",
+  "title": "배당 전날 사면 될까?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 배당 공시 볼 때 다시 보기 ✔",
+  "body": "배당 전날 사면 될까? 🥲\n\n배당 소식을 들었어도 날짜부터 확인해야 해. 회사마다 배당기준일이 다를 수 있고, 배당락 뒤엔 가격도 움직일 수 있거든.\n\n넌 배당 소식 들으면 뭘 먼저 확인해? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "배당 소식! *지금 사면*?",
+      "bubble": "배당 준다니까 오늘 사면 되는 거지?",
+      "face": "happy",
+      "prop": "newspaper",
+      "caption": "나도 발표 날짜만 봤었어",
+      "bg": "lavender",
+      "flip": false,
+      "tilt": -5,
+      "friend": "coin",
+      "friend_face": "think",
+      "friend_side": "left"
+    },
+    {
+      "heading": "기준일은 *따로 있어*",
+      "bubble": "배당받을 사람을 정하는 날은 공시에 나와.",
+      "face": "surprised",
+      "prop": "calendar",
+      "caption": "발표일과 기준일을 헷갈리기 쉬워",
+      "bg": "sky",
+      "flip": true,
+      "tilt": 4
+    },
+    {
+      "heading": "공시에서 *두 가지*",
+      "bubble": "① 배당기준일 ② 배당 내용을 먼저 확인해.",
+      "face": "think",
+      "prop": "magnifier",
+      "caption": "날짜만 보고 서두르지 말자",
+      "bg": "mint",
+      "flip": false,
+      "tilt": -2,
+      "friend": "coin",
+      "friend_face": "surprised",
+      "friend_side": "left"
+    },
+    {
+      "heading": "배당만 보고 *덜컥*?",
+      "bubble": "오늘은 관심 회사의 배당 공시부터 열어보자.",
+      "face": "wink",
+      "prop": "doc",
+      "caption": "배당락 뒤 가격도 달라질 수 있어",
+      "bg": "lemon",
+      "flip": true,
+      "tilt": 5
+    }
+  ]
 }
