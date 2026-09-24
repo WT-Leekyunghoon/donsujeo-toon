@@ -868,6 +868,14 @@
    "title": "장중엔 2% 올랐었대",
    "post_id": "17906617119552300",
    "permalink": "https://www.threads.com/@etfspoon/post/Ddnj1_sG4yw"
+  },
+  {
+   "date": "2026-09-24",
+   "slot": "14:00",
+   "kind": "news",
+   "title": "이번 주 경제 두 줄",
+   "post_id": "18152294854525871",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdqMyhIlg6a"
   }
  ],
  "replied": [],
@@ -1888,6 +1896,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-24T15:05+09:00",
+   "slot": "14:00",
+   "result": "14:00 news 게시 https://www.threads.com/@etfspoon/post/DdqMyhIlg6a",
+   "replies": 0,
+   "hidden": 0,
+   "note": "10:00 5시간 지연 → 이 회차 포기; 12:00 원본 툰(10:00) 미게시 → 팁만 따로 올리지 않음; 17:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
