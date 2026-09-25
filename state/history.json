@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 49,
+ "next_episode": 50,
  "episodes": [
   {
    "ep": 1,
@@ -492,6 +492,16 @@
    "post_id": "18112925759600407",
    "permalink": "https://www.threads.com/@etfspoon/post/Ddq6NImFpbJ",
    "images": "images/2026-09-24/ep48"
+  },
+  {
+   "ep": 49,
+   "date": "2026-09-25",
+   "slot": "17:00",
+   "title": "배당 전날 사면 될까?",
+   "topic": "주식기초 배당기준일과 배당락일 — 배당 공시 확인",
+   "post_id": "18127071113496044",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdtfQnrm4j2",
+   "images": "images/2026-09-25/ep49"
   }
  ],
  "posts": [
@@ -1941,6 +1951,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "10:00 5시간 지연 → 이 회차 포기; 12:00 원본 툰(10:00) 미게시 → 팁만 따로 올리지 않음; 17:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-25T21:44+09:00",
+   "slot": "17:00",
+   "result": "17:00 EP.49 툰 게시 https://www.threads.com/@etfspoon/post/DdtfQnrm4j2",
+   "replies": 0,
+   "hidden": 0,
+   "note": "10:00 11시간 지연 → 이 회차 포기; 12:00 9시간 지연 → 이 회차 포기; 19:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
