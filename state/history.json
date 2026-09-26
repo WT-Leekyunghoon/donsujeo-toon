@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 50,
+ "next_episode": 51,
  "episodes": [
   {
    "ep": 1,
@@ -502,6 +502,16 @@
    "post_id": "18127071113496044",
    "permalink": "https://www.threads.com/@etfspoon/post/DdtfQnrm4j2",
    "images": "images/2026-09-25/ep49"
+  },
+  {
+   "ep": 50,
+   "date": "2026-09-26",
+   "slot": "17:00",
+   "title": "무상증자, 공짜 주식?",
+   "topic": "주식기초 무상증자 — 주식 수와 기준가격의 관계",
+   "post_id": "18136151908650901",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdwAXu5FvZJ",
+   "images": "images/2026-09-26/ep50"
   }
  ],
  "posts": [
@@ -1977,6 +1987,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "10:00 5시간 지연 → 이 회차 포기; 12:00 원본 툰(10:00) 미게시 → 팁만 따로 올리지 않음; 17:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-26T21:12+09:00",
+   "slot": "17:00",
+   "result": "17:00 EP.50 툰 게시 https://www.threads.com/@etfspoon/post/DdwAXu5FvZJ",
+   "replies": 0,
+   "hidden": 0,
+   "note": "10:00 11시간 지연 → 이 회차 포기; 12:00 9시간 지연 → 이 회차 포기; 19:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
