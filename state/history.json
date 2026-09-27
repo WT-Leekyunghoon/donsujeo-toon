@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 51,
+ "next_episode": 52,
  "episodes": [
   {
    "ep": 1,
@@ -512,6 +512,16 @@
    "post_id": "18136151908650901",
    "permalink": "https://www.threads.com/@etfspoon/post/DdwAXu5FvZJ",
    "images": "images/2026-09-26/ep50"
+  },
+  {
+   "ep": 51,
+   "date": "2026-09-27",
+   "slot": "17:00",
+   "title": "연휴 뒤 첫날, 급해졌어?",
+   "topic": "습관·심리 — 휴장 뒤 첫 거래일 충동 주문 점검",
+   "post_id": "18218789029350740",
+   "permalink": "https://www.threads.com/@etfspoon/post/DdyqV7FFdfD",
+   "images": "images/2026-09-27/ep51"
   }
  ],
  "posts": [
@@ -2013,6 +2023,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "10:00 5시간 지연 → 이 회차 포기; 12:00 원본 툰(10:00) 미게시 → 팁만 따로 올리지 않음; 17:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-27T21:57+09:00",
+   "slot": "17:00",
+   "result": "17:00 EP.51 툰 게시 https://www.threads.com/@etfspoon/post/DdyqV7FFdfD",
+   "replies": 0,
+   "hidden": 0,
+   "note": "10:00 11시간 지연 → 이 회차 포기; 12:00 9시간 지연 → 이 회차 포기; 19:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
