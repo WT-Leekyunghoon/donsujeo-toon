@@ -950,6 +950,14 @@
    "title": "다음 주엔 뭘 볼까?",
    "post_id": "18088406591655887",
    "permalink": "https://www.threads.com/@etfspoon/post/Ddx-N9JHCxn"
+  },
+  {
+   "date": "2026-09-28",
+   "slot": "12:00",
+   "kind": "tip",
+   "title": "겹침 확인하는 30초 습관",
+   "post_id": "17889217323460653",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd0ZhwsFSE8"
   }
  ],
  "replied": [],
@@ -2051,6 +2059,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-28T14:09+09:00",
+   "slot": "12:00",
+   "result": "12:00 tip 게시 https://www.threads.com/@etfspoon/post/Dd0ZhwsFSE8",
+   "replies": 0,
+   "hidden": 0,
+   "note": "14:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
