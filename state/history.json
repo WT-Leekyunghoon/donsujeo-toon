@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 52,
+ "next_episode": 53,
  "episodes": [
   {
    "ep": 1,
@@ -522,6 +522,16 @@
    "post_id": "18218789029350740",
    "permalink": "https://www.threads.com/@etfspoon/post/DdyqV7FFdfD",
    "images": "images/2026-09-27/ep51"
+  },
+  {
+   "ep": 52,
+   "date": "2026-09-28",
+   "slot": "10:00",
+   "title": "ETF 3개 샀는데 다 반도체?",
+   "topic": "ETF 섹터·테마 중복 — 여러 개 담아도 구성종목이 겹치면 분산이 아님",
+   "post_id": "18635048011040027",
+   "permalink": "https://www.threads.com/@etfspoon/post/Ddz9vCNDuX5",
+   "images": "images/2026-09-28/ep52"
   }
  ],
  "posts": [
@@ -2032,6 +2042,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "10:00 11시간 지연 → 이 회차 포기; 12:00 9시간 지연 → 이 회차 포기; 19:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-28T10:06+09:00",
+   "slot": "10:00",
+   "result": "10:00 EP.52 툰 게시 https://www.threads.com/@etfspoon/post/Ddz9vCNDuX5",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
