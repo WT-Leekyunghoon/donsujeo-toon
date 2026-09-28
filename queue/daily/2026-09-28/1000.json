@@ -1,0 +1,55 @@
+{
+  "topic": "ETF 섹터·테마 중복 — 여러 개 담아도 구성종목이 겹치면 분산이 아님",
+  "title": "ETF 3개 샀는데 다 반도체?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 ETF 여러 개 담을 때 다시 보기 ✔",
+  "body": "ETF 3개 샀는데 다 반도체? 🥲\n\n개수를 늘려도 안에 담긴 종목이 겹치면 분산이 아니야. 구성종목 TOP10을 나란히 놓고 겹치는지부터 봐.\n\n넌 ETF 담을 때 겹침 확인해봤어? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "3개 담았으니 *분산* 끝?",
+      "bubble": "여러 개 나눠 담았으니 한 곳에 몰린 건 아니겠지?",
+      "face": "cool",
+      "prop": "cart",
+      "caption": "나도 개수만 늘리면 되는 줄 알았어",
+      "bg": "mint",
+      "flip": false,
+      "tilt": -5,
+      "friend": "coin",
+      "friend_face": "think",
+      "friend_side": "right"
+    },
+    {
+      "heading": "열어보니 *같은 업종*",
+      "bubble": "이름은 달랐는데 상위 종목이 거의 겹쳤더라고.",
+      "face": "surprised",
+      "prop": "magnifier",
+      "caption": "이름은 포장지, 구성종목이 정체",
+      "bg": "lemon",
+      "flip": true,
+      "tilt": 4
+    },
+    {
+      "heading": "겹침 확인은 *3단계*",
+      "bubble": "① 구성종목 TOP10 비교 ② 이름 속 테마 확인\n③ 한 업종에 쏠렸는지 점검",
+      "face": "think",
+      "prop": "lightbulb",
+      "caption": "같은 업종끼리 뭉치면 같이 흔들려",
+      "bg": "lavender",
+      "flip": false,
+      "tilt": 2,
+      "friend": "coin",
+      "friend_face": "surprised",
+      "friend_side": "left"
+    },
+    {
+      "heading": "개수보다 *겹침*을 보자",
+      "bubble": "오늘은 내가 담은 ETF의 TOP10만 나란히 열어봐.",
+      "face": "wink",
+      "prop": "piggy",
+      "caption": "",
+      "bg": "cream",
+      "flip": true,
+      "tilt": -3
+    }
+  ]
+}

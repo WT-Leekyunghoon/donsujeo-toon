@@ -1,0 +1,55 @@
+{
+  "topic": "주식기초 수급 — 외국인·기관 매매 뉴스를 읽는 법",
+  "title": "외국인이 팔았대, 그럼 나도?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 수급 뉴스 볼 때 다시 보기 ✔",
+  "body": "외국인이 팔았대, 그럼 나도? 🥲\n\n하루치 순매수·순매도는 흐름의 한 조각이야. 며칠 추세인지, 시장 전체인지 특정 업종인지까지 같이 봐.\n\n넌 수급 뉴스 보면 뭘 먼저 확인해? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "*외국인 순매도*래",
+      "bubble": "큰 손이 팔았다니 나도 서둘러야 하나 싶었어.",
+      "face": "happy",
+      "prop": "bell",
+      "caption": "제목만 보고 마음이 먼저 급해졌지",
+      "bg": "sky",
+      "flip": true,
+      "tilt": 3,
+      "friend": "coin",
+      "friend_face": "surprised",
+      "friend_side": "left"
+    },
+    {
+      "heading": "그건 *하루치* 집계였어",
+      "bubble": "하루만 떼어 보면 방향이 뒤집힌 것처럼 보이더라고.",
+      "face": "sad",
+      "prop": "chart_down",
+      "caption": "며칠 흐름으로 보면 또 달라져",
+      "bg": "pink",
+      "flip": false,
+      "tilt": -4
+    },
+    {
+      "heading": "볼 건 *세 가지*",
+      "bubble": "① 하루 말고 며칠 추세 ② 시장 전체인지 한 업종인지\n③ 내 계획이 바뀌었는지",
+      "face": "think",
+      "prop": "calendar",
+      "caption": "수급은 참고 자료일 뿐이야",
+      "bg": "cream",
+      "flip": true,
+      "tilt": 5,
+      "friend": "pink",
+      "friend_face": "think",
+      "friend_side": "right"
+    },
+    {
+      "heading": "숫자는 참고, 결정은 *내 계획*",
+      "bubble": "수급 뉴스를 보면 며칠치 흐름까지 같이 열어보자.",
+      "face": "wink",
+      "prop": "umbrella",
+      "caption": "",
+      "bg": "lemon",
+      "flip": false,
+      "tilt": -2
+    }
+  ]
+}
