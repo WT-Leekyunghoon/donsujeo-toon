@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 53,
+ "next_episode": 54,
  "episodes": [
   {
    "ep": 1,
@@ -532,6 +532,16 @@
    "post_id": "18635048011040027",
    "permalink": "https://www.threads.com/@etfspoon/post/Ddz9vCNDuX5",
    "images": "images/2026-09-28/ep52"
+  },
+  {
+   "ep": 53,
+   "date": "2026-09-28",
+   "slot": "17:00",
+   "title": "외국인이 팔았대, 그럼 나도?",
+   "topic": "주식기초 수급 — 외국인·기관 매매 뉴스를 읽는 법",
+   "post_id": "18073994375743625",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd0vJzZG3TI",
+   "images": "images/2026-09-28/ep53"
   }
  ],
  "posts": [
@@ -2094,6 +2104,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-28T17:18+09:00",
+   "slot": "17:00",
+   "result": "17:00 EP.53 툰 게시 https://www.threads.com/@etfspoon/post/Dd0vJzZG3TI",
+   "replies": 0,
+   "hidden": 0,
+   "note": "19:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
