@@ -976,6 +976,14 @@
    "title": "금리 부담, 실적 기대가 맞섰대",
    "post_id": "18336291940274631",
    "permalink": "https://www.threads.com/@etfspoon/post/Dd0Zv9iG577"
+  },
+  {
+   "date": "2026-09-28",
+   "slot": "19:00",
+   "kind": "tip",
+   "title": "수급은 5일치로 보자",
+   "post_id": "17926001847421673",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd082KpmxaS"
   }
  ],
  "replied": [],
@@ -2113,6 +2121,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "19:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-28T19:18+09:00",
+   "slot": "19:00",
+   "result": "19:00 tip 게시 https://www.threads.com/@etfspoon/post/Dd082KpmxaS",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
    "evergreen_left": 5
   }
  ]
