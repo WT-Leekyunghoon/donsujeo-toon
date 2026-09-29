@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 54,
+ "next_episode": 55,
  "episodes": [
   {
    "ep": 1,
@@ -542,6 +542,16 @@
    "post_id": "18073994375743625",
    "permalink": "https://www.threads.com/@etfspoon/post/Dd0vJzZG3TI",
    "images": "images/2026-09-28/ep53"
+  },
+  {
+   "ep": 54,
+   "date": "2026-09-29",
+   "slot": "10:00",
+   "title": "미국 회의가 왜 내 계좌를?",
+   "topic": "경제상식 미국 연준·FOMC — 미국 금리 결정이 국내 증시에 영향을 주는 이유",
+   "post_id": "18253115806308281",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd2iuqYmadm",
+   "images": "images/2026-09-29/ep54"
   }
  ],
  "posts": [
@@ -2139,6 +2149,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-29T10:08+09:00",
+   "slot": "10:00",
+   "result": "10:00 EP.54 툰 게시 https://www.threads.com/@etfspoon/post/Dd2iuqYmadm",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
