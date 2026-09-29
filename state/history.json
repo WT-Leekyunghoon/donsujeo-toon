@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 55,
+ "next_episode": 56,
  "episodes": [
   {
    "ep": 1,
@@ -552,6 +552,16 @@
    "post_id": "18253115806308281",
    "permalink": "https://www.threads.com/@etfspoon/post/Dd2iuqYmadm",
    "images": "images/2026-09-29/ep54"
+  },
+  {
+   "ep": 55,
+   "date": "2026-09-29",
+   "slot": "17:00",
+   "title": "시장가로 눌렀다가 놀랐어",
+   "topic": "주식기초 호가창·체결 — 시장가와 지정가 주문의 차이",
+   "post_id": "17959227216217982",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd3gcvhG_jh",
+   "images": "images/2026-09-29/ep55"
   }
  ],
  "posts": [
@@ -2192,6 +2202,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "17:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-09-29T19:07+09:00",
+   "slot": "17:00",
+   "result": "17:00 EP.55 툰 게시 https://www.threads.com/@etfspoon/post/Dd3gcvhG_jh",
+   "replies": 0,
+   "hidden": 0,
+   "note": "19:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
