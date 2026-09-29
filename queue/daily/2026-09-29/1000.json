@@ -1,0 +1,55 @@
+{
+  "topic": "경제상식 미국 연준·FOMC — 미국 금리 결정이 국내 증시에 영향을 주는 이유",
+  "title": "미국 회의가 왜 내 계좌를?",
+  "series": "돈수저툰",
+  "footer": "저장해두고 미국 금리 뉴스 볼 때 다시 보기 ✔",
+  "body": "미국 회의가 왜 내 계좌를? 🥲\n\n미국 금리는 세계 돈값의 기준이라, 바뀌면 자금 흐름도 같이 움직여. 결과 숫자만큼 '앞으로 어떻게 하겠다'는 설명도 중요해.\n\n넌 새벽에 나오는 금리 소식 챙겨봐? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "밤사이 *미국 회의*가 뭐라고",
+      "bubble": "남의 나라 회의인데 왜 우리 장이 같이 흔들리지?",
+      "face": "happy",
+      "prop": "newspaper",
+      "caption": "나도 남 얘기인 줄만 알았어",
+      "bg": "cream",
+      "flip": false,
+      "tilt": -3,
+      "friend": "coin",
+      "friend_face": "think",
+      "friend_side": "left"
+    },
+    {
+      "heading": "돈값의 *기준*이라서 그래",
+      "bubble": "미국 금리가 움직이면 세계 자금이 어디로 갈지도 같이 바뀌거든.",
+      "face": "surprised",
+      "prop": "chart_up",
+      "caption": "금리 = 돈을 빌리는 값",
+      "bg": "sky",
+      "flip": true,
+      "tilt": 4
+    },
+    {
+      "heading": "챙겨볼 건 *세 가지*",
+      "bubble": "① 올렸나 내렸나 ② 앞으로 어떻게 하겠다는 설명\n③ 환율이 같이 움직였는지",
+      "face": "think",
+      "prop": "scale",
+      "caption": "결과보다 '앞으로'가 더 클 때도 있어",
+      "bg": "mint",
+      "flip": false,
+      "tilt": 2,
+      "friend": "coin",
+      "friend_face": "surprised",
+      "friend_side": "right"
+    },
+    {
+      "heading": "하루 등락보다 *흐름*",
+      "bubble": "발표 다음 날 숫자 하나로 방향을 단정하지는 말자.",
+      "face": "wink",
+      "prop": "doc",
+      "caption": "",
+      "bg": "pink",
+      "flip": true,
+      "tilt": -5
+    }
+  ]
+}

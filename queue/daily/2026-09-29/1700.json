@@ -1,0 +1,52 @@
+{
+  "topic": "주식기초 호가창·체결 — 시장가와 지정가 주문의 차이",
+  "title": "시장가로 눌렀다가 놀랐어",
+  "series": "돈수저툰",
+  "footer": "저장해두고 주문 넣기 전에 다시 보기 ✔",
+  "body": "시장가로 눌렀다가 놀랐어 🥲\n\n시장가는 가격이 아니라 체결을 우선하는 주문이야. 호가가 얇으면 생각보다 위쪽 가격에서 체결될 수 있어.\n\n넌 주문할 때 지정가 쓰는 편이야? 💬\n\n#돈수저툰 EP.{N}",
+  "panels": [
+    {
+      "heading": "빨리 사려고 *시장가*",
+      "bubble": "지금 바로 체결된다길래 그냥 눌러버렸어.",
+      "face": "cool",
+      "prop": "phone",
+      "caption": "급할 땐 손이 먼저 나가더라",
+      "bg": "lemon",
+      "flip": true,
+      "tilt": 3
+    },
+    {
+      "heading": "생각보다 *비싸게* 샀어",
+      "bubble": "호가가 얇으면 위쪽 가격까지 올라가면서 체결되더라고.",
+      "face": "sad",
+      "prop": "wallet",
+      "caption": "시장가는 가격이 아니라 체결을 고르는 주문",
+      "bg": "mint",
+      "flip": false,
+      "tilt": -4
+    },
+    {
+      "heading": "구분은 *이렇게*",
+      "bubble": "① 지정가는 가격을 정한다 ② 시장가는 체결을 앞세운다\n③ 호가가 얇을수록 차이가 커진다",
+      "face": "think",
+      "prop": "clock",
+      "caption": "호가창은 사려는 줄과 팔려는 줄이야",
+      "bg": "pink",
+      "flip": true,
+      "tilt": 5,
+      "friend": "coin",
+      "friend_face": "think",
+      "friend_side": "left"
+    },
+    {
+      "heading": "급할수록 *가격을 정하자*",
+      "bubble": "주문 넣기 전에 호가창부터 한 번 열어보는 거 어때?",
+      "face": "happy",
+      "prop": "coin",
+      "caption": "",
+      "bg": "lavender",
+      "flip": false,
+      "tilt": -2
+    }
+  ]
+}
