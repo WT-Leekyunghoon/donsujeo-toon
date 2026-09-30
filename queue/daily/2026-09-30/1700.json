@@ -1,0 +1,55 @@
+{
+ "topic": "습관·심리 — 매수 전 이유와 점검 기준을 메모로 남기는 투자일지",
+ "title": "산 이유, 적어뒀어?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 투자 메모 쓸 때 다시 보기 ✔",
+ "body": "산 이유, 적어뒀어? 🥲\n\n사고 나면 기억이 바뀌기 쉬워. 살 때 이유와 점검할 날짜를 한 줄 메모로 남겨두면 감정에 덜 흔들려.\n\n넌 투자 메모 써본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "그때 *왜* 샀더라?",
+   "bubble": "분명 이유가 있었는데... 기억이 안 나네.",
+   "face": "sad",
+   "prop": "magnifier",
+   "caption": "나도 샀다가 이유를 까먹었어",
+   "bg": "sky",
+   "flip": false,
+   "tilt": 3
+  },
+  {
+   "heading": "기억은 *결과*에 물들어",
+   "bubble": "오르면 잘 샀다 하고, 내리면 괜히 샀다 하게 되더라.",
+   "face": "surprised",
+   "prop": "chart_down",
+   "caption": "같은 선택도 결과 따라 다르게 기억돼",
+   "bg": "cream",
+   "flip": true,
+   "tilt": -4,
+   "friend": "pink",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "메모는 *딱 3줄*",
+   "bubble": "① 산 이유 ② 얼마나 담을지 ③ 다시 볼 날짜",
+   "face": "think",
+   "prop": "lightbulb",
+   "caption": "점수 매기기보다 이유 기록이 핵심",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "한 줄이면 *충분*해",
+   "bubble": "오늘 가진 상품마다 산 이유 한 줄만 적어봐.",
+   "face": "happy",
+   "prop": "piggy",
+   "caption": "",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": -3,
+   "friend": "pink",
+   "friend_face": "happy",
+   "friend_side": "left"
+  }
+ ]
+}
