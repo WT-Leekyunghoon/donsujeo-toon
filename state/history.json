@@ -2336,6 +2336,15 @@
    "hidden": 0,
    "note": "ok",
    "evergreen_left": 5
+  },
+  {
+   "time": "2026-10-02T00:23+09:00",
+   "slot": "10:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
   }
  ]
 }
