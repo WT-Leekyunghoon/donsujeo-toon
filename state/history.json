@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 56,
+ "next_episode": 57,
  "episodes": [
   {
    "ep": 1,
@@ -562,6 +562,16 @@
    "post_id": "17959227216217982",
    "permalink": "https://www.threads.com/@etfspoon/post/Dd3gcvhG_jh",
    "images": "images/2026-09-29/ep55"
+  },
+  {
+   "ep": 56,
+   "date": "2026-10-01",
+   "slot": "10:00",
+   "title": "분배금 높은 ETF, 공짜일까?",
+   "topic": "ETF 커버드콜 — 분배금 재원은 옵션 프리미엄, 대신 상승 몫은 제한될 수 있음",
+   "post_id": "18104246672255314",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd7uFmUmhJD",
+   "images": "images/2026-10-01/ep56"
   }
  ],
  "posts": [
@@ -2246,6 +2256,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "10:00 12시간 지연 → 이 회차 포기; 12:00 10시간 지연 → 이 회차 포기; 17:00 5시간 지연 → 이 회차 포기; 19:00 3시간 지연 → 이 회차 포기",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-10-01T10:23+09:00",
+   "slot": "10:00",
+   "result": "10:00 EP.56 툰 게시 https://www.threads.com/@etfspoon/post/Dd7uFmUmhJD",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
