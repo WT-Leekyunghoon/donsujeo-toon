@@ -1,0 +1,55 @@
+{
+ "topic": "ETF 커버드콜 — 분배금 재원은 옵션 프리미엄, 대신 상승 몫은 제한될 수 있음",
+ "title": "분배금 높은 ETF, 공짜일까?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 분배금 높은 ETF 볼 때 다시 보기 ✔",
+ "body": "분배금 높은 ETF, 공짜일까? 🥲\n\n커버드콜은 옵션 프리미엄으로 분배금을 만들지만, 그 대신 오를 때 얻는 몫이 제한될 수 있어. 전략 설명과 구성종목을 먼저 확인해봐.\n\n넌 분배금만 보고 고른 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "분배금 *높다니* 끌리네",
+   "bubble": "분배금이 이렇게 많다고? 이거 완전 이득 아니야?",
+   "face": "excited",
+   "prop": "umbrella",
+   "caption": "나도 숫자만 보고 눈이 반짝했어",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "근데 *재원*이 뭘까?",
+   "bubble": "커버드콜은 옵션을 팔아 받은 돈이 분배금의 재료가 될 수 있어.",
+   "face": "surprised",
+   "prop": "calendar",
+   "caption": "옵션 프리미엄 = 미리 받는 수수료 같은 것",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "확인은 *3가지*만",
+   "bubble": "① 전략 설명서 ② 구성종목 ③ 오를 때 몫이 제한되는지",
+   "face": "think",
+   "prop": "moneybag",
+   "caption": "분배금이 많아도 가격은 오르내릴 수 있어",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": -2,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "분배금은 *일부 정보*야",
+   "bubble": "오늘은 전략 설명서 첫 페이지만 열어봐. 이름만 보지 말고!",
+   "face": "wink",
+   "prop": "bell",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 4
+  }
+ ]
+}
