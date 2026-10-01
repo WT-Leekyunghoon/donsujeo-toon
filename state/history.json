@@ -1046,6 +1046,14 @@
    "title": "분배금만 보지 마",
    "post_id": "18150451099544068",
    "permalink": "https://www.threads.com/@etfspoon/post/Dd8VYNHG_UM"
+  },
+  {
+   "date": "2026-10-01",
+   "slot": "14:00",
+   "kind": "news",
+   "title": "9월 수출, 사상 최대래",
+   "post_id": "17915216553457944",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd8VqNZm-4N"
   }
  ],
  "replied": [],
@@ -2282,6 +2290,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "14:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-10-01T16:09+09:00",
+   "slot": "14:00",
+   "result": "14:00 news 게시 https://www.threads.com/@etfspoon/post/Dd8VqNZm-4N",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
