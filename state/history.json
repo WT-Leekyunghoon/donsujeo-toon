@@ -1038,6 +1038,14 @@
    "title": "생산·소비·투자 다 줄었대",
    "post_id": "17903660511356286",
    "permalink": "https://www.threads.com/@etfspoon/post/Dd5tN0mlj67"
+  },
+  {
+   "date": "2026-10-01",
+   "slot": "12:00",
+   "kind": "tip",
+   "title": "분배금만 보지 마",
+   "post_id": "18150451099544068",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd8VYNHG_UM"
   }
  ],
  "replied": [],
@@ -2265,6 +2273,15 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-10-01T16:07+09:00",
+   "slot": "12:00",
+   "result": "12:00 tip 게시 https://www.threads.com/@etfspoon/post/Dd8VYNHG_UM",
+   "replies": 0,
+   "hidden": 0,
+   "note": "14:00 이후는 다음 실행에서 이어서",
    "evergreen_left": 5
   }
  ]
