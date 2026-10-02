@@ -11,7 +11,7 @@
   "17:00",
   "19:00"
  ],
- "next_episode": 58,
+ "next_episode": 59,
  "episodes": [
   {
    "ep": 1,
@@ -582,6 +582,16 @@
    "post_id": "17949131031055262",
    "permalink": "https://www.threads.com/@etfspoon/post/Dd8cIVQlvzn",
    "images": "images/2026-10-01/ep57"
+  },
+  {
+   "ep": 58,
+   "date": "2026-10-02",
+   "slot": "10:00",
+   "title": "공매도, 이름이 왜 무서워?",
+   "topic": "주식기초 공매도 — 빌려서 먼저 팔고 나중에 갚는 거래",
+   "post_id": "17880668067628617",
+   "permalink": "https://www.threads.com/@etfspoon/post/Dd-R69rml8s",
+   "images": "images/2026-10-02/ep58"
   }
  ],
  "posts": [
@@ -2341,6 +2351,15 @@
    "time": "2026-10-02T00:23+09:00",
    "slot": "10:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok",
+   "evergreen_left": 5
+  },
+  {
+   "time": "2026-10-02T10:15+09:00",
+   "slot": "10:00",
+   "result": "10:00 EP.58 툰 게시 https://www.threads.com/@etfspoon/post/Dd-R69rml8s",
    "replies": 0,
    "hidden": 0,
    "note": "ok",
