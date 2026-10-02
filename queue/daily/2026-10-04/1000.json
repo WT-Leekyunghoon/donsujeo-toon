@@ -1,0 +1,52 @@
+{
+ "topic": "경제상식 경기순환 — 호황과 불황이 번갈아 오는 흐름",
+ "title": "경기도 계절처럼 돌아?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 경기 뉴스 볼 때 다시 보기 ✔",
+ "body": "경기도 계절처럼 돌아? 🥲\n\n경기는 좋을 때와 나쁠 때가 번갈아 오는 경향이 있어. 지금 위치를 맞히려 하기보다 흐름을 이해해두자.\n\n넌 경기 얘기 들으면 어떤 생각이 들어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "지금 *호황*일까?",
+   "bubble": "요즘 경기 어때? 좋은 건지 나쁜 건지 모르겠어.",
+   "face": "think",
+   "prop": "umbrella",
+   "caption": "나도 늘 헷갈렸어",
+   "bg": "mint",
+   "flip": false,
+   "tilt": 3
+  },
+  {
+   "heading": "경기는 *계절처럼* 돌아",
+   "bubble": "좋을 때와 나쁠 때가 번갈아 오는 흐름이 있어.",
+   "face": "surprised",
+   "prop": "chart_up",
+   "caption": "언제 바뀌는지는 아무도 정확히 몰라",
+   "bg": "pink",
+   "flip": true,
+   "tilt": -4,
+   "friend": "coin",
+   "friend_face": "excited",
+   "friend_side": "right"
+  },
+  {
+   "heading": "볼 땐 *2가지* 지표",
+   "bubble": "① 수출·고용 같은 뉴스 ② 금리와 물가 흐름",
+   "face": "think",
+   "prop": "newspaper",
+   "caption": "한두 개 숫자로 단정하기엔 일러",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "맞히기보다 *준비*",
+   "bubble": "시기를 맞히기보다 나눠 담는 습관이 더 든든해.",
+   "face": "wink",
+   "prop": "scale",
+   "caption": "",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}

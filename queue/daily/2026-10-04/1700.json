@@ -1,0 +1,52 @@
+{
+ "topic": "습관·심리 확증편향 — 내 생각과 맞는 정보만 찾아 읽는 습관",
+ "title": "내 말만 맞다는 뉴스만 봐?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 투자 정보 찾을 때 다시 보기 ✔",
+ "body": "내 말만 맞다는 뉴스만 봐? 🥲\n\n사람은 내 생각에 맞는 글만 찾아 읽기 쉬워. 반대 의견도 한 번 읽어보면 판단이 한결 차분해져.\n\n넌 반대 의견도 챙겨 읽어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "내 *생각이 맞네*",
+   "bubble": "봐봐, 내 생각이랑 같은 글만 계속 나오잖아!",
+   "face": "cool",
+   "prop": "magnifier",
+   "caption": "나도 편한 글만 찾았어",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -3
+  },
+  {
+   "heading": "그게 *확증편향*이래",
+   "bubble": "내 생각에 맞는 정보만 눈에 잘 들어오는 거야.",
+   "face": "surprised",
+   "prop": "phone",
+   "caption": "누구나 그럴 수 있어",
+   "bg": "cream",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "*반대 의견*도 한 번",
+   "bubble": "① 반대 근거 1개 ② 원자료 확인 ③ 하루 뒤 재검토",
+   "face": "think",
+   "prop": "scale",
+   "caption": "결정은 천천히, 확인은 꼼꼼히",
+   "bg": "mint",
+   "flip": false,
+   "tilt": -2,
+   "friend": "pink",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "한 번 *더 읽기*",
+   "bubble": "오늘은 내 생각과 다른 글 하나만 읽어봐.",
+   "face": "wink",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 4
+  }
+ ]
+}
