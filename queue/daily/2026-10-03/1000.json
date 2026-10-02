@@ -1,0 +1,52 @@
+{
+ "topic": "경제상식 소비자물가지수(CPI) — 장바구니 물가를 숫자로 묶은 지표",
+ "title": "CPI? 장바구니 성적표야",
+ "series": "돈수저툰",
+ "footer": "저장해두고 물가 뉴스 볼 때 다시 보기 ✔",
+ "body": "CPI? 장바구니 성적표야 🥲\n\nCPI는 우리가 자주 사는 물건과 서비스의 가격 변화를 묶어서 보는 물가 지표야. 숫자 하나만 보지 말고 무엇이 올랐는지도 같이 봐.\n\n넌 물가 뉴스 볼 때 뭐부터 봐? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "물가 뉴스, *숫자만* 보이네",
+   "bubble": "CPI 2.9%래. 근데 그게 내 지갑이랑 무슨 상관이야?",
+   "face": "think",
+   "prop": "newspaper",
+   "caption": "나도 숫자만 보고 넘겼어",
+   "bg": "sky",
+   "flip": false,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "right"
+  },
+  {
+   "heading": "CPI는 *장바구니 성적표*",
+   "bubble": "자주 사는 물건과 서비스 가격이 1년 전보다 얼마나 변했는지 보는 거야.",
+   "face": "surprised",
+   "prop": "cart",
+   "caption": "같은 장바구니의 가격 비교",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": -3
+  },
+  {
+   "heading": "볼 땐 *2가지* 더",
+   "bubble": "① 무엇이 올랐나 ② 지난달과 비교하면 어떤가",
+   "face": "think",
+   "prop": "magnifier",
+   "caption": "한 달 숫자만으론 흐름을 단정 못 해",
+   "bg": "mint",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "뉴스가 *쉬워져*",
+   "bubble": "다음에 물가 뉴스 보면 오른 품목부터 찾아봐.",
+   "face": "wink",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "pink",
+   "flip": true,
+   "tilt": -5
+  }
+ ]
+}

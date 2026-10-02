@@ -1,0 +1,52 @@
+{
+ "topic": "주식기초 매매비용 — 증권사 수수료와 거래 비용 확인하기",
+ "title": "샀다 팔았더니 왜 줄었지?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 매매 전 비용 확인할 때 다시 보기 ✔",
+ "body": "샀다 팔았더니 왜 줄었지? 🥲\n\n주식은 사고팔 때 수수료와 세금 같은 비용이 붙을 수 있어. 얼마인지는 증권사와 상품마다 다르니 내 앱에서 확인해봐.\n\n넌 매매 비용 확인해본 적 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "수익 났는데 *왜 적지?*",
+   "bubble": "분명 올랐는데 계좌에 찍힌 숫자는 생각보다 작네.",
+   "face": "sad",
+   "prop": "piggy",
+   "caption": "나도 이유를 한참 몰랐어",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -3
+  },
+  {
+   "heading": "*비용*이 붙어 있었어",
+   "bubble": "매매 수수료나 세금이 거래할 때 빠질 수 있어.",
+   "face": "surprised",
+   "prop": "scale",
+   "caption": "상품마다 적용 방식이 달라",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 4,
+   "friend": "pink",
+   "friend_face": "surprised",
+   "friend_side": "left"
+  },
+  {
+   "heading": "확인은 *내 앱*에서",
+   "bubble": "① 수수료율 ② 이벤트 조건 ③ 거래 내역의 비용 항목",
+   "face": "think",
+   "prop": "doc",
+   "caption": "숫자는 증권사 안내가 정답",
+   "bg": "sky",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "자주 거래할수록 *중요*",
+   "bubble": "오늘은 거래 내역에서 비용 칸 하나만 열어봐.",
+   "face": "wink",
+   "prop": "magnifier",
+   "caption": "",
+   "bg": "lemon",
+   "flip": true,
+   "tilt": 3
+  }
+ ]
+}
