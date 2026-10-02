@@ -1,0 +1,52 @@
+{
+ "topic": "주식기초 신용거래 — 빌린 돈으로 사면 이자와 반대매매 위험이 따름",
+ "title": "빚내서 투자하면 어떻게 돼?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 신용거래 얘기 들을 때 다시 보기 ✔",
+ "body": "빚내서 투자하면 어떻게 돼? 🥲\n\n신용거래는 증권사에서 돈을 빌려 주식을 사는 방식이야. 이자가 붙고, 가격이 크게 내리면 강제로 팔릴 수도 있어.\n\n넌 투자 금액 정할 때 기준 있어? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "돈이 *부족한데*?",
+   "bubble": "조금만 더 사면 좋을 것 같은데, 빌려서 사볼까?",
+   "face": "excited",
+   "prop": "wallet",
+   "caption": "나도 솔깃했던 적 있어",
+   "bg": "pink",
+   "flip": false,
+   "tilt": -3
+  },
+  {
+   "heading": "*이자*가 붙어",
+   "bubble": "빌린 돈은 갚아야 하고 이자도 붙어. 기간이 길수록 부담도 커져.",
+   "face": "surprised",
+   "prop": "clock",
+   "caption": "조건은 증권사마다 달라",
+   "bg": "lavender",
+   "flip": true,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "right"
+  },
+  {
+   "heading": "*반대매매*도 있어",
+   "bubble": "가격이 많이 내리면 증권사가 대신 팔 수도 있어.",
+   "face": "sad",
+   "prop": "chart_down",
+   "caption": "내 의지와 상관없이 정리될 수 있어",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "*내 돈*으로 먼저",
+   "bubble": "오늘은 내 돈 안에서 감당할 금액이 얼마인지 적어봐.",
+   "face": "wink",
+   "prop": "piggy",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 4
+  }
+ ]
+}

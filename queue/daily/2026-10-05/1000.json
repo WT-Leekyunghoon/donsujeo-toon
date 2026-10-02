@@ -1,0 +1,52 @@
+{
+ "topic": "경제상식 유가와 물가 — 기름값이 다른 물가로 이어지는 경로",
+ "title": "기름값은 왜 장바구니까지?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 유가 뉴스 볼 때 다시 보기 ✔",
+ "body": "기름값은 왜 장바구니까지? 🥲\n\n기름값은 운송비와 생산비에 들어가서 다른 물가에도 영향을 줄 수 있어. 유가 뉴스가 물가 뉴스와 같이 나오는 이유야.\n\n넌 기름값 오르면 뭐부터 체감돼? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "기름값이랑 *물가가 무슨 상관?*",
+   "bubble": "주유소 가격 얘기인데 왜 장바구니 얘기로 번져?",
+   "face": "think",
+   "prop": "cart",
+   "caption": "나도 따로따로인 줄 알았어",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": 3,
+   "friend": "coin",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "기름은 *운반비*에 들어가",
+   "bubble": "물건을 만들고 나르는 데 기름이 쓰이니까 비용에 들어갈 수 있어.",
+   "face": "surprised",
+   "prop": "moneybag",
+   "caption": "모든 물건이 같은 속도로 오르진 않아",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -4
+  },
+  {
+   "heading": "뉴스 볼 땐 *2가지*",
+   "bubble": "① 오른 이유 ② 일시적인지 이어질지 설명",
+   "face": "think",
+   "prop": "newspaper",
+   "caption": "예측 말고 설명을 읽자",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "연결해서 *읽기*",
+   "bubble": "오늘은 물가 뉴스 속 석유류 항목만 찾아봐.",
+   "face": "wink",
+   "prop": "magnifier",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}
