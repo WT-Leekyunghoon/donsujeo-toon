@@ -1,0 +1,52 @@
+{
+ "topic": "주식기초 공매도 — 빌려서 먼저 팔고 나중에 갚는 거래",
+ "title": "공매도, 이름이 왜 무서워?",
+ "series": "돈수저툰",
+ "footer": "저장해두고 공매도 뉴스 볼 때 다시 보기 ✔",
+ "body": "공매도, 이름이 왜 무서워? 🥲\n\n공매도는 주식을 빌려 먼저 팔고, 나중에 사서 갚는 거래야. 뉴스에 나오면 겁먹기 전에 뜻부터 알아두자.\n\n넌 공매도 뉴스 보면 어떤 느낌이야? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "공매도? *뭔가 무섭네*",
+   "bubble": "공매도 뉴스 나오면 일단 주가 망한다는 뜻 아니야?",
+   "face": "sad",
+   "prop": "bell",
+   "caption": "나도 단어만 듣고 겁먹었어",
+   "bg": "lavender",
+   "flip": false,
+   "tilt": -3,
+   "friend": "coin",
+   "friend_face": "surprised",
+   "friend_side": "right"
+  },
+  {
+   "heading": "뜻은 *빌려서 먼저 팔기*",
+   "bubble": "주식을 빌려 먼저 팔고, 나중에 사서 갚는 거래야.",
+   "face": "surprised",
+   "prop": "wallet",
+   "caption": "값이 내리면 차익, 오르면 손해",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 3
+  },
+  {
+   "heading": "뉴스 볼 땐 *3가지*만",
+   "bubble": "① 무슨 거래인지 ② 시장 영향 설명 ③ 규정·제도 변화",
+   "face": "think",
+   "prop": "doc",
+   "caption": "한 줄 뉴스로 단정은 금물",
+   "bg": "cream",
+   "flip": false,
+   "tilt": -2
+  },
+  {
+   "heading": "단어는 *알면* 덜 무서워",
+   "bubble": "뜻만 알아도 뉴스가 훨씬 차분하게 읽혀.",
+   "face": "wink",
+   "prop": "lightbulb",
+   "caption": "",
+   "bg": "sky",
+   "flip": true,
+   "tilt": 4
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "topic": "습관·절세 연말정산 — 10월부터 소득공제·세액공제 항목 미리 점검",
+ "title": "연말정산, 12월에 급해지지 마",
+ "series": "돈수저툰",
+ "footer": "저장해두고 연말정산 준비할 때 다시 보기 ✔",
+ "body": "연말정산, 12월에 급해지지 마 🥲\n\n연말정산은 연말에 몰아서 하면 놓치기 쉬워. 10월에 내 공제 항목을 한 번 훑어보면 마음이 편해.\n\n넌 연말정산 언제부터 챙겨봐? 💬\n\n#돈수저툰 EP.{N}",
+ "panels": [
+  {
+   "heading": "12월에 *허둥지둥*",
+   "bubble": "연말정산? 그건 12월에 생각하면 되지!",
+   "face": "happy",
+   "prop": "calendar",
+   "caption": "나도 매번 마지막에 서둘렀어",
+   "bg": "lemon",
+   "flip": false,
+   "tilt": 3,
+   "friend": "pink",
+   "friend_face": "think",
+   "friend_side": "left"
+  },
+  {
+   "heading": "근데 *이미* 쌓이는 중",
+   "bubble": "올해 쓴 카드·보험·연금 납입은 지금도 쌓이고 있어.",
+   "face": "surprised",
+   "prop": "wallet",
+   "caption": "1월부터 12월까지 한 해 기록",
+   "bg": "sky",
+   "flip": true,
+   "tilt": -4
+  },
+  {
+   "heading": "10월엔 *3가지* 점검",
+   "bubble": "① 내 공제 항목 ② 연금저축·IRP 납입 현황 ③ 증빙 서류",
+   "face": "think",
+   "prop": "magnifier",
+   "caption": "세법은 바뀔 수 있으니 국세청 안내 확인",
+   "bg": "pink",
+   "flip": false,
+   "tilt": 2
+  },
+  {
+   "heading": "미리 보면 *덜 급해*",
+   "bubble": "오늘은 국세청 홈택스에서 내 자료 한 번만 열어봐.",
+   "face": "wink",
+   "prop": "cart",
+   "caption": "",
+   "bg": "mint",
+   "flip": true,
+   "tilt": 5
+  }
+ ]
+}
