@@ -1,11 +1,13 @@
 """run_episode.py — 돈수저툰 GitHub Actions 러너 v2 (큐 방식, LLM 불필요)
 
-하루 5회 (KST):
+하루 4회 (KST) — 2026-10-02 부터 5회→4회로 축소, 19:00 팁 슬롯 폐지:
   10:00  그림툰 ① (4컷 캐러셀)
   12:00  툰① 보충 설명·팁 (글 + 툰 패널 1장 첨부)
   14:00  그날의 경제 뉴스 해설 (글)
   17:00  그림툰 ② (4컷 캐러셀)
-  19:00  툰② 보충 설명·팁 (글 + 툰 패널 1장 첨부)
+
+연달아 게시 금지: 한 번 실행에 1편만, 직전 게시(Threads 실제 최신 글 기준)로부터
+MIN_GAP_MINUTES 안 지났으면 이번 실행은 게시하지 않는다. 밀린 회차는 다음 실행에서.
 
 콘텐츠 소스:
   queue/daily/YYYY-MM-DD/HHMM.json  ← 날짜 지정 콘텐츠 (예약 작업이 매일 생성)
@@ -35,8 +37,8 @@ RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
 KST = ZoneInfo("Asia/Seoul")
 
 SLOT_TYPE = {"10:00": "toon", "12:00": "tip", "14:00": "news",
-             "17:00": "toon", "19:00": "tip"}
-TIP_SOURCE = {"12:00": "10:00", "19:00": "17:00"}  # 팁 슬롯 → 원본 툰 슬롯
+             "17:00": "toon"}          # 19:00 팁은 2026-10-02 폐지 (하루 4회)
+TIP_SOURCE = {"12:00": "10:00"}        # 팁 슬롯 → 원본 툰 슬롯
 
 SPAM = ["대출", "리딩", "코인", "텔레그램", "오픈채팅", "오픈챗", "디엠", "dm",
         "수익인증", "수익 인증", "투자방", "종목방", "http://", "https://",
@@ -46,7 +48,8 @@ ASK_PICK = ["뭐 사", "뭐사", "사도 돼", "사도돼", "사도 되", "사�
 PICK_REPLY = "종목 픽은 내가 안 해 🥲 대신 구성종목·총보수·거래량 3개는 꼭 보고 골라봐!"
 MAX_REPLIES = 15
 MAX_HIDES = 15
-MAX_POSTS_PER_RUN = 3      # 한 번 실행에서 최대 게시 수 (cron 이 몇 시간 밀려도 한 번에 밀린 슬롯을 따라잡는다)
+MAX_POSTS_PER_RUN = 1      # 한 번 실행에서 최대 1편 — 연달아 게시 금지. 밀린 슬롯은 다음 실행(30분 뒤)에서
+MIN_GAP_MINUTES = 120      # 직전 게시로부터 최소 간격(분). 안 지났으면 이번 실행은 게시 자체를 건너뛴다
 CATCHUP_MINUTES = 540      # 슬롯 시각보다 이만큼(분) 넘게 늦으면 그 회차는 포기
 CATCHUP_LAST_HOUR = 23     # KST 이 시각 이후에는 밀린 회차를 게시하지 않는다
 
@@ -137,6 +140,20 @@ def reconcile(hist: dict):
     if changed:
         hist["episodes"].sort(key=lambda e: e["ep"])
     hist["next_episode"] = max(hist.get("next_episode", 1), max(known, default=0) + 1)
+
+
+def minutes_since_last_post() -> int | None:
+    """Threads 계정의 실제 최신 게시물 시각 기준 경과 분. 조회 실패 시 None."""
+    _, d = api("GET", f"{UID}/threads", fields="timestamp", limit="1")
+    rows = d.get("data") or []
+    ts = rows[0].get("timestamp") if rows else None
+    if not ts:
+        return None
+    try:
+        last = datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")
+    except ValueError:
+        return None
+    return int((datetime.now(KST) - last.astimezone(KST)).total_seconds() // 60)
 
 
 # ---------- 슬롯·큐 ----------
@@ -477,11 +494,17 @@ def main():
     if not can_post:
         note.append("쿼터 임박 → 게시 생략")
 
+    hist["schedule_kst"] = list(SLOT_TYPE)   # 코드가 기준 (19:00 폐지 반영)
+    gap = minutes_since_last_post()
+    if can_post and gap is not None and gap < MIN_GAP_MINUTES:
+        can_post = False
+        note.append(f"직전 게시 {gap}분 전 → {MIN_GAP_MINUTES}분 간격 미달, 이번 실행 게시 건너뜀")
+
     date = datetime.now(KST).date().isoformat()
     results: list[str] = []
     posted = 0
     if can_post:
-        for slot in sorted(hist.get("schedule_kst", list(SLOT_TYPE)), key=slot_minutes):
+        for slot in sorted(SLOT_TYPE, key=slot_minutes):
             if posted >= MAX_POSTS_PER_RUN:
                 note.append(f"{slot} 이후는 다음 실행에서 이어서")
                 break
