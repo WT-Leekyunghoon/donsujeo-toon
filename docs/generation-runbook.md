@@ -16,7 +16,7 @@
     → 수·목. 평일이고 내일도 평일 → 오늘만.
 - 실행 환경에서 `git clone https://github.com/WT-Leekyunghoon/donsujeo-toon.git`
   로 저장소를 받거나 기존 클론을 `git fetch origin main` 후 최신 `main` 으로 맞춘다.
-  이미 `queue/daily/<날짜>/` 에 5개 파일이 있는 날짜는 건너뛴다.
+  이미 `queue/daily/<날짜>/` 에 4개 파일이 있는 날짜는 건너뛴다.
 - 오늘이 토·일·공휴일이면 (전날 이미 생성됨) 파일 존재만 확인하고 종료.
 
 ## 2. 읽을 것
@@ -25,15 +25,16 @@
 - `state/history.json` — 직전 10편 제목·주제 (중복 금지), 계정 정보.
 - `docs/actions-setup.md` — 파일 형식.
 
-## 3. 날짜별로 5개 파일 생성 → `queue/daily/YYYY-MM-DD/`
+## 3. 날짜별로 4개 파일 생성 → `queue/daily/YYYY-MM-DD/`
+
+(2026-10-02 부터 하루 4회. **1900.json 은 만들지 않는다** — 19:00 팁 슬롯 폐지.)
 
 | 파일 | 내용 |
 |---|---|
 | `1000.json` | 그림툰 spec (sample_spec 형식 + topic/title/body, body 의 EP 는 `{N}`) |
 | `1200.json` | 10시 툰 보충 설명·팁 — `{"type":"tip","title","body","attach_panel":3}` |
 | `1400.json` | 경제 뉴스 해설 — `{"type":"news","title","body"}` |
-| `1700.json` | 그림툰 spec (10시와 다른 주제) |
-| `1900.json` | 17시 툰 보충 설명·팁 |
+| `1700.json` | 그림툰 spec (10시와 다른 주제) — 17시 툰은 보충 팁 없이 단독 게시 |
 
 - **10시 툰 = 운용사 ETF 브랜드 시리즈** (2026-09-02부터, persona.md 의
   "운용사 ETF 브랜드 시리즈" 섹션의 순서·규칙을 따른다):
@@ -67,7 +68,7 @@ Threads API 는 **본문 500자 초과 시 게시 자체가 실패**한다
 (`Param text must be at most 500 characters long.`). 실패해도 조용히 넘어가므로
 생성 직후 반드시 직접 세어볼 것.
 
-- 팁(1200/1900): `{PERMALINK}` 가 실제 링크(약 51자)로 치환되므로
+- 팁(1200): `{PERMALINK}` 가 실제 링크(약 51자)로 치환되므로
   **치환 후 길이 = body 길이 + 40**. → body 는 **445자 이하**로 쓴다.
 - 뉴스(1400): 치환 없음. → body **475자 이하**.
 - 안전 구간은 320~450자. 실제로 문제없이 게시된 글들이 이 범위였다.
