@@ -1,7 +1,7 @@
 """run_episode.py — 하마의 ETF 도전기 GitHub Actions 러너 v3 (큐 방식, LLM 불필요)
 
 2026-10-06 새 계정·새 캐릭터(하마)로 재시작. 하루 3회 (KST):
-  10:00  ETF 상식 글 (아침 경제 이슈 접목)
+  09:50  ETF 상식 글 (아침 경제 이슈 접목) — 2026-10-07~ (전엔 10:00)
   12:00  하마 4컷툰 (Gemini로 미리 만든 완성 이미지 1장 + 글)
   17:00  ETF 상식 글 (오늘 경제 이슈 접목)
 
@@ -31,7 +31,7 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "WT-Leekyunghoon/donsujeo-toon")
 RAW = f"https://raw.githubusercontent.com/{REPO}/main/"
 KST = ZoneInfo("Asia/Seoul")
 
-SLOT_TYPE = {"10:00": "news", "12:00": "toon", "17:00": "news"}   # 2026-10-06~ 하루 3회
+SLOT_TYPE = {"09:50": "news", "12:00": "toon", "17:00": "news"}   # 2026-10-06~ 하루 3회
 TIP_SOURCE: dict[str, str] = {}        # 팁 슬롯 없음 (v3)
 SERIES_TAG = "하마의ETF도전기"          # (옛 형식) 해시태그 회차 표기 — 2026-10-06 부터 해시태그 금지, 회차는 history 로만 추적
 
