@@ -434,9 +434,12 @@ def main():
                f"(error: {me.get('error')})")
         sys.exit(1)
     UID = me["id"]
-    if not expected:   # 새 계정 첫 실행 — 계정 정보 기록
+    if not expected or not hist["account"].get("user_id"):   # 새 계정 첫 실행 — 계정 정보 기록
         hist["account"].update({"username": me["username"], "user_id": UID})
-        log(f"[account] 새 계정 등록: @{me['username']}")
+        log(f"[account] 계정 확인: @{me['username']}")
+    if not hist["account"].get("token_expires_at"):
+        # 새 토큰 첫 사용일 기준 보수적으로 55일 뒤로 기록 → 만료 10일 전부터 자동 갱신 시도
+        hist["account"]["token_expires_at"] = (datetime.now(KST).date() + timedelta(days=55)).isoformat()
 
     reconcile(hist)
 
