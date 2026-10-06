@@ -1,12 +1,10 @@
 name: donsujeo-toon
 
-# 돈수저툰 자동 게시 — 큐 방식 (컴퓨터 꺼져 있어도 GitHub Actions가 실행)
-# KST 10:00 툰① / 12:00 팁① / 14:00 뉴스 / 17:00 툰② / 19:00 팁②
-# GitHub cron 은 지연·누락이 잦다(정각 근처 분은 부하 때 통째로 드롭됨 — 9/24~10/2 실측
-# 하루 12회 설정에 실제 2~3회만 실행). 그래서 정각에서 떨어진 분(11·41)에 30분 간격으로
-# KST 10~22시(UTC 1~13시) 돌면서 '시각이 지난 미게시 슬롯'을 따라잡는다. 한 번 드롭돼도
-# 30분 뒤 다음 기회가 오고, run_episode.py 가 이미 게시된 슬롯은 건너뛰므로 중복 없음.
-# 게시할 게 없으면 run_episode.py 가 그냥 넘어간다.
+# 하마의 ETF 도전기 자동 게시 — 큐 방식 (컴퓨터 꺼져 있어도 GitHub Actions가 실행)
+# KST 10:00 오전 뉴스 / 12:00 하마 4컷툰(완성 이미지) / 17:00 오후 뉴스  (2026-10-06~ 새 계정)
+# GitHub cron 은 지연·누락이 잦아 정각에서 떨어진 분(11·41)에 30분 간격으로
+# KST 10~22시(UTC 1~13시) 돌면서 '시각이 지난 미게시 슬롯'을 따라잡는다.
+# run_episode.py 가 이미 게시된 슬롯은 건너뛰므로 중복 없음.
 on:
   schedule:
     - cron: '11,41 1-13 * * *'
@@ -23,17 +21,16 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
       - name: Check secrets
         env:
           T: ${{ secrets.THREADS_ACCESS_TOKEN }}
-          U: ${{ secrets.THREADS_USER_ID }}
         run: |
-          if [ -z "$T" ] || [ -z "$U" ]; then
-            echo "THREADS_ACCESS_TOKEN / THREADS_USER_ID Secret 미설정 — 이번 회차 건너뜀"
+          if [ -z "$T" ]; then
+            echo "THREADS_ACCESS_TOKEN Secret 미설정 — 이번 회차 건너뜀"
             echo "SKIP=1" >> "$GITHUB_ENV"
           fi
 
@@ -42,13 +39,9 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install deps (Playwright + 한글 폰트)
+      - name: Install deps
         if: env.SKIP != '1'
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq fonts-noto-cjk
-          pip -q install playwright requests
-          python -m playwright install --with-deps chromium
+        run: pip -q install requests
 
       - name: Git identity
         if: env.SKIP != '1'
@@ -60,7 +53,6 @@ jobs:
         if: env.SKIP != '1'
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
-          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ github.token }}
         run: python tools/run_episode.py
