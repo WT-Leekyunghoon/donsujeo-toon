@@ -33,7 +33,7 @@ KST = ZoneInfo("Asia/Seoul")
 
 SLOT_TYPE = {"10:00": "news", "12:00": "toon", "17:00": "news"}   # 2026-10-06~ 하루 3회
 TIP_SOURCE: dict[str, str] = {}        # 팁 슬롯 없음 (v3)
-SERIES_TAG = "하마의ETF도전기"          # 툰 본문의 '#하마의ETF도전기 EP.N' 으로 회차 추적
+SERIES_TAG = "하마의ETF도전기"          # (옛 형식) 해시태그 회차 표기 — 2026-10-06 부터 해시태그 금지, 회차는 history 로만 추적
 
 SPAM = ["대출", "리딩", "코인", "텔레그램", "오픈채팅", "오픈챗", "디엠", "dm",
         "수익인증", "수익 인증", "투자방", "종목방", "http://", "https://",
@@ -50,6 +50,17 @@ CATCHUP_LAST_HOUR = 23     # KST 이 시각 이후에는 밀린 회차를 게시
 
 
 # ---------- 유틸 ----------
+
+def strip_hashtags(text: str) -> str:
+    """해시태그·출처 줄 금지(2026-10-06 사용자 요청) — 본문에서 #단어·출처 줄을 지우고 빈 줄 정리."""
+    text = re.sub(r"(?<![\w&])#[^\s#]+", "", text)
+    # 출처 표기 금지(2026-10-06 사용자 요청) — "(출처: …)" / "출처: …" 줄 삭제
+    lines = [ln.rstrip() for ln in text.splitlines()
+             if not re.match(r"^\s*[(\[]?\s*출처\s*[:：]", ln)]
+    out = "\n".join(lines)
+    out = re.sub(r"\n{3,}", "\n\n", out)
+    return out.strip()
+
 
 def log(*a):
     print(*a, flush=True)
@@ -117,7 +128,7 @@ def reconcile(hist: dict):
     known = {e["ep"] for e in hist["episodes"]}
     changed = False
     for p in d["data"]:
-        m = re.search(rf"#{SERIES_TAG}\s*EP\.?\s*(\d+)", p.get("text") or "")
+        m = re.search(r"#?하마의\s?ETF\s?도전기\s*EP\.?\s*(\d+)", p.get("text") or "")
         if not m:
             continue
         n = int(m.group(1))
@@ -273,7 +284,7 @@ def do_toon(hist: dict, date: str, slot: str, note: list[str]) -> str:
         notify(f"하마툰: EP.{n} raw 이미지 확인 실패", f"{url} 이 raw URL 에서 안 보입니다.")
         note.append("raw 확인 실패")
         return "게시 없음"
-    body = spec.get("body", "").replace("{N}", str(n)).strip()
+    body = strip_hashtags(spec.get("body", "").replace("{N}", str(n)))
     post_id, err = publish_post(body, url)
     if err:
         time.sleep(20)
@@ -299,7 +310,7 @@ def do_text(hist: dict, date: str, slot: str, kind: str, note: list[str]) -> str
         note.append(f"{slot} {kind} 파일 없음 → 생략")
         return "게시 없음"
     data = json.loads(df.read_text(encoding="utf-8"))
-    body = data.get("body", "").strip()
+    body = strip_hashtags(data.get("body", ""))
     if not body:
         note.append(f"{slot} 본문 비어있음 → 생략")
         return "게시 없음"
