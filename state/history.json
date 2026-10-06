@@ -11,8 +11,26 @@
  ],
  "next_episode": 1,
  "episodes": [],
- "posts": [],
+ "posts": [
+  {
+   "date": "2026-10-06",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "금리와 채권 ETF",
+   "post_id": "18112327502132010",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeIkGD5jCBO"
+  }
+ ],
  "replied": [],
  "hidden": [],
- "runs": []
+ "runs": [
+  {
+   "time": "2026-10-06T10:06+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DeIkGD5jCBO",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
+  }
+ ]
 }
