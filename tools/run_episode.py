@@ -185,7 +185,7 @@ def slot_due(hist: dict, date: str, slot: str) -> tuple[bool, str]:
     """
     now = datetime.now(KST)
     late = now.hour * 60 + now.minute - slot_minutes(slot)
-    if late < 0:
+    if late < 0 and slot != os.environ.get("FORCE_SLOT", "").strip():   # 수동 실행에서 지정한 슬롯은 시각 전이라도 게시
         return False, "아직 시각 전"
     if already_posted(hist, date, slot):
         return False, "이미 게시됨"

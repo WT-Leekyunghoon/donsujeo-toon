@@ -9,7 +9,12 @@ on:
   schedule:
     - cron: '51 0 * * *'          # KST 09:51 (첫 글 09:50)
     - cron: '11,41 1-13 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force_slot:
+        description: "시각 전이라도 지금 게시할 슬롯 (예: 09:50). 비우면 평소대로"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -56,4 +61,5 @@ jobs:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ github.token }}
+          FORCE_SLOT: ${{ github.event.inputs.force_slot }}
         run: python tools/run_episode.py
