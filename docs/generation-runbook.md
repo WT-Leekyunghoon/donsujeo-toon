@@ -45,6 +45,9 @@
    `C:\Users\wealt\Downloads` 를 device_list_dir 로 확인해 새 `Gemini_Generated_Image_*.png` 생겼는지 검증
    (연속 클릭은 크롬이 조용히 무시함). Downloads 접근이 없으면 device_request_folder_access 로 요청.
 7. device_stage_files 로 가져와 `queue/daily/<날짜>/1200.png` 로 저장.
+7-1. **휴대폰용 4장 분할** (2026-10-07 사용자 요청): `python tools/split_panels.py queue/daily/<날짜>/1200.png`
+   → `1200-1.png`~`1200-4.png`(4:5 세로, 각 장 위에 제목 띠) 생성 + `1200.json` 에 `"panels"` 기록. 4컷이 정확히 나뉘었는지 확인.
+   (8번에서 json 을 만든 뒤 실행할 것. 안 나뉘면 러너가 게시 때 다시 시도하고, 그래도 안 되면 한 장으로 올린다.)
 8. `1200.json`: `{"type":"toon","title":"하마의 ETF 도전기 - ○○편","topic":"○○","body":"..."}`
    — **해시태그 금지**, 회차 번호도 쓰지 않는다. 475자 이하.
 9. Gemini 한도·오류로 이미지를 못 만들면 툰은 건너뛰고(json 도 만들지 않음) 보고에 명시. 크롬 탭은 닫는다.

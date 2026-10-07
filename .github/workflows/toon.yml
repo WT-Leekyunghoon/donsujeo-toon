@@ -47,7 +47,7 @@ jobs:
 
       - name: Install deps
         if: env.SKIP != '1'
-        run: pip -q install requests
+        run: pip -q install requests pillow
 
       - name: Git identity
         if: env.SKIP != '1'

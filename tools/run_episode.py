@@ -269,7 +269,7 @@ def already_posted(hist: dict, date: str, slot: str) -> bool:
 
 
 def do_toon(hist: dict, date: str, slot: str, note: list[str]) -> str:
-    """완성된 4컷 이미지(같은 폴더의 HHMM.png 또는 json 의 "image")를 글과 함께 게시."""
+    """완성된 4컷 이미지를 4장 캐러셀(json "panels", 없으면 자동 분할)로 글과 함께 게시. 분할 실패 시 한 장."""
     df = daily_file(date, slot)
     spec = json.loads(df.read_text(encoding="utf-8"))
     img_rel = Path(spec.get("image") or df.with_suffix(".png").relative_to(ROOT).as_posix())
@@ -279,16 +279,36 @@ def do_toon(hist: dict, date: str, slot: str, note: list[str]) -> str:
         note.append("툰 이미지 없음 → 생략")
         return "게시 없음"
     n = hist["next_episode"]
-    url = f"{RAW}{img_rel.as_posix()}"
-    if not wait_raw([url]):
+    # 휴대폰에서 보기 좋게 4컷을 4장(캐러셀)으로 — json "panels" 가 없으면 여기서 나눠 push
+    panels = [Path(x) for x in spec.get("panels", [])]
+    if not panels:
+        try:
+            sys.path.insert(0, str(ROOT / "tools"))
+            from split_panels import split
+            panels = [o.resolve().relative_to(ROOT.resolve()) for o in split(img_path)]
+            git_push(f"toon panels ({date} {slot})")
+        except BaseException as e:   # 나누기 실패 → 한 장으로 게시
+            note.append(f"4컷 나누기 실패({e}) → 한 장 게시")
+            panels = []
+    panels = [x for x in panels if (ROOT / x).is_file()]
+    if len(panels) >= 2:
+        urls = [f"{RAW}{x.as_posix()}" for x in panels]
+    else:
+        urls = [f"{RAW}{img_rel.as_posix()}"]
+    if len(urls) >= 2 and not wait_raw(urls):
+        note.append("4컷 분할 이미지 raw 확인 실패 → 한 장 게시")
+        urls = [f"{RAW}{img_rel.as_posix()}"]
+    url = urls[0]
+    if not wait_raw(urls):
         notify(f"하마툰: EP.{n} raw 이미지 확인 실패", f"{url} 이 raw URL 에서 안 보입니다.")
         note.append("raw 확인 실패")
         return "게시 없음"
     body = strip_hashtags(spec.get("body", "").replace("{N}", str(n)))
-    post_id, err = publish_post(body, url)
+    pub = (lambda: publish_carousel(urls, body)) if len(urls) >= 2 else (lambda: publish_post(body, url))
+    post_id, err = pub()
     if err:
         time.sleep(20)
-        post_id, err = publish_post(body, url)
+        post_id, err = pub()
     if err:
         notify(f"하마툰: EP.{n} 게시 실패", str(err))
         note.append(f"게시 실패: {err}")
