@@ -44,7 +44,7 @@
 - 연결할 만한 이슈가 없으면 이슈 없이 ETF 기초 개념 글로 쓴다.
 
 ## 2. 하마툰 (오전 실행만, Chrome + Gemini, PC 필요)
-1. 주제: persona 주제 풀에서 직전 10편과 겹치지 않게 1개. 4컷 대사를 먼저 짠다.
+1. 주제: persona 주제 풀에서 직전 10편과 겹치지 않게 1개. 4컷 대사를 먼저 짠다. 대사는 persona 의 캐릭터 역할 고정(수달=설명, 비버=숫자 확인, 흰곰=같이 정리, 하마=배우는 주인공)을 따른다.
 2. 크롬 도구(claude-in-chrome)로 새 탭에서 `https://gemini.google.com/app` (로그인돼 있음).
 3. 참고 이미지 첨부: `docs/characters/01-cast-lineup.png`, `02-hippo-turnaround.png` 를
    `/mnt/user-data/outputs/` 로 복사 → 입력창 왼쪽 **+** 클릭(메뉴가 열리면 **Escape 누르지 말 것** —
