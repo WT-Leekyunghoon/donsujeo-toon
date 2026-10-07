@@ -5,7 +5,7 @@
   "token_expires_at": "2026-11-30"
  },
  "schedule_kst": [
-  "10:00",
+  "09:50",
   "12:00",
   "17:00"
  ],
@@ -38,6 +38,14 @@
    "title": "ETF가 따라가는 지수",
    "post_id": "17892620922680147",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeJUB2FlrNE"
+  },
+  {
+   "date": "2026-10-07",
+   "slot": "09:50",
+   "kind": "news",
+   "title": "하마의 ETF 도전기 시작 인사",
+   "post_id": "18098031299324761",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeLFszYmMk3"
   }
  ],
  "replied": [
@@ -84,6 +92,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-07T09:38+09:00",
+   "slot": "09:50",
+   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeLFszYmMk3",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
