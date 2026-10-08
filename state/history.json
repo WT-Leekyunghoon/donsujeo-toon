@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 3,
+ "next_episode": 4,
  "episodes": [
   {
    "ep": 1,
@@ -30,6 +30,16 @@
    "post_id": "18108038510207856",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeLWe6HFQLp",
    "images": "queue/daily/2026-10-07/1200.png"
+  },
+  {
+   "ep": 3,
+   "date": "2026-10-08",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 레버리지편",
+   "topic": "레버리지",
+   "post_id": "18123261823700322",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeN7SZWlIMp",
+   "images": "queue/daily/2026-10-08/1200.png"
   }
  ],
  "posts": [
@@ -186,6 +196,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-08T12:05+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.3 툰 게시 https://www.threads.com/@etf_hipo/post/DeN7SZWlIMp",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
