@@ -64,6 +64,14 @@
    "title": "ETF 구성종목 비중과 쏠림",
    "post_id": "18144045469600952",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeL42aBldp_"
+  },
+  {
+   "date": "2026-10-08",
+   "slot": "09:50",
+   "kind": "news",
+   "title": "국내 상장 미국 ETF와 iNAV",
+   "post_id": "17909259354487718",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeNsXJEjfpA"
   }
  ],
  "replied": [
@@ -170,6 +178,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-08T09:55+09:00",
+   "slot": "09:50",
+   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeNsXJEjfpA",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
