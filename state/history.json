@@ -90,6 +90,14 @@
    "title": "ETF 추적오차, 지수와 왜 다를까",
    "post_id": "18226773841326530",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeOdu5EG9eU"
+  },
+  {
+   "date": "2026-10-09",
+   "slot": "09:50",
+   "kind": "news",
+   "title": "금리 오를 때 파킹형 ETF",
+   "post_id": "18009558299992517",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeQRJUdmJAL"
   }
  ],
  "replied": [
@@ -100,6 +108,7 @@
   "18074717156477581",
   "18099176456541858",
   "18136103536657361",
+  "18389628004232209",
   "18629932894016650"
  ],
  "hidden": [],
@@ -247,6 +256,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-09T09:54+09:00",
+   "slot": "09:50",
+   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeQRJUdmJAL",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
