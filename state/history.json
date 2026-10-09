@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 4,
+ "next_episode": 5,
  "episodes": [
   {
    "ep": 1,
@@ -40,6 +40,16 @@
    "post_id": "18123261823700322",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeN7SZWlIMp",
    "images": "queue/daily/2026-10-08/1200.png"
+  },
+  {
+   "ep": 4,
+   "date": "2026-10-09",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 적립식편",
+   "topic": "적립식",
+   "post_id": "18638923312052122",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeQgDF_G_Wx",
+   "images": "queue/daily/2026-10-09/1200.png"
   }
  ],
  "posts": [
@@ -264,6 +274,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-09T12:05+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.4 툰 게시 https://www.threads.com/@etf_hipo/post/DeQgDF_G_Wx",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
