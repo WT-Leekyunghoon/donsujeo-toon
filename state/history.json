@@ -116,6 +116,14 @@
    "title": "ETF 이름 읽는 법",
    "post_id": "18128160631847601",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeRCgdPG9KN"
+  },
+  {
+   "date": "2026-10-10",
+   "slot": "09:50",
+   "kind": "news",
+   "title": "섹터 ETF와 대표지수 ETF",
+   "post_id": "18089652140694397",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeS17BvkRso"
   }
  ],
  "replied": [
@@ -322,6 +330,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-10T09:54+09:00",
+   "slot": "09:50",
+   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeS17BvkRso",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
