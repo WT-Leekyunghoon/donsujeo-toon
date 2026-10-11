@@ -142,6 +142,14 @@
    "title": "ETF 종류별 세금 차이",
    "post_id": "18118810951964650",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeTnLo1mzT5"
+  },
+  {
+   "date": "2026-10-11",
+   "slot": "09:50",
+   "kind": "news",
+   "title": "환노출 ETF와 환헤지 ETF",
+   "post_id": "17913207522531248",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeVaxpqm_rs"
   }
  ],
  "replied": [
@@ -405,6 +413,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-11T09:55+09:00",
+   "slot": "09:50",
+   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeVaxpqm_rs",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
