@@ -482,6 +482,9 @@ def main():
 
     hist["schedule_kst"] = list(SLOT_TYPE)   # 코드가 기준 (19:00 폐지 반영)
     gap = minutes_since_last_post()
+    if os.environ.get("SKIP_GAP", "").strip() == "1":   # 수동 실행에서 1회만 간격 검사 생략
+        note.append(f"간격 검사 생략(수동 지정, 직전 게시 {gap}분 전)")
+        gap = None
     if can_post and gap is not None and gap < MIN_GAP_MINUTES:
         can_post = False
         note.append(f"직전 게시 {gap}분 전 → {MIN_GAP_MINUTES}분 간격 미달, 이번 실행 게시 건너뜀")

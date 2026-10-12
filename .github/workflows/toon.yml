@@ -15,6 +15,10 @@ on:
         description: "시각 전이라도 지금 게시할 슬롯 (예: 09:50). 비우면 평소대로"
         required: false
         default: ""
+      skip_gap:
+        description: "1 이면 이번 실행만 '직전 게시 100분 간격' 검사를 건너뜀 (수동 1회용)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -62,4 +66,5 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ github.token }}
           FORCE_SLOT: ${{ github.event.inputs.force_slot }}
+          SKIP_GAP: ${{ github.event.inputs.skip_gap }}
         run: python tools/run_episode.py
