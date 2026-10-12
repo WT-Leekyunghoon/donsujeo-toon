@@ -168,6 +168,14 @@
    "title": "LP와 장 시작 직후 호가",
    "post_id": "17910105405309041",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeWL89clgOF"
+  },
+  {
+   "date": "2026-10-12",
+   "slot": "09:50",
+   "kind": "news",
+   "title": "시가총액 가중 vs 동일가중 ETF",
+   "post_id": "18198304465384615",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeYHNRGHPu0"
   }
  ],
  "replied": [
@@ -496,6 +504,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 77분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-12T11:02+09:00",
+   "slot": "09:50",
+   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeYHNRGHPu0",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
