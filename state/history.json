@@ -212,6 +212,14 @@
    "title": "원유 ETF와 선물 롤오버",
    "post_id": "18129237565694141",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeanWA_leZj"
+  },
+  {
+   "date": "2026-10-13",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "인버스 ETF, 지수 반대로 움직이는 ETF",
+   "post_id": "18180286807427362",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Debduo-GzE5"
   }
  ],
  "replied": [
@@ -698,6 +706,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 25분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-13T18:16+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/Debduo-GzE5",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 2분 전)"
   }
  ]
 }
