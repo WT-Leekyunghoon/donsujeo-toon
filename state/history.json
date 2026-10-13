@@ -194,6 +194,14 @@
    "title": "ETF 리밸런싱과 지수 정기변경",
    "post_id": "18118017217779214",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeZHN12G0J9"
+  },
+  {
+   "date": "2026-10-13",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "원유 ETF와 선물 롤오버",
+   "post_id": "18129237565694141",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeanWA_leZj"
   }
  ],
  "replied": [
@@ -212,6 +220,7 @@
   "18119674591969193",
   "18136103536657361",
   "18167214973419648",
+  "18199664095337881",
   "18200028820391599",
   "18231084646325031",
   "18243214186314733",
@@ -613,6 +622,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 3분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-13T10:21+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DeanWA_leZj",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 1분 전); 12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
