@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 9,
+ "next_episode": 10,
  "episodes": [
   {
    "ep": 1,
@@ -90,6 +90,16 @@
    "post_id": "18649230169024269",
    "permalink": "https://www.threads.com/@etf_hipo/post/DebJhG2leTB",
    "images": "queue/daily/2026-10-13/1200.png"
+  },
+  {
+   "ep": 9,
+   "date": "2026-10-14",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 괴리율편",
+   "topic": "괴리율",
+   "post_id": "18088801988497373",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Deds4JMm_9D",
+   "images": "queue/daily/2026-10-14/1200.png"
   }
  ],
  "posts": [
@@ -253,6 +263,7 @@
   "18088814714499757",
   "18097547234103331",
   "18099176456541858",
+  "18109178375363492",
   "18111061085179664",
   "18119674591969193",
   "18122070058941070",
@@ -786,6 +797,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 0분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-14T15:07+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.9 툰 게시 https://www.threads.com/@etf_hipo/post/Deds4JMm_9D",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 1분 전); 17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
