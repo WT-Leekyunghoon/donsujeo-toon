@@ -238,6 +238,14 @@
    "title": "ETF 중복 보유, 분산의 착각",
    "post_id": "18126301420861323",
    "permalink": "https://www.threads.com/@etf_hipo/post/DedLQ74GDZT"
+  },
+  {
+   "date": "2026-10-14",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "반도체 ETF, 담는 단계가 다르다",
+   "post_id": "17880941784628219",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeeJ_dCG7CA"
   }
  ],
  "replied": [
@@ -848,6 +856,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 3분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-14T19:21+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DeeJ_dCG7CA",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 4분 전)"
   }
  ]
 }
