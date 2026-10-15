@@ -256,6 +256,14 @@
    "title": "반도체 ETF, 담는 단계가 다르다",
    "post_id": "17880941784628219",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeeJ_dCG7CA"
+  },
+  {
+   "date": "2026-10-15",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "서킷브레이커·사이드카와 ETF 매매",
+   "post_id": "17959908855226507",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Degf9slG8D7"
   }
  ],
  "replied": [
@@ -931,6 +939,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 0분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-15T17:12+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/Degf9slG8D7",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 1분 전); 10:00 콘텐츠 파일 없음"
   }
  ]
 }
