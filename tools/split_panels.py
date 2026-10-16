@@ -1,4 +1,4 @@
-"""split_panels.py — 가로 4컷 툰 한 장을 휴대폰용 4장(4:5 세로)으로 나눈다.
+"""split_panels.py — 4컷 툰 한 장(가로 1줄 또는 2×2)을 휴대폰용 4장(4:5 세로)으로 나눈다.
 
 사용: python tools/split_panels.py queue/daily/2026-10-07/1200.png
   → 같은 폴더에 1200-1.png ~ 1200-4.png 생성, 1200.json 에 "panels" 목록 기록.
@@ -26,40 +26,45 @@ def runs(flags, min_len):
 
 
 def detect(img: Image.Image):
+    """제목 띠와 컷 상자 목록을 찾는다. 가로 1줄 4컷과 2×2(2줄 2칸) 둘 다 지원 (2026-10-16)."""
     g = img.convert("L")
     w, h = g.size
     px = g.load()
     dark = lambda x, y: px[x, y] < 235
-    # 행별 '안 흰' 비율 → 컷 띠(가장 긴 구간)와 제목(그 위 구간)
     row = [sum(dark(x, y) for x in range(0, w, 2)) / (w / 2) for y in range(h)]
     bands = runs([r > 0.01 for r in row], 8)
-    panel_band = max(bands, key=lambda b: b[1] - b[0])
-    title = [b for b in bands if b[1] <= panel_band[0]]
+    tallest = max(b[1] - b[0] for b in bands)
+    rows = [b for b in bands if b[1] - b[0] >= tallest * 0.6]      # 컷 줄(1줄 또는 2줄)
+    title = [b for b in bands if b[1] <= rows[0][0]]
     title_box = (title[0][0], title[-1][1]) if title else None
-    y0, y1 = panel_band
-    col = [sum(dark(x, y) for y in range(y0, y1, 2)) / ((y1 - y0) / 2) for x in range(w)]
-    panels = runs([c > 0.05 for c in col], w // 12)
-    return title_box, (y0, y1), panels
+    boxes = []
+    for y0, y1 in rows:
+        col = [sum(dark(x, y) for y in range(y0, y1, 2)) / ((y1 - y0) / 2) for x in range(w)]
+        for x0, x1 in runs([c > 0.05 for c in col], w // 12):
+            boxes.append((x0, y0, x1, y1))
+    return title_box, boxes
 
 
 def split(src: Path) -> list[Path]:
     img = Image.open(src).convert("RGB")
-    title_box, (y0, y1), cols = detect(img)
-    if len(cols) != 4:
-        raise SystemExit(f"컷 {len(cols)}개 탐지 — 4컷이 아니라 나누지 않음: {cols}")
+    title_box, boxes = detect(img)
+    if len(boxes) != 4:
+        raise SystemExit(f"컷 {len(boxes)}개 탐지 — 4컷이 아니라 나누지 않음: {boxes}")
     title = None
     if title_box:
         t0, t1 = max(0, title_box[0] - 10), min(img.height, title_box[1] + 10)
         title = img.crop((0, t0, img.width, t1))
         title = title.resize((W, round(title.height * W / title.width)), Image.LANCZOS)
+        if title.height > 140:                     # 세로 그림이면 제목 띠가 너무 커지지 않게
+            title = title.resize((round(title.width * 140 / title.height), 140), Image.LANCZOS)
     outs = []
-    for i, (x0, x1) in enumerate(cols, 1):
+    for i, (x0, y0, x1, y1) in enumerate(boxes, 1):
         pad = 4
         panel = img.crop((max(0, x0 - pad), max(0, y0 - pad), min(img.width, x1 + pad), min(img.height, y1 + pad)))
         canvas = Image.new("RGB", (W, H), BG)
         top = 30
         if title:
-            canvas.paste(title, (0, top))
+            canvas.paste(title, ((W - title.width) // 2, top))
             top += title.height + 20
         avail_w, avail_h = W - 80, H - top - 40
         s = min(avail_w / panel.width, avail_h / panel.height)
