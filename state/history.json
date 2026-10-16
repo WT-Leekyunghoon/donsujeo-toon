@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 11,
+ "next_episode": 12,
  "episodes": [
   {
    "ep": 1,
@@ -110,6 +110,16 @@
    "post_id": "17998222607824552",
    "permalink": "https://www.threads.com/@etf_hipo/post/DegLPpKnIBk",
    "images": "queue/daily/2026-10-15/1200.png"
+  },
+  {
+   "ep": 11,
+   "date": "2026-10-16",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 분할매수편",
+   "topic": "분할매수",
+   "post_id": "18421447975152723",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeiqqCoDsX1",
+   "images": "queue/daily/2026-10-16/1200.png"
   }
  ],
  "posts": [
@@ -1010,6 +1020,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 15분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-16T13:24+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.11 툰 게시 https://www.threads.com/@etf_hipo/post/DeiqqCoDsX1",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 6분 전); 17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
