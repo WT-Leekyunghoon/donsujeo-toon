@@ -264,6 +264,14 @@
    "title": "서킷브레이커·사이드카와 ETF 매매",
    "post_id": "17959908855226507",
    "permalink": "https://www.threads.com/@etf_hipo/post/Degf9slG8D7"
+  },
+  {
+   "date": "2026-10-16",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "미국 ETF, 어떤 지수를 따라가나",
+   "post_id": "18098039339451976",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeiQxEyoN3O"
   }
  ],
  "replied": [
@@ -974,6 +982,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 0분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-16T09:38+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DeiQxEyoN3O",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 0분 전); 12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
