@@ -290,6 +290,14 @@
    "title": "레버리지 ETF와 변동성 손실",
    "post_id": "18192656386398857",
    "permalink": "https://www.threads.com/@etf_hipo/post/DejHtJSloMm"
+  },
+  {
+   "date": "2026-10-17",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "물가연동채권 ETF",
+   "post_id": "18198612370377796",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DelXTmZEWKH"
   }
  ],
  "replied": [
@@ -305,6 +313,7 @@
   "17948384439311988",
   "17961360368999185",
   "17961575127236163",
+  "17970176331189806",
   "17976152901138964",
   "17991336524859201",
   "17994729132018192",
@@ -1089,6 +1098,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-17T14:32+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DelXTmZEWKH",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
