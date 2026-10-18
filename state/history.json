@@ -308,6 +308,14 @@
    "title": "물가연동채권 ETF",
    "post_id": "18198612370377796",
    "permalink": "https://www.threads.com/@etf_hipo/post/DelXTmZEWKH"
+  },
+  {
+   "date": "2026-10-18",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "최대낙폭(MDD)",
+   "post_id": "17882635263533953",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Den98sXDqOb"
   }
  ],
  "replied": [
@@ -1140,6 +1148,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-18T14:49+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/Den98sXDqOb",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
