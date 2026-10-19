@@ -167,8 +167,10 @@ def reconcile(hist: dict):
 
 def minutes_since_last_post() -> int | None:
     """Threads 계정의 실제 최신 게시물 시각 기준 경과 분. 조회 실패 시 None."""
-    _, d = api("GET", f"{UID}/threads", fields="timestamp", limit="1")
-    rows = d.get("data") or []
+    # 답글·리포스트는 제외하고 '본글'만 기준 (2026-10-19 사용자 승인: 댓글 답글 때문에 게시가 막히던 문제)
+    _, d = api("GET", f"{UID}/threads", fields="timestamp,is_reply,media_type", limit="25")
+    rows = [r for r in (d.get("data") or [])
+            if not r.get("is_reply") and r.get("media_type") != "REPOST_FACADE"]
     ts = rows[0].get("timestamp") if rows else None
     if not ts:
         return None
