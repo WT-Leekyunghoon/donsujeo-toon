@@ -326,6 +326,14 @@
    "title": "최대낙폭(MDD)",
    "post_id": "17882635263533953",
    "permalink": "https://www.threads.com/@etf_hipo/post/Den98sXDqOb"
+  },
+  {
+   "date": "2026-10-19",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "지정가 주문 vs 시장가 주문",
+   "post_id": "18114366332462184",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DeqDQp3G-0E"
   }
  ],
  "replied": [
@@ -1198,6 +1206,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 0분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-19T10:14+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DeqDQp3G-0E",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
