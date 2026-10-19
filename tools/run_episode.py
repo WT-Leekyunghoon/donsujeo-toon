@@ -62,6 +62,23 @@ def strip_hashtags(text: str) -> str:
     return out.strip()
 
 
+# 모든 게시글 끝 스하리·반하리 문구 (2026-10-19 사용자 요청) — 본문에 이미 있으면 생략, 500자 넘으면 생략
+CLOSINGS = [
+    "스하리 해 주면 하마가 반하리 꼭 갈게 🦛",
+    "항상 스하리 반하리 해줄 거지? 🙏",
+    "스하리 반하리 부탁해! 하마도 꼭 찾아갈게 🦛",
+    "같이 공부하는 스친이들, 스하리 반하리 해줄 거지? 💛",
+]
+
+
+def add_closing(text: str) -> str:
+    if "스하리" in text or "반하리" in text:
+        return text
+    line = CLOSINGS[datetime.now(KST).toordinal() % len(CLOSINGS)]
+    out = f"{text.rstrip()}\n\n{line}"
+    return out if len(out) <= 495 else text
+
+
 def log(*a):
     print(*a, flush=True)
 
@@ -303,7 +320,7 @@ def do_toon(hist: dict, date: str, slot: str, note: list[str]) -> str:
         notify(f"하마툰: EP.{n} raw 이미지 확인 실패", f"{url} 이 raw URL 에서 안 보입니다.")
         note.append("raw 확인 실패")
         return "게시 없음"
-    body = strip_hashtags(spec.get("body", "").replace("{N}", str(n)))
+    body = add_closing(strip_hashtags(spec.get("body", "").replace("{N}", str(n))))
     pub = (lambda: publish_carousel(urls, body)) if len(urls) >= 2 else (lambda: publish_post(body, url))
     post_id, err = pub()
     if err:
@@ -330,7 +347,7 @@ def do_text(hist: dict, date: str, slot: str, kind: str, note: list[str]) -> str
         note.append(f"{slot} {kind} 파일 없음 → 생략")
         return "게시 없음"
     data = json.loads(df.read_text(encoding="utf-8"))
-    body = strip_hashtags(data.get("body", ""))
+    body = add_closing(strip_hashtags(data.get("body", "")))
     if not body:
         note.append(f"{slot} 본문 비어있음 → 생략")
         return "게시 없음"
