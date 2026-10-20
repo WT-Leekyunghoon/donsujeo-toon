@@ -220,6 +220,18 @@ def slot_due(hist: dict, date: str, slot: str) -> tuple[bool, str]:
     return True, ""
 
 
+
+def day_slots(date: str) -> dict[str, str]:
+    """정규 슬롯 + 그날 폴더에 따로 넣어 둔 1회성 특별 게시(HHMM.json, 글/이미지)를 합친다 (2026-10-20 할로윈 특별편용)."""
+    slots = dict(SLOT_TYPE)
+    folder = ROOT / "queue" / "daily" / date
+    if folder.is_dir():
+        for f in folder.glob("[0-2][0-9][0-5][0-9].json"):
+            slot = f"{f.stem[:2]}:{f.stem[2:]}"
+            if slot not in slots:
+                slots[slot] = "news"
+    return slots
+
 def daily_file(date: str, slot: str) -> Path:
     return ROOT / "queue" / "daily" / date / (slot.replace(":", "") + ".json")
 
@@ -512,7 +524,8 @@ def main():
     results: list[str] = []
     posted = 0
     if can_post:
-        for slot in sorted(SLOT_TYPE, key=slot_minutes):
+        slot_types = day_slots(date)
+        for slot in sorted(slot_types, key=slot_minutes):
             if posted >= MAX_POSTS_PER_RUN:
                 note.append(f"{slot} 이후는 다음 실행에서 이어서")
                 break
@@ -521,7 +534,7 @@ def main():
                 if why not in ("아직 시각 전", "이미 게시됨"):
                     note.append(f"{slot} {why}")
                 continue
-            kind = SLOT_TYPE.get(slot, "toon")
+            kind = slot_types.get(slot, "toon")
             if kind == "toon":
                 r = do_toon(hist, date, slot, note)
             else:
