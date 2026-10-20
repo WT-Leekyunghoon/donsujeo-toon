@@ -15,6 +15,7 @@
   `add_repo`(owner `WT-Leekyunghoon`, repo `donsujeo-toon`, access `push`) 로 세션에 붙이고 클론).
 - 읽을 것: `docs/persona.md`(필수), `state/history.json`(직전 10편 툰 topic — 중복 금지), `docs/actions-setup.md`(파일 형식).
 - 오늘(KST) 날짜 폴더에 이미 해당 파일(또는 `.done`)이 있으면 그 파일은 건너뛴다.
+- **오늘 날짜 폴더에 `request.md` 가 있으면 사용자 요청이므로 먼저 읽고 그대로 따른다** (주제·링크 첨부 등, 이 런북의 기본 규칙보다 우선).
 
 ## 0-1. 주말·공휴일 미리 준비 (오전 실행에서만, 2026-10-07 사용자 요청)
 쉬는 날엔 PC 가 꺼져 있어 오전 실행(툰)이 못 돈다. 그래서 **쉬는 날 바로 전 평일의 오전 실행**이 그 연휴 분량을 미리 만든다.
