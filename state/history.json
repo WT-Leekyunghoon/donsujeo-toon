@@ -352,6 +352,14 @@
    "title": "저변동성 ETF, 덜 출렁이는 바구니",
    "post_id": "18412202131093374",
    "permalink": "https://www.threads.com/@etf_hipo/post/DeqyQi3lhBl"
+  },
+  {
+   "date": "2026-10-20",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "ETF 상위 10종목 비중, 쏠림 확인하기",
+   "post_id": "18033503696854240",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Desm719Duu0"
   }
  ],
  "replied": [
@@ -1301,6 +1309,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-20T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/Desm719Duu0",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
