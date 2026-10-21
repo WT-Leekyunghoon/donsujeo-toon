@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 16,
+ "next_episode": 17,
  "episodes": [
   {
    "ep": 1,
@@ -160,6 +160,16 @@
    "post_id": "18032330855877898",
    "permalink": "https://www.threads.com/@etf_hipo/post/Des1_YAkTJm",
    "images": "queue/daily/2026-10-20/1200.png"
+  },
+  {
+   "ep": 16,
+   "date": "2026-10-21",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 새내기 ETF편",
+   "topic": "신규 상장 ETF(10/20 상장 7종)",
+   "post_id": "17954594055256919",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DevZT7sm-HX",
+   "images": "queue/daily/2026-10-21/1200.png"
   }
  ],
  "posts": [
@@ -1400,6 +1410,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 37분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-21T12:02+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.16 툰 게시 https://www.threads.com/@etf_hipo/post/DevZT7sm-HX",
+   "replies": 0,
+   "hidden": 0,
+   "note": "10:00 콘텐츠 파일 없음; 17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
