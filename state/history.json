@@ -396,6 +396,14 @@
    "title": "커버드콜 ETF, 급반등 날엔 왜 덜 오를까",
    "post_id": "18108621110142023",
    "permalink": "https://www.threads.com/@etf_hipo/post/Dev7_1PlfkY"
+  },
+  {
+   "date": "2026-10-22",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "오늘의 ETF 용어: TR(토탈리턴)",
+   "post_id": "17961342381252467",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DexwkiSDkQq"
   }
  ],
  "replied": [
@@ -429,6 +437,7 @@
   "18064142600620180",
   "18067888448604393",
   "18069878903742070",
+  "18070977248750250",
   "18074717156477581",
   "18075710795762539",
   "18076756052741950",
@@ -1483,6 +1492,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 4분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-22T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DexwkiSDkQq",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
