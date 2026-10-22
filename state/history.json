@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 17,
+ "next_episode": 18,
  "episodes": [
   {
    "ep": 1,
@@ -170,6 +170,16 @@
    "post_id": "17954594055256919",
    "permalink": "https://www.threads.com/@etf_hipo/post/DevZT7sm-HX",
    "images": "queue/daily/2026-10-21/1200.png"
+  },
+  {
+   "ep": 17,
+   "date": "2026-10-22",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 리밸런싱편",
+   "topic": "리밸런싱",
+   "post_id": "18080729177713593",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Dex-TseFKXJ",
+   "images": "queue/daily/2026-10-22/1200.png"
   }
  ],
  "posts": [
@@ -450,6 +460,7 @@
   "18091060571215664",
   "18097547234103331",
   "18099176456541858",
+  "18100408004562123",
   "18100729748418020",
   "18101161640310838",
   "18102758795259598",
@@ -1500,6 +1511,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-22T12:04+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.17 툰 게시 https://www.threads.com/@etf_hipo/post/Dex-TseFKXJ",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
