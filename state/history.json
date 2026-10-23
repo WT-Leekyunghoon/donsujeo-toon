@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 18,
+ "next_episode": 19,
  "episodes": [
   {
    "ep": 1,
@@ -180,6 +180,16 @@
    "post_id": "18080729177713593",
    "permalink": "https://www.threads.com/@etf_hipo/post/Dex-TseFKXJ",
    "images": "queue/daily/2026-10-22/1200.png"
+  },
+  {
+   "ep": 18,
+   "date": "2026-10-23",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 급락장편",
+   "topic": "급락장 공포 매도",
+   "post_id": "17934735069408957",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De0reHvjvDG",
+   "images": "queue/daily/2026-10-23/1200.png"
   }
  ],
  "posts": [
@@ -1612,6 +1622,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 29분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-23T13:17+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.18 툰 게시 https://www.threads.com/@etf_hipo/post/De0reHvjvDG",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
