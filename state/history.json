@@ -422,6 +422,14 @@
    "title": "🔎 국내 ETF 소개: KODEX 200",
    "post_id": "17972572596168622",
    "permalink": "https://www.threads.com/@etf_hipo/post/Deyi4IflWJg"
+  },
+  {
+   "date": "2026-10-23",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "오늘의 ETF 용어: 액티브 vs 패시브",
+   "post_id": "18047169950822522",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De0foqbjnZr"
   }
  ],
  "replied": [
@@ -1588,6 +1596,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 12분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-23T11:34+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/De0foqbjnZr",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
