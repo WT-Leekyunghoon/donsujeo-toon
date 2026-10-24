@@ -448,6 +448,14 @@
    "title": "🔎 국내 ETF 소개: TIGER 코스닥150",
    "post_id": "17926301298203708",
    "permalink": "https://www.threads.com/@etf_hipo/post/De1FgPIG7qg"
+  },
+  {
+   "date": "2026-10-24",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 이번 주 ETF 용어: 상관관계",
+   "post_id": "17899199817673601",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De3aN0RG07M"
   }
  ],
  "replied": [
@@ -1682,6 +1690,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-24T14:44+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/De3aN0RG07M",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
