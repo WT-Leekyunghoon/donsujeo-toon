@@ -466,6 +466,14 @@
    "title": "📖 이번 주 ETF 용어: 상관관계",
    "post_id": "17899199817673601",
    "permalink": "https://www.threads.com/@etf_hipo/post/De3aN0RG07M"
+  },
+  {
+   "date": "2026-10-25",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 이번 주 ETF 용어: 합성 ETF",
+   "post_id": "18199338499343618",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De6A1E1AFkh"
   }
  ],
  "replied": [
@@ -1724,6 +1732,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "17:00 6시간 지연 → 이 회차 포기"
+  },
+  {
+   "time": "2026-10-25T15:00+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/De6A1E1AFkh",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
