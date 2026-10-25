@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 20,
+ "next_episode": 21,
  "episodes": [
   {
    "ep": 1,
@@ -200,6 +200,16 @@
    "post_id": "18137482951744152",
    "permalink": "https://www.threads.com/@etf_hipo/post/De39Xz3ICaT",
    "images": "queue/daily/2026-10-24/1200.png"
+  },
+  {
+   "ep": 20,
+   "date": "2026-10-25",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 파킹형편",
+   "topic": "파킹형(초단기 금리) ETF",
+   "post_id": "18098654165406366",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De6lF0dm7QL",
+   "images": "queue/daily/2026-10-25/1200.png"
   }
  ],
  "posts": [
@@ -1740,6 +1750,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-25T20:17+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.20 툰 게시 https://www.threads.com/@etf_hipo/post/De6lF0dm7QL",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
