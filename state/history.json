@@ -641,14 +641,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-07T09:38+09:00",
-   "slot": "09:50",
-   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeLFszYmMk3",
-   "replies": 0,
-   "hidden": 0,
-   "note": "12:00 이후는 다음 실행에서 이어서"
-  },
-  {
    "time": "2026-10-07T09:55+09:00",
    "slot": "09:50",
    "result": "게시 없음",
@@ -1835,6 +1827,14 @@
   {
    "time": "2026-10-26T21:49+09:00",
    "slot": "17:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-10-27T04:12+09:00",
+   "slot": "10:00",
    "result": "게시 없음",
    "replies": 0,
    "hidden": 0,
