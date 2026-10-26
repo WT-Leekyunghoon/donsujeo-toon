@@ -484,6 +484,14 @@
    "title": "📖 이번 주 ETF 용어: 합성 ETF",
    "post_id": "18199338499343618",
    "permalink": "https://www.threads.com/@etf_hipo/post/De6A1E1AFkh"
+  },
+  {
+   "date": "2026-10-26",
+   "slot": "09:00",
+   "kind": "news",
+   "title": "할로윈 특별편 (스하리 반하리)",
+   "post_id": "18159484597519393",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De7-AhVFT91"
   }
  ],
  "replied": [
@@ -1766,6 +1774,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-26T09:14+09:00",
+   "slot": "09:00",
+   "result": "09:00 news 게시 https://www.threads.com/@etf_hipo/post/De7-AhVFT91",
+   "replies": 0,
+   "hidden": 0,
+   "note": "10:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
