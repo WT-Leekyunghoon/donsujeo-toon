@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 21,
+ "next_episode": 22,
  "episodes": [
   {
    "ep": 1,
@@ -210,6 +210,16 @@
    "post_id": "18098654165406366",
    "permalink": "https://www.threads.com/@etf_hipo/post/De6lF0dm7QL",
    "images": "queue/daily/2026-10-25/1200.png"
+  },
+  {
+   "ep": 21,
+   "date": "2026-10-26",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 기준금리편",
+   "topic": "기준금리",
+   "post_id": "18114835682162237",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De8i_PEFv09",
+   "images": "queue/daily/2026-10-26/1200.png"
   }
  ],
  "posts": [
@@ -552,6 +562,8 @@
   "18088814714499757",
   "18089444720262701",
   "18091060571215664",
+  "18093562610653583",
+  "18095277512669392",
   "18097547234103331",
   "18099176456541858",
   "18099983741398827",
@@ -617,14 +629,6 @@
   "18148495015565267"
  ],
  "runs": [
-  {
-   "time": "2026-10-06T10:06+09:00",
-   "slot": "10:00",
-   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DeIkGD5jCBO",
-   "replies": 0,
-   "hidden": 0,
-   "note": "12:00 이후는 다음 실행에서 이어서"
-  },
   {
    "time": "2026-10-06T12:50+09:00",
    "slot": "12:00",
@@ -1816,6 +1820,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-26T14:37+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.21 툰 게시 https://www.threads.com/@etf_hipo/post/De8i_PEFv09",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
