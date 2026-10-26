@@ -510,6 +510,14 @@
    "title": "📖 오늘의 ETF 용어: 실부담비용",
    "post_id": "18076126847723366",
    "permalink": "https://www.threads.com/@etf_hipo/post/De8Rgk-l7XG"
+  },
+  {
+   "date": "2026-10-26",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: ACE AI반도체TOP3+",
+   "post_id": "17917759389265214",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De8z_ZhlR5z"
   }
  ],
  "replied": [
@@ -629,14 +637,6 @@
   "18148495015565267"
  ],
  "runs": [
-  {
-   "time": "2026-10-06T17:05+09:00",
-   "slot": "17:00",
-   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DeJUB2FlrNE",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-06T23:26+09:00",
    "slot": "17:00",
@@ -1828,6 +1828,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 90분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-10-26T17:06+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/De8z_ZhlR5z",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
   }
  ]
 }
