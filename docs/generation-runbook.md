@@ -47,7 +47,8 @@
 
 ## 2. 하마툰 (오전 실행만, Chrome + Gemini, PC 필요)
 1. 주제: persona 주제 풀에서 직전 10편과 겹치지 않게 1개. 4컷 대사를 먼저 짠다. 대사는 persona 의 캐릭터 역할 고정(수달=설명, 비버=숫자 확인, 흰곰=같이 정리, 하마=배우는 주인공)을 따른다.
-2. 크롬 도구(claude-in-chrome)로 새 탭에서 `https://gemini.google.com/app` (로그인돼 있음).
+2. **(2026-10-27 사용자 요청) 브라우저는 크롬 말고 ego 브라우저 사용** — `list_connected_browsers` 로 ego 브라우저가 연결돼 있으면 `select_browser` 로 골라 쓴다. 연결된 게 없으면 그날은 연결된 브라우저로 진행하고 보고에 'ego 브라우저 미연결' 한 줄.
+   브라우저 도구(claude-in-chrome)로 새 탭에서 `https://gemini.google.com/app` (로그인돼 있음).
 3. 참고 이미지 첨부 (v5, 2026-10-20): `docs/characters/06-style-target.png`(배경·연출 수준만), `07-cast-turnaround-v5.png`(캐릭터 기준 시트), `02-hippo-turnaround.png` 3장을
    `/mnt/user-data/outputs/` 로 복사 → 입력창 왼쪽 **+** 클릭(메뉴가 열리면 **Escape 누르지 말 것** —
    누르면 업로드 입력이 사라진다) → `read_page` 로 메뉴('메뉴 옵션') 안의 첫 `button type="file"` ref 찾기 (2026-10 화면 기준, input 이 아니라 button) → `file_upload`.
