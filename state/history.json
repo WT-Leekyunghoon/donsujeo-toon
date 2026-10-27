@@ -641,14 +641,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-07T09:55+09:00",
-   "slot": "09:50",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 5분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
-  {
    "time": "2026-10-07T12:05+09:00",
    "slot": "12:00",
    "result": "12:00 EP.2 툰 게시 https://www.threads.com/@etf_hipo/post/DeLWe6HFQLp",
@@ -1839,6 +1831,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-27T09:32+09:00",
+   "slot": "10:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "직전 게시 3분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
   }
  ]
 }
