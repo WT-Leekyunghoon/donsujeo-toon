@@ -536,6 +536,14 @@
    "title": "📖 오늘의 ETF 용어: 듀레이션",
    "post_id": "18177571918448451",
    "permalink": "https://www.threads.com/@etf_hipo/post/De-oiRJkXlU"
+  },
+  {
+   "date": "2026-10-27",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: RISE 2차전지TOP10",
+   "post_id": "18118580690086109",
+   "permalink": "https://www.threads.com/@etf_hipo/post/De_YsmuldOa"
   }
  ],
  "replied": [
@@ -646,6 +654,7 @@
   "18199664095337881",
   "18200028820391599",
   "18200034946378055",
+  "18216261760358694",
   "18218085061358147",
   "18220050799343069",
   "18230896777330879",
@@ -674,14 +683,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-07T23:28+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-08T09:55+09:00",
    "slot": "09:50",
@@ -1870,6 +1871,14 @@
    "time": "2026-10-27T16:06+09:00",
    "slot": "17:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-10-27T17:05+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/De_YsmuldOa",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
