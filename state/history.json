@@ -730,14 +730,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-09T09:54+09:00",
-   "slot": "09:50",
-   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeQRJUdmJAL",
-   "replies": 0,
-   "hidden": 0,
-   "note": "12:00 이후는 다음 실행에서 이어서"
-  },
-  {
    "time": "2026-10-09T12:05+09:00",
    "slot": "12:00",
    "result": "12:00 EP.4 툰 게시 https://www.threads.com/@etf_hipo/post/DeQgDF_G_Wx",
@@ -1923,6 +1915,14 @@
   },
   {
    "time": "2026-10-28T15:49+09:00",
+   "slot": "17:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-10-28T16:04+09:00",
    "slot": "17:00",
    "result": "게시 없음",
    "replies": 0,
