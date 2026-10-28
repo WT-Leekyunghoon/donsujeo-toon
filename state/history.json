@@ -544,6 +544,14 @@
    "title": "🔎 국내 ETF 소개: RISE 2차전지TOP10",
    "post_id": "18118580690086109",
    "permalink": "https://www.threads.com/@etf_hipo/post/De_YsmuldOa"
+  },
+  {
+   "date": "2026-10-28",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "🆕 새로 상장한 ETF: 1Q 미국AI테크플랫폼TOP10",
+   "post_id": "18116933093042613",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfBNWtTDJDy"
   }
  ],
  "replied": [
@@ -708,14 +716,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-08T16:16+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-08T17:06+09:00",
    "slot": "17:00",
@@ -1907,6 +1907,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-28T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfBNWtTDJDy",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
