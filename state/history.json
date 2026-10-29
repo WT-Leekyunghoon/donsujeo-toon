@@ -570,6 +570,14 @@
    "title": "🆕 새로 상장한 ETF: KoAct 코리아TOP5플러스채권혼합50액티브",
    "post_id": "18117370175043158",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfB9fWvldF6"
+  },
+  {
+   "date": "2026-10-29",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "🎬 하마가 영상 보고 알게 된 ETF: KIWOOM 미국AI테크하이베타",
+   "post_id": "18126653861478859",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfDyMFDll-_"
   }
  ],
  "replied": [
@@ -752,14 +760,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-09T17:06+09:00",
-   "slot": "17:00",
-   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DeRCgdPG9KN",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-09T23:37+09:00",
    "slot": "17:00",
@@ -1951,6 +1951,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-10-29T10:05+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfDyMFDll-_",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
