@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 24,
+ "next_episode": 25,
  "episodes": [
   {
    "ep": 1,
@@ -240,6 +240,16 @@
    "post_id": "18240931822318109",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfBbJAenG1C",
    "images": "queue/daily/2026-10-28/1200.png"
+  },
+  {
+   "ep": 24,
+   "date": "2026-10-29",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 하이베타편",
+   "topic": "하이베타(베타)",
+   "post_id": "18594490900067771",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfD_7rMDYsp",
+   "images": "queue/daily/2026-10-29/1200.png"
   }
  ],
  "posts": [
@@ -760,14 +770,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-10T09:54+09:00",
-   "slot": "09:50",
-   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeS17BvkRso",
-   "replies": 0,
-   "hidden": 0,
-   "note": "12:00 이후는 다음 실행에서 이어서"
-  },
   {
    "time": "2026-10-10T12:05+09:00",
    "slot": "12:00",
@@ -1959,6 +1961,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-29T12:05+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.24 툰 게시 https://www.threads.com/@etf_hipo/post/DfD_7rMDYsp",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
