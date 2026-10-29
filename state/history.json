@@ -588,6 +588,14 @@
    "title": "🎬 하마가 영상 보고 알게 된 ETF: KIWOOM 미국AI테크하이베타",
    "post_id": "18182648146425388",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfD2ZH8DAA7"
+  },
+  {
+   "date": "2026-10-29",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: HANARO 원자력iSelect",
+   "post_id": "17951693055055450",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfEifSXlUql"
   }
  ],
  "replied": [
@@ -711,6 +719,7 @@
   "18129572011882975",
   "18130060564892887",
   "18131579653697014",
+  "18131784763688071",
   "18131922955690025",
   "18132238346499404",
   "18132490291705697",
@@ -778,14 +787,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-10T15:59+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-10T17:05+09:00",
    "slot": "17:00",
@@ -1974,6 +1975,14 @@
    "time": "2026-10-29T16:06+09:00",
    "slot": "17:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-10-29T17:07+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfEifSXlUql",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
