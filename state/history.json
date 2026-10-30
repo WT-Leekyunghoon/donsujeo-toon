@@ -815,14 +815,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-11T09:55+09:00",
-   "slot": "09:50",
-   "result": "09:50 news 게시 https://www.threads.com/@etf_hipo/post/DeVaxpqm_rs",
-   "replies": 0,
-   "hidden": 0,
-   "note": "12:00 이후는 다음 실행에서 이어서"
-  },
-  {
    "time": "2026-10-11T12:05+09:00",
    "slot": "12:00",
    "result": "12:00 EP.6 툰 게시 https://www.threads.com/@etf_hipo/post/DeVprOqjg9-",
@@ -2013,6 +2005,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "17:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-30T23:02+09:00",
+   "slot": "17:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 6시간 지연 → 이 회차 포기"
   }
  ]
 }
