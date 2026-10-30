@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 25,
+ "next_episode": 26,
  "episodes": [
   {
    "ep": 1,
@@ -250,6 +250,16 @@
    "post_id": "18594490900067771",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfD_7rMDYsp",
    "images": "queue/daily/2026-10-29/1200.png"
+  },
+  {
+   "ep": 25,
+   "date": "2026-10-30",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 시가총액편",
+   "topic": "시가총액",
+   "post_id": "18199989601375742",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfG_7rdm-TS",
+   "images": "queue/daily/2026-10-30/1200.png"
   }
  ],
  "posts": [
@@ -795,6 +805,7 @@
   "18497207239097414",
   "18629932894016650",
   "18630729352006859",
+  "18636863242010117",
   "18643373467049860"
  ],
  "hidden": [
@@ -803,14 +814,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-11T02:58+09:00",
-   "slot": "09:50",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-11T09:55+09:00",
    "slot": "09:50",
@@ -2002,6 +2005,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-30T16:02+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.25 툰 게시 https://www.threads.com/@etf_hipo/post/DfG_7rdm-TS",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
