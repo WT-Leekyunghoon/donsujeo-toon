@@ -622,6 +622,14 @@
    "title": "📖 이번 주 ETF 용어: 분배락",
    "post_id": "17913999138488900",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfJkCQIkQvM"
+  },
+  {
+   "date": "2026-10-31",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "📌 ETF가 상장폐지되면 내 돈은?",
+   "post_id": "18078264827456157",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfKR1IdFCqJ"
   }
  ],
  "replied": [
@@ -823,14 +831,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-11T15:30+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-11T16:05+09:00",
    "slot": "17:00",
@@ -2022,6 +2022,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-10-31T22:36+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfKR1IdFCqJ",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 10시간 지연 → 이 회차 포기"
   }
  ]
 }
