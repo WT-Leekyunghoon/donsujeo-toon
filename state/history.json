@@ -832,14 +832,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-11T16:05+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
-  {
    "time": "2026-10-11T17:05+09:00",
    "slot": "17:00",
    "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DeWL89clgOF",
@@ -2030,6 +2022,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 10시간 지연 → 이 회차 포기"
+  },
+  {
+   "time": "2026-11-01T02:54+09:00",
+   "slot": "10:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
   }
  ]
 }
