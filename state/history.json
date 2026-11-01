@@ -630,6 +630,14 @@
    "title": "📌 ETF가 상장폐지되면 내 돈은?",
    "post_id": "18078264827456157",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfKR1IdFCqJ"
+  },
+  {
+   "date": "2026-11-01",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 이번 주 ETF 용어: 스프레드",
+   "post_id": "18362551504218840",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfMMXG1Gx-i"
   }
  ],
  "replied": [
@@ -831,14 +839,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-11T17:05+09:00",
-   "slot": "17:00",
-   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DeWL89clgOF",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-11T22:57+09:00",
    "slot": "17:00",
@@ -2030,6 +2030,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-01T16:27+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfMMXG1Gx-i",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
