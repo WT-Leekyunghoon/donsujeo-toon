@@ -264,6 +264,18 @@ def _publish_container(creation: str):
     return d["id"], None
 
 
+TOPIC_TAG = "Investing"   # 모든 본 게시글에 Threads 주제 태그 (2026-11-02 사용자 요청, 답글 제외)
+
+
+def _container(**kw) -> dict:
+    """본 게시글 컨테이너 생성 — topic_tag 를 붙이고, 태그 때문에 실패하면 태그 없이 한 번 더."""
+    _, d = api("POST", f"{UID}/threads", topic_tag=TOPIC_TAG, **kw)
+    if "id" not in d:
+        log(f"[topic_tag] 태그 포함 실패 → 태그 없이 재시도: {d.get('error')}")
+        _, d = api("POST", f"{UID}/threads", **kw)
+    return d
+
+
 def publish_carousel(image_urls: list[str], text: str):
     children = []
     for u in image_urls:
@@ -273,8 +285,7 @@ def publish_carousel(image_urls: list[str], text: str):
             return None, f"이미지 컨테이너 실패: {d.get('error')}"
         children.append(d["id"])
         time.sleep(2)
-    _, d = api("POST", f"{UID}/threads", media_type="CAROUSEL",
-               children=",".join(children), text=text)
+    d = _container(media_type="CAROUSEL", children=",".join(children), text=text)
     if "id" not in d:
         return None, f"캐러셀 컨테이너 실패: {d.get('error')}"
     return _publish_container(d["id"])
@@ -283,10 +294,9 @@ def publish_carousel(image_urls: list[str], text: str):
 def publish_post(text: str, image_url: str | None = None):
     """글 게시 (선택적으로 이미지 1장 첨부)."""
     if image_url:
-        _, d = api("POST", f"{UID}/threads", media_type="IMAGE",
-                   image_url=image_url, text=text)
+        d = _container(media_type="IMAGE", image_url=image_url, text=text)
     else:
-        _, d = api("POST", f"{UID}/threads", media_type="TEXT", text=text)
+        d = _container(media_type="TEXT", text=text)
     if "id" not in d:
         return None, f"컨테이너 실패: {d.get('error')}"
     return _publish_container(d["id"])
