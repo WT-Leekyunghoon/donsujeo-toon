@@ -45,11 +45,31 @@ def detect(img: Image.Image):
     return title_box, boxes
 
 
+ASPECT_MIN, ASPECT_MAX = 0.70, 1.00   # 컷 가로/세로 — 세로 4:5(0.8) 근처만 허용 (2026-11-02)
+
+
+def check_boxes(img: Image.Image, boxes) -> None:
+    """2×2 세로 4컷이 아니거나 컷 비율·크기가 들쭉날쭉하면 실패 — 이상한 비율로 올라가는 것 방지."""
+    if len(boxes) != 4:
+        raise SystemExit(f"컷 {len(boxes)}개 탐지 — 4컷이 아니라 나누지 않음: {boxes}")
+    if img.width >= img.height:
+        raise SystemExit(f"원본이 가로형({img.width}x{img.height}) — 세로 4:5 2×2로 다시 만들 것")
+    if len({(y0, y1) for _, y0, _, y1 in boxes}) != 2:
+        raise SystemExit(f"2×2 배치가 아님: {boxes}")
+    if min(img.size) < 800:
+        raise SystemExit(f"해상도 부족({img.width}x{img.height}) — 원본 크기로 다시 받을 것")
+    ws = [x1 - x0 for x0, _, x1, _ in boxes]; hs = [y1 - y0 for _, y0, _, y1 in boxes]
+    for i, (w, h) in enumerate(zip(ws, hs), 1):
+        if not ASPECT_MIN <= w / h <= ASPECT_MAX:
+            raise SystemExit(f"{i}컷 비율 {w/h:.2f} — 허용 {ASPECT_MIN}~{ASPECT_MAX} 밖")
+    if max(ws) > min(ws) * 1.1 or max(hs) > min(hs) * 1.1:
+        raise SystemExit(f"컷 크기가 들쭉날쭉: 가로 {ws}, 세로 {hs}")
+
+
 def split(src: Path) -> list[Path]:
     img = Image.open(src).convert("RGB")
     title_box, boxes = detect(img)
-    if len(boxes) != 4:
-        raise SystemExit(f"컷 {len(boxes)}개 탐지 — 4컷이 아니라 나누지 않음: {boxes}")
+    check_boxes(img, boxes)
     title = None
     if title_box:
         t0, t1 = max(0, title_box[0] - 10), min(img.height, title_box[1] + 10)

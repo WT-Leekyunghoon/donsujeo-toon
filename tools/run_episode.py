@@ -299,8 +299,44 @@ def already_posted(hist: dict, date: str, slot: str) -> bool:
     return any(r.get("date") == date and r.get("slot") == slot for r in rows)
 
 
+def _valid_panels(paths: list[Path]) -> bool:
+    from PIL import Image
+    if len(paths) != 4 or not all((ROOT / x).is_file() for x in paths):
+        return False
+    return all(Image.open(ROOT / x).size == (1080, 1350) for x in paths)
+
+
+def toon_panels(spec: dict, df: Path, img_path: Path, date: str, slot: str, note: list[str]) -> list[Path]:
+    """원본이 세로 2×2·정상 비율인지 먼저 확인 → json panels → {stem}-1~4.png → 자동 분할 순. 못 찾으면 []."""
+    try:
+        sys.path.insert(0, str(ROOT / "tools"))
+        from split_panels import detect, check_boxes
+        from PIL import Image
+        im = Image.open(img_path).convert("RGB")
+        check_boxes(im, detect(im)[1])
+    except BaseException as e:
+        note.append(f"원본 4컷 검사 실패({e}) → 게시 보류")
+        return []
+    cands = [[Path(x) for x in spec.get("panels", [])],
+             [img_path.with_name(f"{img_path.stem}-{i}.png").relative_to(ROOT.resolve()) for i in range(1, 5)]]
+    for c in cands:
+        if _valid_panels(c):
+            return c
+    try:
+        sys.path.insert(0, str(ROOT / "tools"))
+        from split_panels import split
+        c = [o.resolve().relative_to(ROOT.resolve()) for o in split(img_path)]
+        if _valid_panels(c):
+            git_push(f"toon panels ({date} {slot})")
+            return c
+        note.append("자동 분할 결과가 4장 1080x1350 이 아님 → 게시 보류")
+    except BaseException as e:
+        note.append(f"4컷 분할 실패({e}) → 게시 보류")
+    return []
+
+
 def do_toon(hist: dict, date: str, slot: str, note: list[str]) -> str:
-    """완성된 4컷 이미지를 4장 캐러셀(json "panels", 없으면 자동 분할)로 글과 함께 게시. 분할 실패 시 한 장."""
+    """완성된 4컷 이미지를 4장 캐러셀(json "panels", 없으면 자동 분할)로 글과 함께 게시. 4장 확인 실패 시 게시 보류."""
     df = daily_file(date, slot)
     spec = json.loads(df.read_text(encoding="utf-8"))
     img_rel = Path(spec.get("image") or df.with_suffix(".png").relative_to(ROOT).as_posix())
@@ -310,25 +346,16 @@ def do_toon(hist: dict, date: str, slot: str, note: list[str]) -> str:
         note.append("툰 이미지 없음 → 생략")
         return "게시 없음"
     n = hist["next_episode"]
-    # 휴대폰에서 보기 좋게 4컷을 4장(캐러셀)으로 — json "panels" 가 없으면 여기서 나눠 push
-    panels = [Path(x) for x in spec.get("panels", [])]
+    # 툰은 반드시 4장(1080x1350) 캐러셀로만 게시 — 한 장 통이미지·이상 비율 게시 금지 (2026-11-02)
+    panels = toon_panels(spec, df, img_path, date, slot, note)
     if not panels:
-        try:
-            sys.path.insert(0, str(ROOT / "tools"))
-            from split_panels import split
-            panels = [o.resolve().relative_to(ROOT.resolve()) for o in split(img_path)]
-            git_push(f"toon panels ({date} {slot})")
-        except BaseException as e:   # 나누기 실패 → 한 장으로 게시
-            note.append(f"4컷 나누기 실패({e}) → 한 장 게시")
-            panels = []
-    panels = [x for x in panels if (ROOT / x).is_file()]
-    if len(panels) >= 2:
-        urls = [f"{RAW}{x.as_posix()}" for x in panels]
-    else:
-        urls = [f"{RAW}{img_rel.as_posix()}"]
-    if len(urls) >= 2 and not wait_raw(urls):
-        note.append("4컷 분할 이미지 raw 확인 실패 → 한 장 게시")
-        urls = [f"{RAW}{img_rel.as_posix()}"]
+        notify(f"하마툰: {date} {slot} 툰 4컷 분할 확인 실패", "; ".join(note))
+        return "게시 없음"
+    urls = [f"{RAW}{x.as_posix()}" for x in panels]
+    if not wait_raw(urls):
+        notify(f"하마툰: EP.{n} 4컷 raw 이미지 확인 실패", " ".join(urls))
+        note.append("4컷 raw 확인 실패 → 게시 보류(다음 실행에서 재시도)")
+        return "게시 없음"
     url = urls[0]
     if not wait_raw(urls):
         notify(f"하마툰: EP.{n} raw 이미지 확인 실패", f"{url} 이 raw URL 에서 안 보입니다.")
