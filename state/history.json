@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 27,
+ "next_episode": 28,
  "episodes": [
   {
    "ep": 1,
@@ -270,6 +270,16 @@
    "post_id": "18141551260626244",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfOmHx4nIV3",
    "images": "queue/daily/2026-11-02/1200.png"
+  },
+  {
+   "ep": 27,
+   "date": "2026-11-03",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 인버스편",
+   "topic": "인버스",
+   "post_id": "18215267569361909",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfQ375mEenT",
+   "images": "queue/daily/2026-11-03/1200.png"
   }
  ],
  "posts": [
@@ -875,14 +885,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-13T01:58+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-13T09:54+09:00",
    "slot": "10:00",
@@ -2074,6 +2076,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-03T12:05+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.27 툰 게시 https://www.threads.com/@etf_hipo/post/DfQ375mEenT",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
