@@ -656,6 +656,14 @@
    "title": "🔎 국내 ETF 소개: TIGER 미국S&P500",
    "post_id": "18251459227312566",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfO2c1XFugd"
+  },
+  {
+   "date": "2026-11-03",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 오늘의 ETF 용어: 기초지수",
+   "post_id": "18056141816592116",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfQqEaTFIhv"
   }
  ],
  "replied": [
@@ -867,14 +875,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-12T20:21+09:00",
-   "slot": "17:00",
-   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DeZHN12G0J9",
-   "replies": 0,
-   "hidden": 0,
-   "note": "10:00 10시간 지연 → 이 회차 포기"
-  },
   {
    "time": "2026-10-13T01:58+09:00",
    "slot": "10:00",
@@ -2066,6 +2066,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-03T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfQqEaTFIhv",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
