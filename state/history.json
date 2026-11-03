@@ -868,14 +868,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-12T17:05+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 90분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
-  {
    "time": "2026-10-12T20:21+09:00",
    "slot": "17:00",
    "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DeZHN12G0J9",
@@ -2061,6 +2053,14 @@
   },
   {
    "time": "2026-11-03T02:25+09:00",
+   "slot": "10:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-03T09:07+09:00",
    "slot": "10:00",
    "result": "게시 없음",
    "replies": 0,
