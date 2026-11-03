@@ -674,6 +674,14 @@
    "title": "📖 오늘의 ETF 용어: 기초지수",
    "post_id": "18056141816592116",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfQqEaTFIhv"
+  },
+  {
+   "date": "2026-11-03",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: KODEX 고배당주",
+   "post_id": "18046200338830379",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfRaLXwm1zy"
   }
  ],
  "replied": [
@@ -885,14 +893,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-13T12:04+09:00",
-   "slot": "12:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 55분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-13T12:06+09:00",
    "slot": "12:00",
@@ -2081,6 +2081,14 @@
    "time": "2026-11-03T16:50+09:00",
    "slot": "17:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-03T17:04+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfRaLXwm1zy",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
