@@ -71,8 +71,11 @@ CLOSINGS = [
 ]
 
 
+ADD_CLOSING = False   # 2026-11-04 사용자 요청: 본문 스하리·반하리 멘트 중단 (다시 켜려면 True)
+
+
 def add_closing(text: str) -> str:
-    if "스하리" in text or "반하리" in text:
+    if not ADD_CLOSING or "스하리" in text or "반하리" in text:
         return text
     line = CLOSINGS[datetime.now(KST).toordinal() % len(CLOSINGS)]
     out = f"{text.rstrip()}\n\n{line}"
