@@ -708,6 +708,14 @@
    "title": "📖 오늘의 ETF 용어: 동일가중",
    "post_id": "18237329758325653",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfTcoNBFiyH"
+  },
+  {
+   "date": "2026-11-04",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: KODEX 200",
+   "post_id": "18110690521912557",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfT_AeAmzOr"
   }
  ],
  "replied": [
@@ -919,6 +927,7 @@
   "18389628004232209",
   "18390541483228408",
   "18400317133206409",
+  "18418684762080444",
   "18418754074082548",
   "18443788039176850",
   "18464337142142940",
@@ -938,14 +947,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-14T09:10+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-14T10:03+09:00",
    "slot": "10:00",
@@ -2134,6 +2135,14 @@
    "time": "2026-11-04T16:27+09:00",
    "slot": "17:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-04T17:04+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfT_AeAmzOr",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
