@@ -742,6 +742,14 @@
    "title": "크리스마스 특별편",
    "post_id": "18097695587542548",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfWfi06Fmcw"
+  },
+  {
+   "date": "2026-11-05",
+   "slot": "16:44",
+   "kind": "news",
+   "title": "크리스마스 특별편 — 하마의 ETF 도전기 소개",
+   "post_id": "18085461266526573",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfWhnpTlQcz"
   }
  ],
  "replied": [
@@ -1005,14 +1013,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-14T19:03+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 3분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-14T19:21+09:00",
    "slot": "17:00",
@@ -2204,6 +2204,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "17:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-05T16:45+09:00",
+   "slot": "16:44",
+   "result": "16:44 news 게시 https://www.threads.com/@etf_hipo/post/DfWhnpTlQcz",
+   "replies": 0,
+   "hidden": 0,
+   "note": "간격 검사 생략(수동 지정, 직전 게시 None분 전); 17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
