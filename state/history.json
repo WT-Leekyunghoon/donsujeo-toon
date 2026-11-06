@@ -758,6 +758,14 @@
    "title": "🔎 국내 ETF 소개: TIGER CD금리투자KIS(합성)",
    "post_id": "18025322351712727",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfWxhCLlcjO"
+  },
+  {
+   "date": "2026-11-06",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 오늘의 ETF 용어: 변동성",
+   "post_id": "17939333040125196",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfYYeaYlMMq"
   }
  ],
  "replied": [
@@ -1025,14 +1033,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-15T14:50+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 34분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-15T16:16+09:00",
    "slot": "17:00",
@@ -2224,6 +2224,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-06T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfYYeaYlMMq",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
