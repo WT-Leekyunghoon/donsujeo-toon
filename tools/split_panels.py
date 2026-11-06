@@ -62,7 +62,7 @@ def check_boxes(img: Image.Image, boxes) -> None:
     for i, (w, h) in enumerate(zip(ws, hs), 1):
         if not ASPECT_MIN <= w / h <= ASPECT_MAX:
             raise SystemExit(f"{i}컷 비율 {w/h:.2f} — 허용 {ASPECT_MIN}~{ASPECT_MAX} 밖")
-    if max(ws) > min(ws) * 1.1 or max(hs) > min(hs) * 1.1:
+    if max(ws) > min(ws) * 1.1 or max(hs) > min(hs) * 1.15:   # 세로는 15%까지 (2026-11-06)
         raise SystemExit(f"컷 크기가 들쭉날쭉: 가로 {ws}, 세로 {hs}")
 
 
