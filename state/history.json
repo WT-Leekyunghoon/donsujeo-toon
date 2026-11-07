@@ -784,6 +784,14 @@
    "title": "🔎 국내 ETF 소개: TIGER 미국배당다우존스",
    "post_id": "18129875893879514",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfZIgS1Fj4P"
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 이번 주 ETF 용어: 변동성",
+   "post_id": "18131613889831438",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfbmUlZlipy"
   }
  ],
  "replied": [
@@ -1057,14 +1065,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-16T09:34+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 0분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-16T09:38+09:00",
    "slot": "10:00",
@@ -2256,6 +2256,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-07T16:03+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfbmUlZlipy",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
