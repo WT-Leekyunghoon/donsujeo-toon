@@ -792,6 +792,14 @@
    "title": "📖 이번 주 ETF 용어: 변동성",
    "post_id": "18131613889831438",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfbmUlZlipy"
+  },
+  {
+   "date": "2026-11-07",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "📌 주말 공부: 투자설명서, 어디부터 볼까?",
+   "post_id": "17879013210634576",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfcVp_iFmnV"
   }
  ],
  "replied": [
@@ -1057,7 +1065,8 @@
   "18630729352006859",
   "18636863242010117",
   "18642852109000676",
-  "18643373467049860"
+  "18643373467049860",
+  "18645155914010348"
  ],
  "hidden": [
   "18112782721885764",
@@ -1065,14 +1074,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-16T09:38+09:00",
-   "slot": "10:00",
-   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DeiQxEyoN3O",
-   "replies": 0,
-   "hidden": 0,
-   "note": "간격 검사 생략(수동 지정, 직전 게시 0분 전); 12:00 이후는 다음 실행에서 이어서"
-  },
   {
    "time": "2026-10-16T10:03+09:00",
    "slot": "10:00",
@@ -2264,6 +2265,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-07T22:56+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfcVp_iFmnV",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 10시간 지연 → 이 회차 포기"
   }
  ]
 }
