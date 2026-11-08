@@ -800,6 +800,14 @@
    "title": "📌 주말 공부: 투자설명서, 어디부터 볼까?",
    "post_id": "17879013210634576",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfcVp_iFmnV"
+  },
+  {
+   "date": "2026-11-08",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 이번 주 ETF 용어: 괴리율",
+   "post_id": "18386066002236354",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfeMgbcjvIa"
   }
  ],
  "replied": [
@@ -1074,14 +1082,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-16T10:03+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 3분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-16T12:03+09:00",
    "slot": "12:00",
@@ -2273,6 +2273,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 10시간 지연 → 이 회차 포기"
+  },
+  {
+   "time": "2026-11-08T16:15+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfeMgbcjvIa",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
