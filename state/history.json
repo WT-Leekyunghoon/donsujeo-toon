@@ -844,6 +844,14 @@
    "title": "📖 오늘의 ETF 용어: 레버리지 ETF",
    "post_id": "17908488081668194",
    "permalink": "https://www.threads.com/@etf_hipo/post/Dfir30blT6c"
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: SOL AI반도체소부장",
+   "post_id": "18112505924138212",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfjdvFulmPB"
   }
  ],
  "replied": [
@@ -868,6 +876,7 @@
   "17904272724605301",
   "17904839088668113",
   "17906513445578884",
+  "17910061593598964",
   "17910103146580821",
   "17910242715581923",
   "17912700144307634",
@@ -1132,14 +1141,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-17T00:30+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-17T14:32+09:00",
    "slot": "10:00",
@@ -2331,6 +2332,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "17:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-10T17:21+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfjdvFulmPB",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
   }
  ]
 }
