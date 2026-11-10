@@ -267,7 +267,7 @@ def _publish_container(creation: str):
     return d["id"], None
 
 
-TOPIC_TAG = "Investing"   # 모든 본 게시글에 Threads 주제 태그 (2026-11-02 사용자 요청, 답글 제외)
+TOPIC_TAG = "재테크"   # 모든 본 게시글 Threads 주제 태그 (2026-11-10 사용자 요청으로 Investing → 재테크, 답글 제외)
 
 
 def _container(**kw) -> dict:
