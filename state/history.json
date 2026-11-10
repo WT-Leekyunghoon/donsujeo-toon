@@ -826,6 +826,14 @@
    "title": "📖 오늘의 ETF 용어: 만기수익률(YTM)",
    "post_id": "18023601053943946",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfgG268CSKb"
+  },
+  {
+   "date": "2026-11-10",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 오늘의 ETF 용어: 레버리지 ETF",
+   "post_id": "17908488081668194",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Dfir30blT6c"
   }
  ],
  "replied": [
@@ -1113,14 +1121,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-16T17:38+09:00",
-   "slot": "17:00",
-   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DejHtJSloMm",
-   "replies": 0,
-   "hidden": 0,
-   "note": "간격 검사 생략(수동 지정, 직전 게시 0분 전)"
-  },
   {
    "time": "2026-10-16T20:14+09:00",
    "slot": "17:00",
@@ -2312,6 +2312,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-10T10:06+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/Dfir30blT6c",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
