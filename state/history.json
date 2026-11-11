@@ -870,6 +870,14 @@
    "title": "📖 오늘의 ETF 용어: 물가연동국채(TIPS)",
    "post_id": "17976768948152100",
    "permalink": "https://www.threads.com/@etf_hipo/post/DflQcxikStC"
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: KODEX 코스닥150",
+   "post_id": "18059909540799706",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfmAi25FRLU"
   }
  ],
  "replied": [
@@ -937,6 +945,7 @@
   "17976152901138964",
   "17978590677161444",
   "17981828364127011",
+  "17984349573152011",
   "17988331875085835",
   "17988369699096548",
   "17989671729083437",
@@ -1160,14 +1169,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-18T23:31+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "17:00 6시간 지연 → 이 회차 포기"
-  },
   {
    "time": "2026-10-19T10:00+09:00",
    "slot": "10:00",
@@ -2356,6 +2357,14 @@
    "time": "2026-11-11T16:42+09:00",
    "slot": "17:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-11T17:04+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfmAi25FRLU",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
