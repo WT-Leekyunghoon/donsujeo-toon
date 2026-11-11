@@ -852,6 +852,14 @@
    "title": "🔎 국내 ETF 소개: SOL AI반도체소부장",
    "post_id": "18112505924138212",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfjdvFulmPB"
+  },
+  {
+   "date": "2026-11-11",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 오늘의 ETF 용어: 물가연동국채(TIPS)",
+   "post_id": "17976768948152100",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DflQcxikStC"
   }
  ],
  "replied": [
@@ -1141,14 +1149,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-17T22:10+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 36분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-18T01:23+09:00",
    "slot": "10:00",
@@ -2340,6 +2340,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-11T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DflQcxikStC",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
