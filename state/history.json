@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 33,
+ "next_episode": 34,
  "episodes": [
   {
    "ep": 1,
@@ -330,6 +330,16 @@
    "post_id": "17874132399641291",
    "permalink": "https://www.threads.com/@etf_hipo/post/Dfi5a39kdjM",
    "images": "queue/daily/2026-11-10/1200.png"
+  },
+  {
+   "ep": 33,
+   "date": "2026-11-11",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - PBR편",
+   "topic": "PBR",
+   "post_id": "18109764641206896",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfleP6zoDIC",
+   "images": "queue/daily/2026-11-11/1200.png"
   }
  ],
  "posts": [
@@ -1149,14 +1159,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-18T01:23+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-18T14:49+09:00",
    "slot": "10:00",
@@ -2348,6 +2350,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-11T12:04+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.33 툰 게시 https://www.threads.com/@etf_hipo/post/DfleP6zoDIC",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
