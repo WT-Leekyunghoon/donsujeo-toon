@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 34,
+ "next_episode": 35,
  "episodes": [
   {
    "ep": 1,
@@ -340,6 +340,16 @@
    "post_id": "18109764641206896",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfleP6zoDIC",
    "images": "queue/daily/2026-11-11/1200.png"
+  },
+  {
+   "ep": 34,
+   "date": "2026-11-12",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 신규 상장 ETF편",
+   "topic": "신규 상장 ETF 확인법",
+   "post_id": "18029728724926533",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfoDBiYIHvQ",
+   "images": "queue/daily/2026-11-12/1200.png"
   }
  ],
  "posts": [
@@ -989,6 +999,7 @@
   "18036149396851546",
   "18041208104846320",
   "18042513791836571",
+  "18043492175840432",
   "18057003776586464",
   "18060281450555513",
   "18064142600620180",
@@ -1181,14 +1192,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-19T12:05+09:00",
-   "slot": "12:00",
-   "result": "12:00 EP.14 툰 게시 https://www.threads.com/@etf_hipo/post/DeqP97sDQKB",
-   "replies": 0,
-   "hidden": 0,
-   "note": "17:00 이후는 다음 실행에서 이어서"
-  },
   {
    "time": "2026-10-19T15:05+09:00",
    "slot": "17:00",
@@ -2380,6 +2383,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 2분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-11-12T12:04+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.34 툰 게시 https://www.threads.com/@etf_hipo/post/DfoDBiYIHvQ",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
