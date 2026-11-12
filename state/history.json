@@ -878,6 +878,14 @@
    "title": "🔎 국내 ETF 소개: KODEX 코스닥150",
    "post_id": "18059909540799706",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfmAi25FRLU"
+  },
+  {
+   "date": "2026-11-12",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "🔎 이번 주 신규 상장 ETF: HANARO 삼성전기고정AI핵심기판",
+   "post_id": "17958567825269775",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Dfn07gPCN-G"
   }
  ],
  "replied": [
@@ -1173,14 +1181,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-19T10:04+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 0분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-19T10:14+09:00",
    "slot": "10:00",
@@ -2372,6 +2372,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-12T10:01+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/Dfn07gPCN-G",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
