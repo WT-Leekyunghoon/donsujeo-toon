@@ -922,6 +922,14 @@
    "title": "📖 오늘의 ETF 용어: iNAV",
    "post_id": "17906310927362755",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfqaDUwAIxo"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: KODEX 은행",
+   "post_id": "17993304717075705",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfrKKRHFXoH"
   }
  ],
  "replied": [
@@ -1220,14 +1228,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-20T14:57+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-20T16:05+09:00",
    "slot": "17:00",
@@ -2416,6 +2416,14 @@
    "time": "2026-11-13T16:50+09:00",
    "slot": "17:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-13T17:04+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfrKKRHFXoH",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
