@@ -1221,14 +1221,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-20T12:15+09:00",
-   "slot": "12:00",
-   "result": "12:00 EP.15 툰 게시 https://www.threads.com/@etf_hipo/post/Des1_YAkTJm",
-   "replies": 0,
-   "hidden": 0,
-   "note": "17:00 이후는 다음 실행에서 이어서"
-  },
-  {
    "time": "2026-10-20T14:57+09:00",
    "slot": "17:00",
    "result": "게시 없음",
@@ -2414,6 +2406,14 @@
   },
   {
    "time": "2026-11-13T16:05+09:00",
+   "slot": "17:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-13T16:50+09:00",
    "slot": "17:00",
    "result": "게시 없음",
    "replies": 0,
