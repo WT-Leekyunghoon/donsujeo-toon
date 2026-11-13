@@ -1229,14 +1229,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-20T16:05+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
-  {
    "time": "2026-10-20T17:04+09:00",
    "slot": "17:00",
    "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DetXF4SG4Pu",
@@ -2424,6 +2416,14 @@
    "time": "2026-11-13T17:04+09:00",
    "slot": "17:00",
    "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DfrKKRHFXoH",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-14T01:12+09:00",
+   "slot": "10:00",
+   "result": "게시 없음",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
