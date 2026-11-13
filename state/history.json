@@ -904,6 +904,14 @@
    "title": "🔎 이번 주 신규 상장 ETF: MIDAS 중기채권(AA-이상)액티브",
    "post_id": "17934739923417700",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfomcH_m4fE"
+  },
+  {
+   "date": "2026-11-13",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 오늘의 ETF 용어: iNAV",
+   "post_id": "17906310927362755",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfqaDUwAIxo"
   }
  ],
  "replied": [
@@ -1202,14 +1210,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-20T04:15+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-20T09:08+09:00",
    "slot": "10:00",
@@ -2401,6 +2401,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-13T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfqaDUwAIxo",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
