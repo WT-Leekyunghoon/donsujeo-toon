@@ -930,6 +930,14 @@
    "title": "🔎 국내 ETF 소개: KODEX 은행",
    "post_id": "17993304717075705",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfrKKRHFXoH"
+  },
+  {
+   "date": "2026-11-14",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 이번 주 ETF 용어: 커버드콜",
+   "post_id": "18193507996360642",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DftrcwyGylB"
   }
  ],
  "replied": [
@@ -1228,14 +1236,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-20T17:04+09:00",
-   "slot": "17:00",
-   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DetXF4SG4Pu",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-20T20:26+09:00",
    "slot": "17:00",
@@ -2427,6 +2427,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-14T16:34+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DftrcwyGylB",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
