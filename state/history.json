@@ -938,6 +938,14 @@
    "title": "📖 이번 주 ETF 용어: 커버드콜",
    "post_id": "18193507996360642",
    "permalink": "https://www.threads.com/@etf_hipo/post/DftrcwyGylB"
+  },
+  {
+   "date": "2026-11-15",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 이번 주 ETF 용어: 환노출(UH)",
+   "post_id": "18147445666512022",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfwR1gflTNu"
   }
  ],
  "replied": [
@@ -1236,14 +1244,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-21T00:49+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-21T09:12+09:00",
    "slot": "10:00",
@@ -2435,6 +2435,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 11시간 지연 → 이 회차 포기; 17:00 6시간 지연 → 이 회차 포기"
+  },
+  {
+   "time": "2026-11-15T16:48+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfwR1gflTNu",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
