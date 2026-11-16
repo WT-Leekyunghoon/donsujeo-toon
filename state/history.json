@@ -1271,14 +1271,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-21T20:40+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "10:00 10시간 지연 → 이 회차 포기"
-  },
-  {
    "time": "2026-10-22T01:05+09:00",
    "slot": "10:00",
    "result": "게시 없음",
@@ -2466,6 +2458,14 @@
    "time": "2026-11-16T17:04+09:00",
    "slot": "17:00",
    "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/Dfy4eH7Gxq5",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
+  },
+  {
+   "time": "2026-11-17T03:23+09:00",
+   "slot": "10:00",
+   "result": "게시 없음",
    "replies": 0,
    "hidden": 0,
    "note": "ok"
