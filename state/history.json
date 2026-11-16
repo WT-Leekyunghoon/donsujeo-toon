@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 36,
+ "next_episode": 37,
  "episodes": [
   {
    "ep": 1,
@@ -360,6 +360,16 @@
    "post_id": "17957809308330798",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfqnzN5jtKp",
    "images": "queue/daily/2026-11-13/1200.png"
+  },
+  {
+   "ep": 36,
+   "date": "2026-11-16",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 금리와 채권편",
+   "topic": "금리와 채권 가격",
+   "post_id": "17983236870137824",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DfyWKwCm74E",
+   "images": "queue/daily/2026-11-16/1200.png"
   }
  ],
  "posts": [
@@ -1252,14 +1262,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-21T12:03+09:00",
-   "slot": "12:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "직전 게시 1분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
-  },
   {
    "time": "2026-10-21T14:58+09:00",
    "slot": "17:00",
@@ -2451,6 +2453,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-16T12:04+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.36 툰 게시 https://www.threads.com/@etf_hipo/post/DfyWKwCm74E",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
