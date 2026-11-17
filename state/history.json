@@ -1289,14 +1289,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-22T12:04+09:00",
-   "slot": "12:00",
-   "result": "12:00 EP.17 툰 게시 https://www.threads.com/@etf_hipo/post/Dex-TseFKXJ",
-   "replies": 0,
-   "hidden": 0,
-   "note": "17:00 이후는 다음 실행에서 이어서"
-  },
-  {
    "time": "2026-10-22T15:03+09:00",
    "slot": "17:00",
    "result": "게시 없음",
@@ -2487,6 +2479,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "17:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-17T16:10+09:00",
+   "slot": "17:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
   }
  ]
 }
