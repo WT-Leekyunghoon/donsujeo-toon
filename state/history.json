@@ -9,7 +9,7 @@
   "12:00",
   "17:00"
  ],
- "next_episode": 37,
+ "next_episode": 38,
  "episodes": [
   {
    "ep": 1,
@@ -370,6 +370,16 @@
    "post_id": "17983236870137824",
    "permalink": "https://www.threads.com/@etf_hipo/post/DfyWKwCm74E",
    "images": "queue/daily/2026-11-16/1200.png"
+  },
+  {
+   "ep": 37,
+   "date": "2026-11-17",
+   "slot": "12:00",
+   "title": "하마의 ETF 도전기 - 분할매수편",
+   "topic": "분할매수",
+   "post_id": "18116846933600528",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Df07ApKjko9",
+   "images": "queue/daily/2026-11-17/1200.png"
   }
  ],
  "posts": [
@@ -1278,14 +1288,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-22T10:04+09:00",
-   "slot": "10:00",
-   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DexwkiSDkQq",
-   "replies": 0,
-   "hidden": 0,
-   "note": "12:00 이후는 다음 실행에서 이어서"
-  },
   {
    "time": "2026-10-22T12:04+09:00",
    "slot": "12:00",
@@ -2477,6 +2479,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서"
+  },
+  {
+   "time": "2026-11-17T12:04+09:00",
+   "slot": "12:00",
+   "result": "12:00 EP.37 툰 게시 https://www.threads.com/@etf_hipo/post/Df07ApKjko9",
+   "replies": 0,
+   "hidden": 0,
+   "note": "17:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
