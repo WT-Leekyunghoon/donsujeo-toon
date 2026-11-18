@@ -998,6 +998,14 @@
    "title": "🔎 국내 ETF 소개: ACE KRX금현물",
    "post_id": "17913032418588607",
    "permalink": "https://www.threads.com/@etf_hipo/post/Df1dSztnD9o"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 오늘의 ETF 용어: 시가총액 가중",
+   "post_id": "18131699164934737",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Df3TJYZjSwv"
   }
  ],
  "replied": [
@@ -1297,14 +1305,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-23T02:05+09:00",
-   "slot": "10:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-23T09:37+09:00",
    "slot": "10:00",
@@ -2496,6 +2496,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "ok"
+  },
+  {
+   "time": "2026-11-18T10:14+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/Df3TJYZjSwv",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서"
   }
  ]
 }
