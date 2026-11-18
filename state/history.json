@@ -1016,6 +1016,14 @@
    "title": "📖 오늘의 ETF 용어: 시가총액 가중",
    "post_id": "18131699164934737",
    "permalink": "https://www.threads.com/@etf_hipo/post/Df3TJYZjSwv"
+  },
+  {
+   "date": "2026-11-18",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: KODEX 로봇액티브",
+   "post_id": "18104235476530234",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Df4P1GnEWZd"
   }
  ],
  "replied": [
@@ -1315,14 +1323,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-23T14:58+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-23T16:05+09:00",
    "slot": "17:00",
@@ -2514,6 +2514,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "직전 게시 83분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀"
+  },
+  {
+   "time": "2026-11-18T19:04+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/Df4P1GnEWZd",
+   "replies": 0,
+   "hidden": 0,
+   "note": "ok"
   }
  ]
 }
