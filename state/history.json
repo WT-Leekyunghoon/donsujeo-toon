@@ -1024,6 +1024,14 @@
    "title": "🔎 국내 ETF 소개: KODEX 로봇액티브",
    "post_id": "18104235476530234",
    "permalink": "https://www.threads.com/@etf_hipo/post/Df4P1GnEWZd"
+  },
+  {
+   "date": "2026-11-19",
+   "slot": "10:00",
+   "kind": "news",
+   "title": "📖 오늘의 ETF 용어: 콘탱고",
+   "post_id": "18027656753867447",
+   "permalink": "https://www.threads.com/@etf_hipo/post/Df523JRjjwQ"
   }
  ],
  "replied": [
@@ -1324,14 +1332,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-23T20:30+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-24T00:54+09:00",
    "slot": "10:00",
@@ -2523,6 +2523,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "Threads 토큰은 갱신됐지만 GH_PAT Secret 이 없어 저장 못 함 — 수동으로 재발급해 THREADS_ACCESS_TOKEN Secret 교체 필요 (만료 2026-11-30)."
+  },
+  {
+   "time": "2026-11-19T10:04+09:00",
+   "slot": "10:00",
+   "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/Df523JRjjwQ",
+   "replies": 0,
+   "hidden": 0,
+   "note": "12:00 이후는 다음 실행에서 이어서; Threads 토큰은 갱신됐지만 GH_PAT Secret 이 없어 저장 못 함 — 수동으로 재발급해 THREADS_ACCESS_TOKEN Secret 교체 필요 (만료 2026-11-30)."
   }
  ]
 }
