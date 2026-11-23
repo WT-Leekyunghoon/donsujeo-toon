@@ -1110,6 +1110,14 @@
    "title": "📖 오늘의 ETF 용어: LP(유동성공급자)",
    "post_id": "17874992862642264",
    "permalink": "https://www.threads.com/@etf_hipo/post/DgEKA-tFeJl"
+  },
+  {
+   "date": "2026-11-23",
+   "slot": "17:00",
+   "kind": "news",
+   "title": "🔎 국내 ETF 소개: PLUS 자사주매입고배당주",
+   "post_id": "18147561220593553",
+   "permalink": "https://www.threads.com/@etf_hipo/post/DgE6FLgm2OP"
   }
  ],
  "replied": [
@@ -1414,14 +1422,6 @@
   "18396744616160431"
  ],
  "runs": [
-  {
-   "time": "2026-10-27T17:05+09:00",
-   "slot": "17:00",
-   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/De_YsmuldOa",
-   "replies": 0,
-   "hidden": 0,
-   "note": "ok"
-  },
   {
    "time": "2026-10-27T21:38+09:00",
    "slot": "17:00",
@@ -2610,6 +2610,14 @@
    "time": "2026-11-23T16:05+09:00",
    "slot": "17:00",
    "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "Threads 토큰은 갱신됐지만 GH_PAT Secret 이 없어 저장 못 함 — 수동으로 재발급해 THREADS_ACCESS_TOKEN Secret 교체 필요 (만료 2026-11-30)."
+  },
+  {
+   "time": "2026-11-23T17:04+09:00",
+   "slot": "17:00",
+   "result": "17:00 news 게시 https://www.threads.com/@etf_hipo/post/DgE6FLgm2OP",
    "replies": 0,
    "hidden": 0,
    "note": "Threads 토큰은 갱신됐지만 GH_PAT Secret 이 없어 저장 못 함 — 수동으로 재발급해 THREADS_ACCESS_TOKEN Secret 교체 필요 (만료 2026-11-30)."
