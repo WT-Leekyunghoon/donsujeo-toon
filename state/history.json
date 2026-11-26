@@ -1496,14 +1496,6 @@
  ],
  "runs": [
   {
-   "time": "2026-10-30T23:02+09:00",
-   "slot": "17:00",
-   "result": "게시 없음",
-   "replies": 0,
-   "hidden": 0,
-   "note": "17:00 6시간 지연 → 이 회차 포기"
-  },
-  {
    "time": "2026-10-31T15:56+09:00",
    "slot": "10:00",
    "result": "10:00 news 게시 https://www.threads.com/@etf_hipo/post/DfJkCQIkQvM",
@@ -2694,6 +2686,14 @@
    "replies": 0,
    "hidden": 0,
    "note": "12:00 이후는 다음 실행에서 이어서; Threads 토큰은 갱신됐지만 GH_PAT Secret 이 없어 저장 못 함 — 수동으로 재발급해 THREADS_ACCESS_TOKEN Secret 교체 필요 (만료 2026-11-30)."
+  },
+  {
+   "time": "2026-11-26T17:04+09:00",
+   "slot": "17:00",
+   "result": "게시 없음",
+   "replies": 0,
+   "hidden": 0,
+   "note": "직전 게시 58분 전 → 100분 간격 미달, 이번 실행 게시 건너뜀; Threads 토큰은 갱신됐지만 GH_PAT Secret 이 없어 저장 못 함 — 수동으로 재발급해 THREADS_ACCESS_TOKEN Secret 교체 필요 (만료 2026-11-30)."
   }
  ]
 }
